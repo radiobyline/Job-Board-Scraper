@@ -1,4 +1,4 @@
-import { appendFile, mkdir } from 'node:fs/promises';
+import { appendFile, mkdir, writeFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 
 function nowIso(): string {
@@ -10,6 +10,7 @@ export class RunLogger {
 
   async init(): Promise<void> {
     await mkdir(dirname(this.filePath), { recursive: true });
+    await writeFile(this.filePath, '', 'utf8');
     await this.write(`=== Discovery run started ${nowIso()} ===`);
   }
 

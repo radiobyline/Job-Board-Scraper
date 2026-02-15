@@ -41,6 +41,10 @@ interface Candidate {
   isPdf: boolean;
 }
 
+interface DiscoverOptions {
+  fast?: boolean;
+}
+
 function keywordCount(content: string): number {
   const lower = content.toLowerCase();
   let count = 0;
@@ -70,7 +74,13 @@ function pickHighest(candidates: Candidate[]): Candidate | null {
   return [...candidates].sort((a, b) => b.score - a.score)[0];
 }
 
-async function pathProbe(homepageUrl: string, httpClient: HttpClient): Promise<Candidate | null> {
+async function pathProbe(
+  homepageUrl: string,
+  httpClient: HttpClient,
+  paths: string[] = COMMON_PATHS,
+  retries = 1,
+  maxBytes = 750_000,
+): Promise<Candidate | null> {
   let origin: string;
   try {
     origin = new URL(homepageUrl).origin;
@@ -80,9 +90,9 @@ async function pathProbe(homepageUrl: string, httpClient: HttpClient): Promise<C
 
   let pdfCandidate: Candidate | null = null;
 
-  for (const path of COMMON_PATHS) {
+  for (const path of paths) {
     const probeUrl = cleanUrl(`${origin}${path}`);
-    const response = await httpClient.requestMaybe(probeUrl, { maxBytes: 750_000, retries: 1 });
+    const response = await httpClient.requestMaybe(probeUrl, { maxBytes, retries });
     if (!response) {
       continue;
     }
@@ -127,45 +137,53 @@ function likelyContextPage(text: string): boolean {
   return /about|contact|government|city hall|town hall|administration/.test(lower);
 }
 
-async function linkTextCrawl(homepageUrl: string, httpClient: HttpClient): Promise<Candidate | null> {
-  const homepage = await httpClient.requestMaybe(homepageUrl, { maxBytes: 1_500_000, retries: 1 });
+async function linkTextCrawl(
+  homepageUrl: string,
+  httpClient: HttpClient,
+  includeLikelyPages = true,
+  retries = 1,
+  maxBytes = 1_500_000,
+): Promise<Candidate | null> {
+  const homepage = await httpClient.requestMaybe(homepageUrl, { maxBytes, retries });
   if (!homepage || homepage.status >= 400 || !homepage.body) {
     return null;
   }
 
   const pagesToFetch = [cleanUrl(homepage.url)];
-  const $home = cheerio.load(homepage.body);
-  const likelyPages: string[] = [];
+  if (includeLikelyPages) {
+    const $home = cheerio.load(homepage.body);
+    const likelyPages: string[] = [];
 
-  $home('a[href]').each((_, anchor) => {
-    if (likelyPages.length >= 8) {
-      return;
-    }
-    const text = normalizeWhitespace($home(anchor).text());
-    if (!likelyContextPage(text)) {
-      return;
-    }
+    $home('a[href]').each((_, anchor) => {
+      if (likelyPages.length >= 8) {
+        return;
+      }
+      const text = normalizeWhitespace($home(anchor).text());
+      if (!likelyContextPage(text)) {
+        return;
+      }
 
-    const href = ($home(anchor).attr('href') ?? '').trim();
-    if (!href) {
-      return;
-    }
+      const href = ($home(anchor).attr('href') ?? '').trim();
+      if (!href) {
+        return;
+      }
 
-    const absolute = cleanUrl(toAbsoluteUrl(href, homepage.url));
-    if (!sameHost(absolute, homepage.url)) {
-      return;
-    }
+      const absolute = cleanUrl(toAbsoluteUrl(href, homepage.url));
+      if (!sameHost(absolute, homepage.url)) {
+        return;
+      }
 
-    likelyPages.push(absolute);
-  });
+      likelyPages.push(absolute);
+    });
 
-  const uniqueLikely = [...new Set(likelyPages)].slice(0, 2);
-  pagesToFetch.push(...uniqueLikely);
+    const uniqueLikely = [...new Set(likelyPages)].slice(0, 2);
+    pagesToFetch.push(...uniqueLikely);
+  }
 
   const candidates: Candidate[] = [];
 
   for (const pageUrl of pagesToFetch) {
-    const response = await httpClient.requestMaybe(pageUrl, { maxBytes: 1_500_000, retries: 1 });
+    const response = await httpClient.requestMaybe(pageUrl, { maxBytes, retries });
     if (!response || response.status >= 400) {
       continue;
     }
@@ -253,12 +271,52 @@ async function sitemapScan(homepageUrl: string, httpClient: HttpClient): Promise
 export async function discoverJobsUrl(
   homepageUrl: string,
   httpClient: HttpClient,
+  options: DiscoverOptions = {},
 ): Promise<JobsDiscoveryResult> {
   if (!homepageUrl) {
     return {
       jobsUrl: '',
       discoveredVia: 'manual',
       notes: 'Homepage missing; manual review required.',
+    };
+  }
+
+  if (options.fast) {
+    const fastLinkCandidate = await linkTextCrawl(homepageUrl, httpClient, false, 0, 700_000);
+    if (fastLinkCandidate && !fastLinkCandidate.isPdf) {
+      return {
+        jobsUrl: fastLinkCandidate.url,
+        discoveredVia: fastLinkCandidate.via,
+      };
+    }
+
+    const fastPathCandidate = await pathProbe(
+      homepageUrl,
+      httpClient,
+      ['/careers', '/jobs', '/employment'],
+      0,
+      400_000,
+    );
+    if (fastPathCandidate && !fastPathCandidate.isPdf) {
+      return {
+        jobsUrl: fastPathCandidate.url,
+        discoveredVia: fastPathCandidate.via,
+      };
+    }
+
+    const fastPdf = pickHighest([fastLinkCandidate, fastPathCandidate].filter((candidate): candidate is Candidate => Boolean(candidate?.isPdf)));
+    if (fastPdf) {
+      return {
+        jobsUrl: fastPdf.url,
+        discoveredVia: 'pdf',
+        notes: 'PDF careers source detected.',
+      };
+    }
+
+    return {
+      jobsUrl: '',
+      discoveredVia: 'manual',
+      notes: 'No reliable jobs URL discovered automatically.',
     };
   }
 

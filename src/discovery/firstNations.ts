@@ -46,17 +46,6 @@ async function selectOntarioIfAvailable(page: import('playwright').Page): Promis
   }
 }
 
-async function clearProvince(page: import('playwright').Page): Promise<void> {
-  const options = await page.$$eval('#plcMain_ddlProvince option', (items) =>
-    items.map((item) => ({ value: item.getAttribute('value') ?? '', label: item.textContent?.trim() ?? '' })),
-  );
-
-  const allOption = options.find((option) => /all|any|select/i.test(option.label)) ?? options[0];
-  if (allOption) {
-    await page.selectOption('#plcMain_ddlProvince', allOption.value);
-  }
-}
-
 function candidateScore(inputName: string, candidateName: string, address: string): number {
   const base = diceSimilarity(inputName, candidateName);
   const exactBonus = normalizeForMatch(inputName) === normalizeForMatch(candidateName) ? 0.2 : 0;
@@ -64,33 +53,25 @@ function candidateScore(inputName: string, candidateName: string, address: strin
   return Math.min(1, base + exactBonus + ontarioBonus);
 }
 
-function fuzzyQuery(name: string): string {
-  const normalized = normalizeForMatch(name);
-  if (!normalized) {
-    return name;
-  }
-  const tokens = normalized.split(' ').filter(Boolean).slice(0, 4);
-  return `%${tokens.join('%')}%`;
-}
-
-async function searchCandidates(
-  page: import('playwright').Page,
-  query: string,
-  inputName: string,
-  useOntario: boolean,
-): Promise<SearchCandidate[]> {
+async function loadOntarioDirectory(page: import('playwright').Page): Promise<SearchCandidate[]> {
   await page.goto(SEARCH_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
-  await page.fill('#plcMain_txtName', query);
-  if (useOntario) {
-    await selectOntarioIfAvailable(page);
-  } else {
-    await clearProvince(page);
-  }
+  await page.waitForSelector('#plcMain_ddlProvince', { timeout: 10000 });
+  await selectOntarioIfAvailable(page);
 
-  await Promise.all([
-    page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 30000 }),
+  await Promise.allSettled([
+    page.waitForURL(
+      (url) => {
+        const href = url.toString();
+        return href.includes('FNListGrid.aspx') || href.includes('SearchFN.aspx');
+      },
+      { timeout: 30000 },
+    ),
     page.click('#plcMain_btnSearch'),
   ]);
+
+  await page.waitForLoadState('domcontentloaded', { timeout: 30000 });
+  await page.waitForSelector('#tblFNlist tbody', { timeout: 10000 });
+  const responseUrl = page.url();
 
   const rows = await page.$$eval('#tblFNlist tbody tr', (entries) =>
     entries.map((entry) => {
@@ -104,17 +85,13 @@ async function searchCandidates(
   );
 
   return rows
-    .map((row) => {
-      const profileUrl = cleanUrl(toAbsoluteUrl(row.href, page.url()));
-      return {
-        name: normalizeWhitespace(row.name),
-        profileUrl,
-        address: normalizeWhitespace(row.address),
-        score: candidateScore(inputName, row.name, row.address),
-      };
-    })
-    .filter((row) => row.name && row.profileUrl.startsWith('http'))
-    .sort((a, b) => b.score - a.score);
+    .map((row) => ({
+      name: normalizeWhitespace(row.name),
+      profileUrl: cleanUrl(toAbsoluteUrl(row.href, responseUrl)),
+      address: normalizeWhitespace(row.address),
+      score: 0,
+    }))
+    .filter((row) => row.name && row.profileUrl.startsWith('http'));
 }
 
 async function extractProfileData(
@@ -165,6 +142,23 @@ function pickBest(candidates: SearchCandidate[]): SearchCandidate | null {
   return best;
 }
 
+function selectBestCandidate(inputName: string, directory: SearchCandidate[]): SearchCandidate | null {
+  const inputNorm = normalizeForMatch(inputName);
+  const exact = directory.find((candidate) => normalizeForMatch(candidate.name) === inputNorm);
+  if (exact) {
+    return { ...exact, score: 1 };
+  }
+
+  const scored = directory
+    .map((candidate) => ({
+      ...candidate,
+      score: candidateScore(inputName, candidate.name, candidate.address),
+    }))
+    .sort((a, b) => b.score - a.score);
+
+  return pickBest(scored);
+}
+
 export async function buildFirstNationsSeed(
   inputFilePath: string,
   browser: Browser,
@@ -180,29 +174,14 @@ export async function buildFirstNationsSeed(
   const seeds: FirstNationSeed[] = [];
 
   try {
+    const ontarioDirectory = await loadOntarioDirectory(page);
+    await logger.info(`Ontario First Nations directory entries loaded: ${ontarioDirectory.length}`);
+
     for (const inputName of names) {
       try {
         await logger.info(`Resolving First Nation: ${inputName}`);
         let notes = '';
-        let chosenCandidate: SearchCandidate | null = null;
-
-        const exactOntario = await searchCandidates(page, inputName, inputName, true);
-        chosenCandidate = pickBest(exactOntario);
-
-        if (!chosenCandidate) {
-          const exactAny = await searchCandidates(page, inputName, inputName, false);
-          chosenCandidate = pickBest(exactAny);
-        }
-
-        if (!chosenCandidate) {
-          const fuzzyOntario = await searchCandidates(page, fuzzyQuery(inputName), inputName, true);
-          chosenCandidate = pickBest(fuzzyOntario);
-        }
-
-        if (!chosenCandidate) {
-          const fuzzyAny = await searchCandidates(page, fuzzyQuery(inputName), inputName, false);
-          chosenCandidate = pickBest(fuzzyAny);
-        }
+        const chosenCandidate = selectBestCandidate(inputName, ontarioDirectory);
 
         if (!chosenCandidate) {
           notes = 'Unable to resolve profile from exact/fuzzy search.';
@@ -225,7 +204,7 @@ export async function buildFirstNationsSeed(
           let homepageUrl = profileData.websiteUrl;
 
           if (homepageUrl) {
-            homepageUrl = await httpClient.resolveCanonicalUrl(homepageUrl);
+            homepageUrl = cleanUrl(homepageUrl);
           } else {
             notes = 'Profile resolved but Web Site URL not provided in profile.';
           }

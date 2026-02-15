@@ -1,3 +1,142 @@
-# One First Nation name per line.
-# You can include alternate/historic names; resolver uses exact then fuzzy matching.
-
+# Ontario First Nations (generated from First Nation Profiles Ontario search)
+# One name per line
+Aamjiwnaang
+Albany
+Alderville First Nation
+Algonquins of Pikwakanagan First Nation
+Animakee Wa Zhing #37
+Animbiigoo Zaagi'igan Anishinaabek
+Anishinabe of Wauzhushk Onigum
+Anishnaabeg of Naongashiing
+Apitipi Anicinapek Nation
+Aroland
+Atikameksheng Anishnawbek
+Attawapiskat
+Aundeck-Omni-Kaning
+Batchewana First Nation
+Bay of Quinte Mohawk
+Bearfoot Onondaga
+Bearskin Lake
+Beausoleil
+Biigtigong Nishnaabeg
+Biinjitiwaabik Zaaging Anishinaabek
+Bingwi Neyaashi Anishinaabek
+Brunswick House
+Caldwell
+Cat Lake
+Chapleau Cree First Nation
+Chapleau Ojibway
+Chippewas of Georgina Island
+Chippewas of Kettle and Stony Point
+Chippewas of Nawash First Nation
+Chippewas of Rama First Nation
+Chippewas of the Thames First Nation
+Constance Lake
+Couchiching First Nation
+Curve Lake
+Deer Lake
+Delaware
+Dokis
+Eabametoong First Nation
+Eagle Lake
+Flying Post
+Fort Severn
+Fort William
+Gakijiwanong Anishinaabe Nation
+Garden River First Nation
+Ginoogaming First Nation
+Grassy Narrows First Nation
+Gull Bay
+Henvey Inlet First Nation
+Hiawatha First Nation
+Iskatewizaagegan #39 Independent First Nation
+Kasabonika Lake
+Kashechewan
+Keewaywin First Nation
+Kingfisher
+Kitchenuhmaykoosib Inninuwug
+Konadaha Seneca
+Lac Des Mille Lacs
+Lac Seul
+Long Lake No.58 First Nation
+Lower Cayuga
+Lower Mohawk
+M'Chigeeng First Nation
+Magnetawan
+Marten Falls First Nation
+Matachewan
+Mattagami
+McDowell Lake
+Michipicoten
+Mishkeegogamang
+Missanabie Cree
+Mississauga
+Mississaugas of Scugog Island First Nation
+Mississaugas of the Credit
+Mitaanjigamiing First Nation
+Mohawks of Akwesasne
+Mohawks of the Bay of Quinte
+Moose Cree First Nation
+Moose Deer Point
+Moravian of the Thames
+Munsee-Delaware Nation
+Musk-kosiminiziibing
+Muskrat Dam Lake
+Naicatchewenin
+Naotkamegwanning
+Neskantaga First Nation
+Netmizaaggamig Nishnaabeg
+Nibinamik First Nation
+Nigigoonsiminikaaning First Nation
+Niharondasa Seneca
+Niisaachewan Anishinaabe Nation
+Nipissing First Nation
+North Caribou Lake
+North Spirit Lake
+Northwest Angle No.33
+Ojibway Nation of Saugeen
+Ojibways of Onigaming First Nation
+Oneida
+Oneida Nation of the Thames
+Onondaga Clear Sky
+Pays Plat
+Pikangikum
+Poplar Hill
+Rainy River First Nations
+Red Rock
+Sachigo Lake
+Sagamok Anishnawbek
+Sandy Lake
+Saugeen
+Seine River First Nation
+Serpent River
+Shawanaga First Nation
+Sheguiandah
+Sheshegwaning
+Shoal Lake No.40
+Six Nations of the Grand River
+Slate Falls Nation
+Taykwa Tagamou Nation
+Teme Augama Anishinabek
+Thessalon
+Tuscarora
+Upper Cayuga
+Upper Mohawk
+Wabaseemoong Independent Nations
+Wabauskang First Nation
+Wabigoon Lake Ojibway Nation
+Wahnapitae
+Wahta Mohawk
+Walker Mohawk
+Walpole Island
+Wapekeka
+Wasauksing First Nation
+Washagamis Bay
+Wawakapewin
+Webequie
+Weenusk
+Whitefish River
+Whitesand
+Wikwemikong
+Wunnumin
+Zhiibaahaasing First Nation

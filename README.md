@@ -40,6 +40,12 @@ Run Phase 1 discovery:
 npm run discovery -- --first-nations-file data/first_nations_input.txt
 ```
 
+Reuse already-generated municipality rows and process only First Nations:
+
+```bash
+npm run discovery -- --first-nations-file data/first_nations_input.txt --skip-municipalities
+```
+
 ## Outputs
 
 Generated files:
