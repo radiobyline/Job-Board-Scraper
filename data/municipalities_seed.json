@@ -1,0 +1,2654 @@
+[
+  {
+    "orgName": "City of Barrie",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.barrie.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Belleville",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.belleville.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Brampton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.brampton.ca/EN/pages/Welcome.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Brantford",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.brantford.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Brockville",
+    "orgType": "municipality",
+    "homepageUrl": "https://brockville.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Burlington",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.burlington.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Cambridge",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cambridge.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Chatham-Kent",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.chatham-kent.ca/Pages/default.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Clarence-Rockland",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.clarence-rockland.com/language?destination=/node/1",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Cornwall",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cornwall.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Dryden",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.dryden.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Elliot Lake",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.elliotlake.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Greater Sudbury",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.greatersudbury.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Guelph",
+    "orgType": "municipality",
+    "homepageUrl": "https://guelph.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Hamilton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hamilton.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Kawartha Lakes",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.kawarthalakes.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Kenora",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.kenora.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Kingston",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cityofkingston.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Kitchener",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.kitchener.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of London",
+    "orgType": "municipality",
+    "homepageUrl": "https://london.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Markham",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.markham.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Mississauga",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mississauga.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Niagara Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://niagarafalls.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of North Bay",
+    "orgType": "municipality",
+    "homepageUrl": "https://northbay.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Orillia",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.orillia.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Oshawa",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.oshawa.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Ottawa",
+    "orgType": "municipality",
+    "homepageUrl": "http://ottawa.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Owen Sound",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.owensound.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Pembroke",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.pembroke.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Peterborough",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.peterborough.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Pickering",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.pickering.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Port Colborne",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.portcolborne.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Quinte West",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.quintewest.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Richmond Hill",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.richmondhill.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Sarnia",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.sarnia.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Sault Ste Marie",
+    "orgType": "municipality",
+    "homepageUrl": "https://saultstemarie.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of St Thomas",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.stthomas.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of St. Catharines",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.stcatharines.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Stratford",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.stratford.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Temiskaming Shores",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.temiskamingshores.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Thorold",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.thorold.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Thunder Bay",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.thunderbay.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Timmins",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.timmins.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Toronto",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.toronto.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Vaughan",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.vaughan.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Waterloo",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.waterloo.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Welland",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.welland.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Windsor",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.citywindsor.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "City of Woodstock",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cityofwoodstock.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Brant",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.brant.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Bruce",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.brucecounty.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Dufferin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.dufferincounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Elgin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.elgincounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Essex",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.countyofessex.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Grey",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.grey.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Haliburton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.haliburtoncounty.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Hastings",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hastingscounty.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Huron",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.huroncounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Lambton",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.lambtononline.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Lanark",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.county.lanark.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Lennox and Addington",
+    "orgType": "municipality",
+    "homepageUrl": "https://lennox-addington.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Middlesex",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.middlesex.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Northumberland",
+    "orgType": "municipality",
+    "homepageUrl": "https://northumberland.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Oxford",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.oxfordcounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Perth",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.perthcounty.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Peterborough",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ptbocounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Renfrew",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.countyofrenfrew.on.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Simcoe",
+    "orgType": "municipality",
+    "homepageUrl": "https://simcoe.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "County of Wellington",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.wellington.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Frontenac",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.frontenaccounty.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Haldimand County",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.haldimandcounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Leeds & Grenville",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.leedsgrenville.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Arran Elderslie",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.arran-elderslie.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Bayham",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.bayham.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Billings",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.billingstwp.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Bluewater",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.municipalityofbluewater.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Brighton",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.brighton.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Brockton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.brockton.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Brooke-Alvinston",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.brookealvinston.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Callander",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mycallander.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Casselman",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.casselman.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Central Elgin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.centralelgin.org/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Central Huron",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.centralhuron.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Central Manitoulin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.centralmanitoulin.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Centre Hastings",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.centrehastings.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Charlton and Dack",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.charltonanddack.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Clarington",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.clarington.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Dutton/Dunwich",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.duttondunwich.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Dysart et al",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.dysartetal.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of East Ferris",
+    "orgType": "municipality",
+    "homepageUrl": "https://eastferris.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of French River",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.frenchriver.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Gordon/Barrie Island",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.gordonbarrieisland.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Greenstone",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.greenstone.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Grey Highlands",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.greyhighlands.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Hastings Highlands",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hastingshighlands.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Highlands East",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.highlandseast.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Huron East",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.huroneast.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Huron Shores",
+    "orgType": "municipality",
+    "homepageUrl": "https://huronshores.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Killarney",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.municipalityofkillarney.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Kincardine",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.kincardine.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Lambton Shores",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lambtonshores.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Leamington",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.leamington.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Magnetawan",
+    "orgType": "municipality",
+    "homepageUrl": "https://magnetawan.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Markstay-Warren",
+    "orgType": "municipality",
+    "homepageUrl": "https://markstay-warren.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Marmora and Lake",
+    "orgType": "municipality",
+    "homepageUrl": "https://marmoraandlake.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Meaford",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.meaford.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Mississippi Mills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mississippimills.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Morris-Turnberry",
+    "orgType": "municipality",
+    "homepageUrl": "https://morristurnberry.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Neebing",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.neebing.org/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of North Grenville",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.northgrenville.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of North Middlesex",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northmiddlesex.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of North Perth",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northperth.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Northern Bruce Peninsula",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northbrucepeninsula.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Oliver Paipoonge",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.oliverpaipoonge.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Port Hope",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.porthope.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Powassan",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.powassan.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Red Lake",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.redlake.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Shuniah",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.shuniah.org/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Sioux Lookout",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.siouxlookout.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of South Bruce",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.town.southbruce.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of South Dundas",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southdundas.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of South Huron",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southhuron.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Southwest Middlesex",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southwestmiddlesex.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of St. Charles",
+    "orgType": "municipality",
+    "homepageUrl": "https://stcharlesontario.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Temagami",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.temagami.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Thames Centre",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.thamescentre.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of The Nation",
+    "orgType": "municipality",
+    "homepageUrl": "https://nationmun.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Trent Hills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.trenthills.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Trent Lakes",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.trentlakes.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Tweed",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.tweed.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Wawa",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.wawa.cc/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of West Elgin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.westelgin.net/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of West Grey",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.westgrey.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of West Nipissing",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.westnipissing.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of West Perth",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.westperth.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Municipality of Whitestone",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.whitestone.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Norfolk County",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.norfolkcounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Prince Edward County",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.thecounty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Regional Municipality of Durham",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.durham.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Regional Municipality of Halton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.halton.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Regional Municipality of Niagara",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.niagararegion.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Regional Municipality of Peel",
+    "orgType": "municipality",
+    "homepageUrl": "https://peelregion.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Regional Municipality of Waterloo",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.regionofwaterloo.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Regional Municipality of York",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.york.ca/default.htm",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Separated Town of Smiths Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.smithsfalls.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "The District of Muskoka",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.muskoka.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Ajax",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ajax.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Amherstburg",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.amherstburg.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Arnprior",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.arnprior.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Aurora",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.town.aurora.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Aylmer",
+    "orgType": "municipality",
+    "homepageUrl": "https://aylmer.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Bancroft",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.bancroft.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Blind River",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.blindriver.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Bracebridge",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.bracebridge.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Bradford West Gwillimbury",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofbwg.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Bruce Mines",
+    "orgType": "municipality",
+    "homepageUrl": "https://brucemines.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Caledon",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.caledon.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Carleton Place",
+    "orgType": "municipality",
+    "homepageUrl": "https://carletonplace.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Cobalt",
+    "orgType": "municipality",
+    "homepageUrl": "https://cobalt.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Cobourg",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cobourg.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Cochrane",
+    "orgType": "municipality",
+    "homepageUrl": "https://cochraneontario.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Collingwood",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.collingwood.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Deep River",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.deepriver.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Deseronto",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.deseronto.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of East Gwillimbury",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.eastgwillimbury.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Englehart",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.englehart.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Erin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.erin.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Espanola",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.espanola.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Essex",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.essex.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Fort Erie",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.forterie.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Fort Frances",
+    "orgType": "municipality",
+    "homepageUrl": "https://fortfrances.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Gananoque",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.gananoque.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Georgina",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.georgina.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Goderich",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.goderich.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Gore Bay",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.gorebay.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Grand Valley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofgrandvalley.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Gravenhurst",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.gravenhurst.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Greater Napanee",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.greaternapanee.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Grimsby",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.grimsby.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Halton Hills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.haltonhills.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Hanover",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hanover.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Hawkesbury",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hawkesbury.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Hearst",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.hearst.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Huntsville",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.town.huntsville.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Ingersoll",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ingersoll.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Innisfil",
+    "orgType": "municipality",
+    "homepageUrl": "https://innisfil.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Iroquois Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.iroquoisfalls.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Kapuskasing",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.kapuskasing.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Kearney",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofkearney.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Kingsville",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.kingsville.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Kirkland Lake",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.kirklandlake.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Lakeshore",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lakeshore.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of LaSalle",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lasalle.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Latchford",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.latchford.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Laurentian Hills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.laurentianhills.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Lincoln",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lincoln.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Marathon",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.marathon.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Mattawa",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mattawa.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Midland",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.midland.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Milton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.milton.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Minto",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.town.minto.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Mono",
+    "orgType": "municipality",
+    "homepageUrl": "https://townofmono.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Moosonee",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.moosonee.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of New Tecumseth",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.newtecumseth.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Newmarket",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.newmarket.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Niagara-on-the-Lake",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.notl.org/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Northeastern Manitoulin and The Islands",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofnemi.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Oakville",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.oakville.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Orangeville",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.orangeville.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Parry Sound",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.parrysound.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Pelham",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.pelham.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Penetanguishene",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.penetanguishene.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Perth",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.perth.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Petawawa",
+    "orgType": "municipality",
+    "homepageUrl": "https://petawawa.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Petrolia",
+    "orgType": "municipality",
+    "homepageUrl": "https://town.petrolia.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Plympton-Wyoming",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.plympton-wyoming.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Prescott",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.prescott.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Rainy River",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.rainyriver.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Renfrew",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.renfrew.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Saugeen Shores",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.saugeenshores.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Shelburne",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.shelburne.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Smooth Rock Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://smoothrockfalls.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of South Bruce Peninsula",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southbrucepeninsula.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of St. Marys",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofstmarys.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Tecumseh",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.tecumseh.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of The Blue Mountains",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.thebluemountains.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Thessalon",
+    "orgType": "municipality",
+    "homepageUrl": "https://thessalon.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Tillsonburg",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.tillsonburg.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Wasaga Beach",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.wasagabeach.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Whitby",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.whitby.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Town of Whitchurch-Stouffville",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofws.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Addington Highlands",
+    "orgType": "municipality",
+    "homepageUrl": "https://addingtonhighlands.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Adelaide Metcalfe",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.adelaidemetcalfe.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Adjala-Tosorontio",
+    "orgType": "municipality",
+    "homepageUrl": "https://adjtos.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Admaston-Bromley",
+    "orgType": "municipality",
+    "homepageUrl": "https://admastonbromley.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Alberton",
+    "orgType": "municipality",
+    "homepageUrl": "https://alberton.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Alfred & Plantagenet",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.alfred-plantagenet.com/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Algonquin Highlands",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.algonquinhighlands.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Alnwick/Haldimand",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.alnwickhaldimand.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Amaranth",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.amaranth.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Armour",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.armourtownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Armstrong",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.armstrongtownship.com/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Ashfield-Colborne-Wawanosh",
+    "orgType": "municipality",
+    "homepageUrl": "https://acwtownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Asphodel-Norwood",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.antownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Assiginack",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.assiginack.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Athens",
+    "orgType": "municipality",
+    "homepageUrl": "https://athenstownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Atikokan",
+    "orgType": "municipality",
+    "homepageUrl": "https://atikokan.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Augusta",
+    "orgType": "municipality",
+    "homepageUrl": "https://augusta.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Baldwin",
+    "orgType": "municipality",
+    "homepageUrl": "https://baldwin.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Beckwith",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.twp.beckwith.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Black River Matheson",
+    "orgType": "municipality",
+    "homepageUrl": "https://blackriver-matheson.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Blandford Blenheim",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.blandfordblenheim.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Bonfield",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.bonfieldtownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Bonnechere Valley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.bonnecherevalleytwp.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Brock",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townshipofbrock.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Brudenell, Lyndoch and Raglan",
+    "orgType": "municipality",
+    "homepageUrl": "https://blrtownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Burpee & Mills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.burpeemills.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Calvin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.calvintownship.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Carling",
+    "orgType": "municipality",
+    "homepageUrl": "https://carling.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Carlow/Mayo",
+    "orgType": "municipality",
+    "homepageUrl": "https://carlowmayo.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Casey",
+    "orgType": "municipality",
+    "homepageUrl": "https://casey.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Cavan Monaghan",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cavanmonaghan.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Central Frontenac",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.centralfrontenac.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Centre Wellington",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.centrewellington.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Chamberlain",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.chamberlaintownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Champlain",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.champlain.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Chapleau",
+    "orgType": "municipality",
+    "homepageUrl": "https://chapleau.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Chapple",
+    "orgType": "municipality",
+    "homepageUrl": "https://chapple.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Chatsworth",
+    "orgType": "municipality",
+    "homepageUrl": "https://chatsworth.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Chisholm",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.chisholm.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Clearview",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.clearview.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Cockburn Island",
+    "orgType": "municipality",
+    "homepageUrl": "https://cockburnisland.ca/index.php",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Coleman",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.colemantownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Conmee",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.conmee.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Cramahe",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.cramahe.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Dawn-Euphemia",
+    "orgType": "municipality",
+    "homepageUrl": "https://dawneuphemia.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Dawson",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.dawsontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Dorion",
+    "orgType": "municipality",
+    "homepageUrl": "https://doriontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Douro-Dummer",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.dourodummer.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Drummond-North Elmsley",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.dnetownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Dubreuilville",
+    "orgType": "municipality",
+    "homepageUrl": "https://dubreuilville.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Ear Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://ear-falls.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of East Garafraxa",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.eastgarafraxa.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of East Hawkesbury",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.easthawkesbury.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of East Zorra-Tavistock",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ezt.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Edwardsburgh/Cardinal",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.twpec.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Elizabethtown - Kitley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ektwp.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Emo",
+    "orgType": "municipality",
+    "homepageUrl": "https://emo.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Enniskillen",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.enniskillen.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Essa",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.essatownship.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Evanturel",
+    "orgType": "municipality",
+    "homepageUrl": "https://evanturel.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Faraday",
+    "orgType": "municipality",
+    "homepageUrl": "https://faraday.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Fauquier-Strickland",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.fauquierstrickland.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Front of Yonge",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.frontofyonge.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Frontenac Islands",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.frontenacislands.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Gauthier",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.facebook.com/Township-of-Gauthier-Dobie-245432398995402/timeline?ref=page_internal",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Georgian Bay",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.gbtownship.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Georgian Bluffs",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.georgianbluffs.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Gillies",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.gilliestownship.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Greater Madawaska",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.greatermadawaska.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Guelph-Eramosa",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.get.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Hamilton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hamiltontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Harley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.collegeresourcenetwork.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Harris",
+    "orgType": "municipality",
+    "homepageUrl": "https://harristownship.weebly.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Havelock-Belmont-Methuen",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hbmtwp.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Hilliard",
+    "orgType": "municipality",
+    "homepageUrl": "https://townshipofhilliard.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Hilton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hiltontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Hornepayne",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townshipofhornepayne.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Horton",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.hortontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Howick",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.town.howick.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Hudson",
+    "orgType": "municipality",
+    "homepageUrl": "https://hudson.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Huron-Kinloss",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.huronkinloss.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Ignace",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ignace.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of James",
+    "orgType": "municipality",
+    "homepageUrl": "https://elklake.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Jocelyn",
+    "orgType": "municipality",
+    "homepageUrl": "https://jocelyn.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Johnson",
+    "orgType": "municipality",
+    "homepageUrl": "https://johnsontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Joly",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townshipofjoly.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Kerns",
+    "orgType": "municipality",
+    "homepageUrl": "https://kerns.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Killaloe, Hagarty & Richards",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.killaloe-hagarty-richards.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of King",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.king.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of La Vallee",
+    "orgType": "municipality",
+    "homepageUrl": "https://lavallee.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Laird",
+    "orgType": "municipality",
+    "homepageUrl": "https://lairdtownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Lake of Bays",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lakeofbays.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Lake of the Woods",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lakeofthewoods.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Lanark Highlands",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.lanarkhighlands.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Larder Lake",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.larderlake.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Laurentian Valley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lvtownship.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Leeds & the Thousand Islands",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.leeds1000islands.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Limerick",
+    "orgType": "municipality",
+    "homepageUrl": "https://limerick.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Loyalist",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.loyalist.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Lucan Biddulph",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.lucanbiddulph.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Macdonald, Meredith & Aberdeen Add'l",
+    "orgType": "municipality",
+    "homepageUrl": "https://echobay.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Machar",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.machartownship.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Machin",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.visitmachin.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Madawaska Valley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.madawaskavalley.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Madoc",
+    "orgType": "municipality",
+    "homepageUrl": "https://madoc.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Malahide",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.malahide.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Manitouwadge",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.manitouwadge.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Mapleton",
+    "orgType": "municipality",
+    "homepageUrl": "https://mapleton.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Matachewan",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.matachewan.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Mattawan",
+    "orgType": "municipality",
+    "homepageUrl": "https://mattawan.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Mattice-Val Cote",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.matticevalcote.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of McDougall",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mcdougall.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of McGarry",
+    "orgType": "municipality",
+    "homepageUrl": "https://mcgarry.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of McKellar",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mckellar.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of McMurrich/Monteith",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mcmurrichmonteith.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of McNab-Braeside",
+    "orgType": "municipality",
+    "homepageUrl": "https://mcnabbraeside.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Melancthon",
+    "orgType": "municipality",
+    "homepageUrl": "https://melancthontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Middlesex Centre",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.middlesexcentre.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Minden Hills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.mindenhills.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Montague",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.township.montague.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Moonbeam",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.moonbeam.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Morley",
+    "orgType": "municipality",
+    "homepageUrl": "https://townshipofmorley.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Mulmur",
+    "orgType": "municipality",
+    "homepageUrl": "https://mulmur.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Muskoka Lakes",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.muskokalakes.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Nairn & Hyman",
+    "orgType": "municipality",
+    "homepageUrl": "https://nairncentre.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Nipigon",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.nipigon.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Nipissing",
+    "orgType": "municipality",
+    "homepageUrl": "https://nipissingtownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Algona-Wilberforce",
+    "orgType": "municipality",
+    "homepageUrl": "http://nalgonawil.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Dumfries",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northdumfries.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Dundas",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northdundas.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Frontenac",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northfrontenac.com/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Glengarry",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northglengarry.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Huron",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northhuron.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Kawartha",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.northkawartha.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of North Stormont",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.northstormont.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Norwich",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.norwich.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of O'Connor",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.oconnortownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Opasatika",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.opasatika.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Oro-Medonte",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.oro-medonte.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Otonabee-South Monaghan",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.osmtownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Papineau-Cameron",
+    "orgType": "municipality",
+    "homepageUrl": "https://papineaucameron.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Pelee",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.pelee.org/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Perry",
+    "orgType": "municipality",
+    "homepageUrl": "https://townshipofperry.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Perth East",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.pertheast.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Perth South",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.perthsouth.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Pickle Lake",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.picklelake.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Plummer Additional",
+    "orgType": "municipality",
+    "homepageUrl": "https://plummertownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Prince",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.princetownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Puslinch",
+    "orgType": "municipality",
+    "homepageUrl": "https://puslinch.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Ramara",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ramara.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Red Rock",
+    "orgType": "municipality",
+    "homepageUrl": "https://redrocktownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Rideau Lakes",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.rideaulakes.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Russell",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.russell.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Ryerson",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.ryersontownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Sables Spanish Rivers",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.sables-spanish.ca/?doing_wp_cron=1771140234.2493290901184082031250",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Schreiber",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.schreiber.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Scugog",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.scugog.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Seguin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.seguin.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Selwyn",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.selwyntownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Severn",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.severn.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Sioux Narrows - Nestor Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.snnf.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of South Algonquin",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southalgonquin.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of South Frontenac",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.township.southfrontenac.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of South Glengarry",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southglengarry.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of South Stormont",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southstormont.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of South-West Oxford",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.swox.org/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Southgate",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southgate.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Southwold",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.southwold.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Spanish",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.townofspanish.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Springwater",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.springwater.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of St. Clair",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.stclairtownship.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of St. Joseph",
+    "orgType": "municipality",
+    "homepageUrl": "https://stjosephtownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Stirling-Rawdon",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.stirling-rawdon.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Stone Mills",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.stonemills.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Strathroy - Caradoc",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.strathroy-caradoc.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Strong",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.strongtownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tarbutt",
+    "orgType": "municipality",
+    "homepageUrl": "https://tarbutt.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tay",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.tay.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tay Valley",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.tayvalleytwp.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tehkummah",
+    "orgType": "municipality",
+    "homepageUrl": "https://tehkummah.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Terrace Bay",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.terracebay.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of The Archipelago",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.thearchipelago.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of The North Shore",
+    "orgType": "municipality",
+    "homepageUrl": "https://townshipofthenorthshore.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tiny",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.tiny.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tudor & Cashel",
+    "orgType": "municipality",
+    "homepageUrl": "https://tudorandcashel.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Tyendinaga",
+    "orgType": "municipality",
+    "homepageUrl": "https://tyendinagatownship.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Uxbridge",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.uxbridge.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Val Rita-Harty",
+    "orgType": "municipality",
+    "homepageUrl": "https://valharty.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Wainfleet",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.wainfleet.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Warwick",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.warwicktownship.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Wellesley",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.wellesley.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Wellington North",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.wellington-north.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of West Lincoln",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.westlincoln.ca/en/index.aspx",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of White River",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.whiteriver.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Whitewater Region",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.whitewaterregion.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Wilmot",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.wilmot.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Wollaston",
+    "orgType": "municipality",
+    "homepageUrl": "https://wollaston.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Woolwich",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.woolwich.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Township of Zorra",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.zorra.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "United Counties of Prescott and Russell",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.prescott-russell.on.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "United Counties of Stormont, Dundas and Glengarry",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.sdgcounties.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "United Townships of Head, Clara & Maria",
+    "orgType": "municipality",
+    "homepageUrl": "https://townshipsofheadclaramaria.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Burk's Falls",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.burksfalls.net/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Hilton Beach",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.hiltonbeach.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Merrickville-Wolford",
+    "orgType": "municipality",
+    "homepageUrl": "http://www.merrickville-wolford.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Newbury",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.newbury.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Oil Springs",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.oilsprings.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Point Edward",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.villageofpointedward.com/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of South River",
+    "orgType": "municipality",
+    "homepageUrl": "https://southriver.ca/en",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Sundridge",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.sundridge.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Westport",
+    "orgType": "municipality",
+    "homepageUrl": "https://villageofwestport.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  }
+]

@@ -1,0 +1,64 @@
+name: Phase 1 Discovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 1 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: jobs-discovery
+  cancel-in-progress: true
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run discovery
+        run: npm run discovery -- --first-nations-file data/first_nations_input.txt
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: phase1-discovery-${{ github.run_id }}
+          path: |
+            data/orgs.csv
+            data/manual_review.csv
+            data/municipalities_seed.json
+            data/first_nations_seed.json
+            logs/*
+
+      - name: Commit and push outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/ logs/
+
+          if git diff --cached --quiet; then
+            echo "No output changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: update discovery outputs"
+          git push

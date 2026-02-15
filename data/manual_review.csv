@@ -1,0 +1,134 @@
+org_id,org_name,org_type,homepage_url,jobs_url,jobs_source_type,adapter,confidence,discovered_via,last_verified,notes
+mun-0027-city-of-ottawa,City of Ottawa,municipality,http://ottawa.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0033-city-of-quinte-west,City of Quinte West,municipality,http://www.quintewest.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0044-city-of-toronto,City of Toronto,municipality,https://www.toronto.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0045-city-of-vaughan,City of Vaughan,municipality,http://www.vaughan.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0047-city-of-welland,City of Welland,municipality,https://www.welland.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0057-county-of-hastings,County of Hastings,municipality,https://www.hastingscounty.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0059-county-of-lambton,County of Lambton,municipality,http://www.lambtononline.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0060-county-of-lanark,County of Lanark,municipality,http://www.county.lanark.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0077-municipality-of-brighton,Municipality of Brighton,municipality,http://www.brighton.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0085-municipality-of-centre-hastings,Municipality of Centre Hastings,municipality,http://www.centrehastings.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0099-municipality-of-killarney,Municipality of Killarney,municipality,http://www.municipalityofkillarney.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0100-municipality-of-kincardine,Municipality of Kincardine,municipality,http://www.kincardine.net/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0110-municipality-of-north-grenville,Municipality of North Grenville,municipality,http://www.northgrenville.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0114-municipality-of-oliver-paipoonge,Municipality of Oliver Paipoonge,municipality,http://www.oliverpaipoonge.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0120-municipality-of-south-bruce,Municipality of South Bruce,municipality,http://www.town.southbruce.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0150-town-of-aurora,Town of Aurora,municipality,http://www.town.aurora.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0151-town-of-aylmer,Town of Aylmer,municipality,https://aylmer.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0152-town-of-bancroft,Town of Bancroft,municipality,http://www.bancroft.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0160-town-of-cobourg,Town of Cobourg,municipality,https://www.cobourg.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0183-town-of-hearst,Town of Hearst,municipality,http://www.hearst.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0184-town-of-huntsville,Town of Huntsville,municipality,http://www.town.huntsville.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0203-town-of-moosonee,Town of Moosonee,municipality,https://www.moosonee.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0206-town-of-niagara-on-the-lake,Town of Niagara-on-the-Lake,municipality,http://www.notl.org/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0232-township-of-addington-highlands,Township of Addington Highlands,municipality,https://addingtonhighlands.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0235-township-of-admaston-bromley,Township of Admaston-Bromley,municipality,https://admastonbromley.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0239-township-of-alnwick-haldimand,Township of Alnwick/Haldimand,municipality,http://www.alnwickhaldimand.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0246-township-of-athens,Township of Athens,municipality,https://athenstownship.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0249-township-of-baldwin,Township of Baldwin,municipality,https://baldwin.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0250-township-of-beckwith,Township of Beckwith,municipality,http://www.twp.beckwith.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0251-township-of-black-river-matheson,Township of Black River Matheson,municipality,https://blackriver-matheson.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0256-township-of-brudenell-lyndoch-and-raglan,"Township of Brudenell, Lyndoch and Raglan",municipality,https://blrtownship.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0257-township-of-burpee-mills,Township of Burpee & Mills,municipality,https://www.burpeemills.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0261-township-of-casey,Township of Casey,municipality,https://casey.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0265-township-of-chamberlain,Township of Chamberlain,municipality,https://www.chamberlaintownship.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0272-township-of-cockburn-island,Township of Cockburn Island,municipality,https://cockburnisland.ca/index.php,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0276-township-of-dawn-euphemia,Township of Dawn-Euphemia,municipality,https://dawneuphemia.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0277-township-of-dawson,Township of Dawson,municipality,https://www.dawsontownship.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0280-township-of-drummond-north-elmsley,Township of Drummond-North Elmsley,municipality,http://www.dnetownship.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0289-township-of-enniskillen,Township of Enniskillen,municipality,https://www.enniskillen.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0291-township-of-evanturel,Township of Evanturel,municipality,https://evanturel.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0293-township-of-fauquier-strickland,Township of Fauquier-Strickland,municipality,http://www.fauquierstrickland.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0294-township-of-front-of-yonge,Township of Front of Yonge,municipality,http://www.frontofyonge.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0303-township-of-harley,Township of Harley,municipality,https://www.collegeresourcenetwork.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0304-township-of-harris,Township of Harris,municipality,https://harristownship.weebly.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0307-township-of-hilton,Township of Hilton,municipality,https://www.hiltontownship.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0310-township-of-howick,Township of Howick,municipality,http://www.town.howick.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0311-township-of-hudson,Township of Hudson,municipality,https://hudson.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0313-township-of-ignace,Township of Ignace,municipality,https://www.ignace.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0318-township-of-kerns,Township of Kerns,municipality,https://kerns.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0321-township-of-la-vallee,Township of La Vallee,municipality,https://lavallee.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0322-township-of-laird,Township of Laird,municipality,https://lairdtownship.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0324-township-of-lake-of-the-woods,Township of Lake of the Woods,municipality,https://www.lakeofthewoods.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0325-township-of-lanark-highlands,Township of Lanark Highlands,municipality,http://www.lanarkhighlands.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0337-township-of-malahide,Township of Malahide,municipality,https://www.malahide.ca/en/index.aspx,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0340-township-of-matachewan,Township of Matachewan,municipality,https://www.matachewan.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0341-township-of-mattawan,Township of Mattawan,municipality,https://mattawan.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0342-township-of-mattice-val-cote,Township of Mattice-Val Cote,municipality,https://www.matticevalcote.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0351-township-of-montague,Township of Montague,municipality,http://www.township.montague.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0352-township-of-moonbeam,Township of Moonbeam,municipality,http://www.moonbeam.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0353-township-of-morley,Township of Morley,municipality,https://townshipofmorley.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0357-township-of-nipigon,Township of Nipigon,municipality,http://www.nipigon.net/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0358-township-of-nipissing,Township of Nipissing,municipality,https://nipissingtownship.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0365-township-of-north-kawartha,Township of North Kawartha,municipality,http://www.northkawartha.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0369-township-of-opasatika,Township of Opasatika,municipality,https://www.opasatika.net/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0372-township-of-papineau-cameron,Township of Papineau-Cameron,municipality,https://papineaucameron.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0373-township-of-pelee,Township of Pelee,municipality,https://www.pelee.org/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0377-township-of-pickle-lake,Township of Pickle Lake,municipality,http://www.picklelake.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0383-township-of-rideau-lakes,Township of Rideau Lakes,municipality,http://www.rideaulakes.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0392-township-of-sioux-narrows-nestor-falls,Township of Sioux Narrows - Nestor Falls,municipality,https://www.snnf.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0393-township-of-south-algonquin,Township of South Algonquin,municipality,https://www.southalgonquin.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0394-township-of-south-frontenac,Township of South Frontenac,municipality,http://www.township.southfrontenac.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0404-township-of-stirling-rawdon,Township of Stirling-Rawdon,municipality,http://www.stirling-rawdon.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0408-township-of-tarbutt,Township of Tarbutt,municipality,https://tarbutt.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0411-township-of-tehkummah,Township of Tehkummah,municipality,https://tehkummah.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0419-township-of-val-rita-harty,Township of Val Rita-Harty,municipality,https://valharty.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0422-township-of-wellesley,Township of Wellesley,municipality,http://www.wellesley.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0431-united-counties-of-prescott-and-russell,United Counties of Prescott and Russell,municipality,https://www.prescott-russell.on.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0435-village-of-hilton-beach,Village of Hilton Beach,municipality,http://www.hiltonbeach.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0436-village-of-merrickville-wolford,Village of Merrickville-Wolford,municipality,http://www.merrickville-wolford.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0437-village-of-newbury,Village of Newbury,municipality,https://www.newbury.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0442-village-of-westport,Village of Westport,municipality,https://villageofwestport.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+mun-0013-city-of-greater-sudbury,City of Greater Sudbury,municipality,https://www.greatersudbury.ca/,https://www.greatersudbury.ca/city-hall/jobs-at-the-city,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0021-city-of-markham,City of Markham,municipality,https://www.markham.ca/,https://www.markham.ca/about-city-markham/employment/working-the-city,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0025-city-of-orillia,City of Orillia,municipality,https://www.orillia.ca/en/index.aspx,https://orillia.hiringplatform.ca/list/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0039-city-of-stratford,City of Stratford,municipality,https://www.stratford.ca/en/index.aspx,https://stratford.hiringplatform.ca/list/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0048-city-of-windsor,City of Windsor,municipality,https://www.citywindsor.ca/,https://www.citywindsor.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0090-municipality-of-east-ferris,Municipality of East Ferris,municipality,https://eastferris.ca/en,https://eastferris.ca/en/your-government/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0103-municipality-of-magnetawan,Municipality of Magnetawan,municipality,https://magnetawan.com/,https://magnetawan.com/government/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0108-municipality-of-morris-turnberry,Municipality of Morris-Turnberry,municipality,https://morristurnberry.ca/,https://morristurnberry.ca/government/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0116-municipality-of-powassan,Municipality of Powassan,municipality,https://www.powassan.net/,https://www.powassan.net/news/employment-opportunity-with-golden-sunshine-municipal-non-profit-housing-corporation-,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0127-municipality-of-the-nation,Municipality of The Nation,municipality,https://nationmun.ca/,https://nationmun.ca/conseil-et-employes/opportunites-demploi,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0134-municipality-of-west-nipissing,Municipality of West Nipissing,municipality,https://www.westnipissing.ca/,https://www.westnipissing.ca/,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0141-regional-municipality-of-niagara,Regional Municipality of Niagara,municipality,https://www.niagararegion.ca/,https://www.niagararegion.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0157-town-of-caledon,Town of Caledon,municipality,https://www.caledon.ca/en/index.aspx,https://recruiting.ultipro.ca/COR5003CALED/JobBoard/55e2803a-385b-47b1-b911-51dd7ed81d1e?q=&o=postedDateDesc,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0163-town-of-deep-river,Town of Deep River,municipality,https://www.deepriver.ca/,https://www.deepriver.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0167-town-of-erin,Town of Erin,municipality,https://www.erin.ca/,https://www.erin.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0168-town-of-espanola,Town of Espanola,municipality,https://www.espanola.ca/,https://www.espanola.ca/town-government/news-and-notices/articles/~466-Summer-Student-Employment-Opportunities---Public-Works-Department,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0169-town-of-essex,Town of Essex,municipality,https://www.essex.ca/en/index.aspx,https://www.essex.ca/en/town-hall/employment.aspx?_mid_=4017,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0174-town-of-goderich,Town of Goderich,municipality,https://www.goderich.ca/en/index.aspx,https://www.goderich.ca/en/town-hall-and-services/town-employment.aspx,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0181-town-of-hanover,Town of Hanover,municipality,https://www.hanover.ca/,https://www.hanover.ca/council-government/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0194-town-of-latchford,Town of Latchford,municipality,https://www.latchford.ca/,https://www.latchford.ca/employment-opportunity,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0195-town-of-laurentian-hills,Town of Laurentian Hills,municipality,https://www.laurentianhills.ca/,https://www.laurentianhills.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0198-town-of-mattawa,Town of Mattawa,municipality,https://www.mattawa.ca/en,https://www.mattawa.ca/en/your-government/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0212-town-of-penetanguishene,Town of Penetanguishene,municipality,https://www.penetanguishene.ca/,https://www.penetanguishene.ca/townhall/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0218-town-of-rainy-river,Town of Rainy River,municipality,https://www.rainyriver.ca/en,https://www.rainyriver.ca/en/your-government/employment-tenders-rfps,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0233-township-of-adelaide-metcalfe,Township of Adelaide Metcalfe,municipality,https://www.adelaidemetcalfe.on.ca/,https://www.adelaidemetcalfe.on.ca/contact-us/employment,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0241-township-of-armour,Township of Armour,municipality,https://www.armourtownship.ca/,https://www.armourtownship.ca/employment-notices,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0254-township-of-bonnechere-valley,Township of Bonnechere Valley,municipality,https://www.bonnecherevalleytwp.com/,https://www.bonnecherevalleytwp.com/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0258-township-of-calvin,Township of Calvin,municipality,https://www.calvintownship.ca/en,https://www.calvintownship.ca/en/municipal-services/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0260-township-of-carlow-mayo,Township of Carlow/Mayo,municipality,https://carlowmayo.ca/,https://carlowmayo.ca/council/tenders-rfqs-rfps-employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0274-township-of-conmee,Township of Conmee,municipality,https://www.conmee.com/,https://www.conmee.com/p/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0282-township-of-ear-falls,Township of Ear Falls,municipality,https://ear-falls.com/,https://ear-falls.com/business/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0284-township-of-east-hawkesbury,Township of East Hawkesbury,municipality,https://www.easthawkesbury.ca/,https://www.easthawkesbury.ca/en/living-here/fire-and-emergency-services/recruitment,unknown,generic_dom,0.5,sitemap,2026-02-15,
+mun-0292-township-of-faraday,Township of Faraday,municipality,https://faraday.ca/,https://faraday.ca/council/tenders-employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0306-township-of-hilliard,Township of Hilliard,municipality,https://townshipofhilliard.ca/,https://townshipofhilliard.ca/municipal-government/rfqs-and-rfps,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0308-township-of-hornepayne,Township of Hornepayne,municipality,https://www.townshipofhornepayne.ca/,https://www.townshipofhornepayne.ca/our-government/job-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0309-township-of-horton,Township of Horton,municipality,https://www.hortontownship.ca/,https://www.hortontownship.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0314-township-of-james,Township of James,municipality,https://elklake.ca/,https://elklake.ca/employment,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0317-township-of-joly,Township of Joly,municipality,https://www.townshipofjoly.com/,https://www.townshipofjoly.com/en/contacts/job-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0326-township-of-larder-lake,Township of Larder Lake,municipality,https://www.larderlake.ca/,https://www.larderlake.ca/municipal-services/careers,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0333-township-of-machar,Township of Machar,municipality,http://www.machartownship.net/,http://www.machartownship.net/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0336-township-of-madoc,Township of Madoc,municipality,https://madoc.ca/,https://madoc.ca/council/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0339-township-of-mapleton,Township of Mapleton,municipality,https://mapleton.ca/,https://mapleton.ca/services/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0347-township-of-mcnab-braeside,Township of McNab-Braeside,municipality,https://mcnabbraeside.com/,https://mcnabbraeside.com/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0354-township-of-mulmur,Township of Mulmur,municipality,https://mulmur.ca/,https://mulmur.ca/work/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0359-township-of-north-algona-wilberforce,Township of North Algona-Wilberforce,municipality,http://nalgonawil.com/,http://nalgonawil.com/opportunities-tenders,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0366-township-of-north-stormont,Township of North Stormont,municipality,https://www.northstormont.ca/,https://www.northstormont.ca/work-with-us,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0379-township-of-prince,Township of Prince,municipality,https://www.princetownship.ca/,https://www.princetownship.ca/join-our-team.html,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0387-township-of-schreiber,Township of Schreiber,municipality,https://www.schreiber.ca/,https://www.schreiber.ca/job-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0400-township-of-spanish,Township of Spanish,municipality,https://www.townofspanish.com/,https://www.townofspanish.com/town-hall/employment-and-volunteer-opportunites,unknown,generic_dom,0.5,link_text,2026-02-15,
+mun-0426-township-of-whitewater-region,Township of Whitewater Region,municipality,https://www.whitewaterregion.ca/,https://www.whitewaterregion.ca/careers,unknown,generic_dom,0.5,path_guess,2026-02-15,
+mun-0439-village-of-point-edward,Village of Point Edward,municipality,https://www.villageofpointedward.com/,http://villageofpointedward.com/index-pages/bid-opportunities,unknown,generic_dom,0.5,sitemap,2026-02-15,
+mun-0441-village-of-sundridge,Village of Sundridge,municipality,https://www.sundridge.ca/,https://www.sundridge.ca/jobs,unknown,generic_dom,0.5,path_guess,2026-02-15,

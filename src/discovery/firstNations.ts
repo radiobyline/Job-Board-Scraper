@@ -1,0 +1,285 @@
+import { readFile } from 'node:fs/promises';
+import { URL } from 'node:url';
+import type { Browser } from 'playwright';
+import { HttpClient } from '../utils/http.js';
+import { RunLogger } from '../utils/logger.js';
+import type { FirstNationSeed } from '../types.js';
+import { cleanUrl, toAbsoluteUrl } from '../utils/url.js';
+import { diceSimilarity, normalizeForMatch, normalizeWhitespace } from '../utils/text.js';
+
+const SEARCH_URL = 'https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/SearchFN.aspx?lang=eng';
+
+interface SearchCandidate {
+  name: string;
+  profileUrl: string;
+  address: string;
+  score: number;
+}
+
+function parseInputLines(content: string): string[] {
+  return content
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0 && !line.startsWith('#'));
+}
+
+async function loadInputNames(inputFilePath: string, logger: RunLogger): Promise<string[]> {
+  try {
+    const content = await readFile(inputFilePath, 'utf8');
+    const names = parseInputLines(content);
+    await logger.info(`Loaded First Nations input names: ${names.length}`);
+    return names;
+  } catch (error) {
+    await logger.warn(`Could not read ${inputFilePath}: ${String(error)}`);
+    return [];
+  }
+}
+
+async function selectOntarioIfAvailable(page: import('playwright').Page): Promise<void> {
+  const options = await page.$$eval('#plcMain_ddlProvince option', (items) =>
+    items.map((item) => ({ value: item.getAttribute('value') ?? '', label: item.textContent?.trim() ?? '' })),
+  );
+
+  const ontario = options.find((option) => /ontario/i.test(option.label));
+  if (ontario) {
+    await page.selectOption('#plcMain_ddlProvince', ontario.value);
+  }
+}
+
+async function clearProvince(page: import('playwright').Page): Promise<void> {
+  const options = await page.$$eval('#plcMain_ddlProvince option', (items) =>
+    items.map((item) => ({ value: item.getAttribute('value') ?? '', label: item.textContent?.trim() ?? '' })),
+  );
+
+  const allOption = options.find((option) => /all|any|select/i.test(option.label)) ?? options[0];
+  if (allOption) {
+    await page.selectOption('#plcMain_ddlProvince', allOption.value);
+  }
+}
+
+function candidateScore(inputName: string, candidateName: string, address: string): number {
+  const base = diceSimilarity(inputName, candidateName);
+  const exactBonus = normalizeForMatch(inputName) === normalizeForMatch(candidateName) ? 0.2 : 0;
+  const ontarioBonus = /,\s*ON\b|\bOntario\b/i.test(address) ? 0.1 : 0;
+  return Math.min(1, base + exactBonus + ontarioBonus);
+}
+
+function fuzzyQuery(name: string): string {
+  const normalized = normalizeForMatch(name);
+  if (!normalized) {
+    return name;
+  }
+  const tokens = normalized.split(' ').filter(Boolean).slice(0, 4);
+  return `%${tokens.join('%')}%`;
+}
+
+async function searchCandidates(
+  page: import('playwright').Page,
+  query: string,
+  inputName: string,
+  useOntario: boolean,
+): Promise<SearchCandidate[]> {
+  await page.goto(SEARCH_URL, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await page.fill('#plcMain_txtName', query);
+  if (useOntario) {
+    await selectOntarioIfAvailable(page);
+  } else {
+    await clearProvince(page);
+  }
+
+  await Promise.all([
+    page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 30000 }),
+    page.click('#plcMain_btnSearch'),
+  ]);
+
+  const rows = await page.$$eval('#tblFNlist tbody tr', (entries) =>
+    entries.map((entry) => {
+      const cells = entry.querySelectorAll('td');
+      const nameAnchor = cells[1]?.querySelector('a');
+      const name = nameAnchor?.textContent?.trim() ?? '';
+      const href = nameAnchor?.getAttribute('href') ?? '';
+      const address = cells[2]?.textContent?.replace(/\s+/g, ' ').trim() ?? '';
+      return { name, href, address };
+    }),
+  );
+
+  return rows
+    .map((row) => {
+      const profileUrl = cleanUrl(toAbsoluteUrl(row.href, page.url()));
+      return {
+        name: normalizeWhitespace(row.name),
+        profileUrl,
+        address: normalizeWhitespace(row.address),
+        score: candidateScore(inputName, row.name, row.address),
+      };
+    })
+    .filter((row) => row.name && row.profileUrl.startsWith('http'))
+    .sort((a, b) => b.score - a.score);
+}
+
+async function extractProfileData(
+  page: import('playwright').Page,
+  profileUrl: string,
+): Promise<{ canonicalName: string; websiteUrl: string }> {
+  await page.goto(profileUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  const canonicalName = normalizeWhitespace(
+    (await page.textContent('#plcMain_txtBandName').catch(() => '')) ||
+      (await page.textContent('.control-label').catch(() => '')) ||
+      '',
+  );
+
+  const websiteUrl = await page
+    .$eval('#plcMain_anchor1', (anchor) => anchor.getAttribute('href') ?? '')
+    .catch(async () => {
+      const candidates = await page.$$eval('a[href]', (anchors) =>
+        anchors.map((anchor) => {
+          const href = anchor.getAttribute('href') ?? '';
+          const rowText = anchor.closest('.row')?.textContent ?? '';
+          return {
+            href,
+            rowText,
+          };
+        }),
+      );
+
+      const match = candidates.find(
+        (candidate) => /web\s*site/i.test(candidate.rowText) && /^https?:\/\//i.test(candidate.href),
+      );
+      return match?.href ?? '';
+    });
+
+  return {
+    canonicalName,
+    websiteUrl: cleanUrl(websiteUrl),
+  };
+}
+
+function pickBest(candidates: SearchCandidate[]): SearchCandidate | null {
+  if (candidates.length === 0) {
+    return null;
+  }
+  const best = candidates[0];
+  if (best.score < 0.25) {
+    return null;
+  }
+  return best;
+}
+
+export async function buildFirstNationsSeed(
+  inputFilePath: string,
+  browser: Browser,
+  httpClient: HttpClient,
+  logger: RunLogger,
+): Promise<FirstNationSeed[]> {
+  const names = await loadInputNames(inputFilePath, logger);
+  if (names.length === 0) {
+    return [];
+  }
+
+  const page = await browser.newPage();
+  const seeds: FirstNationSeed[] = [];
+
+  try {
+    for (const inputName of names) {
+      try {
+        await logger.info(`Resolving First Nation: ${inputName}`);
+        let notes = '';
+        let chosenCandidate: SearchCandidate | null = null;
+
+        const exactOntario = await searchCandidates(page, inputName, inputName, true);
+        chosenCandidate = pickBest(exactOntario);
+
+        if (!chosenCandidate) {
+          const exactAny = await searchCandidates(page, inputName, inputName, false);
+          chosenCandidate = pickBest(exactAny);
+        }
+
+        if (!chosenCandidate) {
+          const fuzzyOntario = await searchCandidates(page, fuzzyQuery(inputName), inputName, true);
+          chosenCandidate = pickBest(fuzzyOntario);
+        }
+
+        if (!chosenCandidate) {
+          const fuzzyAny = await searchCandidates(page, fuzzyQuery(inputName), inputName, false);
+          chosenCandidate = pickBest(fuzzyAny);
+        }
+
+        if (!chosenCandidate) {
+          notes = 'Unable to resolve profile from exact/fuzzy search.';
+          seeds.push({
+            inputName,
+            canonicalName: inputName,
+            orgName: inputName,
+            orgType: 'first_nation',
+            profileUrl: '',
+            homepageUrl: '',
+            notes,
+          });
+          await logger.warn(`First Nation unresolved: ${inputName}`);
+          continue;
+        }
+
+        try {
+          const profileData = await extractProfileData(page, chosenCandidate.profileUrl);
+          const canonicalName = profileData.canonicalName || chosenCandidate.name || inputName;
+          let homepageUrl = profileData.websiteUrl;
+
+          if (homepageUrl) {
+            homepageUrl = await httpClient.resolveCanonicalUrl(homepageUrl);
+          } else {
+            notes = 'Profile resolved but Web Site URL not provided in profile.';
+          }
+
+          seeds.push({
+            inputName,
+            canonicalName,
+            orgName: canonicalName,
+            orgType: 'first_nation',
+            profileUrl: chosenCandidate.profileUrl,
+            homepageUrl,
+            notes,
+          });
+        } catch (error) {
+          notes = `Profile extraction failed: ${String(error)}`;
+          seeds.push({
+            inputName,
+            canonicalName: chosenCandidate.name || inputName,
+            orgName: chosenCandidate.name || inputName,
+            orgType: 'first_nation',
+            profileUrl: chosenCandidate.profileUrl,
+            homepageUrl: '',
+            notes,
+          });
+        }
+      } catch (error) {
+        const notes = `First Nation resolution failed: ${String(error)}`;
+        await logger.warn(`${notes} (${inputName})`);
+        seeds.push({
+          inputName,
+          canonicalName: inputName,
+          orgName: inputName,
+          orgType: 'first_nation',
+          profileUrl: '',
+          homepageUrl: '',
+          notes,
+        });
+      }
+    }
+  } finally {
+    await page.close();
+  }
+
+  await logger.info(`First Nations seed finalized: ${seeds.length}`);
+  return seeds;
+}
+
+export function profileUrlToAbsolute(profileUrl: string): string {
+  if (!profileUrl) {
+    return '';
+  }
+  try {
+    return new URL(profileUrl).toString();
+  } catch {
+    return toAbsoluteUrl(profileUrl, SEARCH_URL);
+  }
+}
