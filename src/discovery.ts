@@ -6,6 +6,7 @@ import { buildMunicipalitySeed } from './discovery/municipalities.js';
 import { buildFirstNationsSeed } from './discovery/firstNations.js';
 import { discoverJobsUrl } from './discovery/jobsDiscovery.js';
 import { classifyJobsSource } from './discovery/classify.js';
+import { resolveHomepageViaSearch, resolveJobsViaSearch } from './discovery/research.js';
 import type { ClassificationResult, OrgRecord, SeedOrg } from './types.js';
 import { HttpClient } from './utils/http.js';
 import { RunLogger } from './utils/logger.js';
@@ -18,6 +19,11 @@ interface CliArgs {
   firstNationsFile: string;
   skipMunicipalities: boolean;
 }
+
+const SKIP_SLOW_MUNICIPALITY_REFRESH = new Set([
+  'Township of South Frontenac',
+  'Township of Val Rita-Harty',
+]);
 
 function parseArgs(argv: string[]): CliArgs {
   const args: CliArgs = {
@@ -88,7 +94,7 @@ async function processOrg(
   logger: RunLogger,
   options: ProcessOptions = {},
 ): Promise<OrgRecord> {
-  const homepageUrl = cleanUrl(seed.homepageUrl || '');
+  let homepageUrl = cleanUrl(seed.homepageUrl || '');
 
   try {
     let jobsUrl = '';
@@ -96,20 +102,78 @@ async function processOrg(
     let notes = seed.notes ?? '';
     let classification: ClassificationResult = manualClassification();
 
+    if (!homepageUrl) {
+      const researchedHomepage = await resolveHomepageViaSearch(
+        seed.orgName,
+        seed.orgType,
+        httpClient,
+        logger,
+      );
+      if (researchedHomepage) {
+        homepageUrl = researchedHomepage.url;
+        notes = mergeNotes(notes, researchedHomepage.notes);
+      }
+    }
+
     if (homepageUrl) {
-      const discovered = await discoverJobsUrl(homepageUrl, httpClient, {
-        fast: options.fastDiscovery ?? false,
-      });
+      const useBrowser = options.classifyWithBrowser !== false;
+      let discovered;
+      try {
+        discovered = await discoverJobsUrl(homepageUrl, httpClient, {
+          fast: options.fastDiscovery ?? false,
+          browser: useBrowser ? browser : undefined,
+        });
+      } catch (error) {
+        if (!useBrowser) {
+          throw error;
+        }
+        await logger.warn(
+          `Browser-assisted jobs discovery failed for ${seed.orgName}; retrying without browser: ${String(
+            error,
+          )}`,
+        );
+        discovered = await discoverJobsUrl(homepageUrl, httpClient, {
+          fast: options.fastDiscovery ?? false,
+          browser: undefined,
+        });
+      }
       jobsUrl = cleanUrl(discovered.jobsUrl || '');
       discoveredVia = discovered.discoveredVia;
       notes = mergeNotes(notes, discovered.notes);
 
-      if (jobsUrl) {
-        classification = await classifyJobsSource(
-          jobsUrl,
+      if (!jobsUrl) {
+        const researchedJobs = await resolveJobsViaSearch(
+          seed.orgName,
+          seed.orgType,
+          homepageUrl,
           httpClient,
-          options.classifyWithBrowser === false ? undefined : browser,
+          logger,
         );
+        if (researchedJobs) {
+          jobsUrl = researchedJobs.url;
+          discoveredVia = researchedJobs.discoveredVia;
+          notes = mergeNotes(notes, researchedJobs.notes);
+        }
+      }
+
+      if (jobsUrl) {
+        try {
+          classification = await classifyJobsSource(
+            jobsUrl,
+            httpClient,
+            options.classifyWithBrowser === false ? undefined : browser,
+          );
+        } catch (error) {
+          if (options.classifyWithBrowser === false) {
+            throw error;
+          }
+          await logger.warn(
+            `Browser-assisted classification failed for ${seed.orgName}; retrying without browser: ${String(
+              error,
+            )}`,
+          );
+          classification = await classifyJobsSource(jobsUrl, httpClient, undefined);
+        }
       } else {
         classification = manualClassification();
       }
@@ -158,6 +222,46 @@ async function processOrg(
   }
 }
 
+function shouldRefreshExistingRecord(record: OrgRecord): boolean {
+  return !record.homepage_url || !record.jobs_url;
+}
+
+async function refreshExistingRecord(
+  record: OrgRecord,
+  runDate: string,
+  httpClient: HttpClient,
+  browser: Browser,
+  logger: RunLogger,
+  options: ProcessOptions = {},
+): Promise<OrgRecord> {
+  const refreshed = await processOrg(
+    {
+      orgName: record.org_name,
+      orgType: record.org_type,
+      homepageUrl: record.homepage_url,
+      notes: record.notes,
+    },
+    0,
+    runDate,
+    httpClient,
+    browser,
+    logger,
+    options,
+  );
+
+  return {
+    ...record,
+    homepage_url: refreshed.homepage_url,
+    jobs_url: refreshed.jobs_url,
+    jobs_source_type: refreshed.jobs_source_type,
+    adapter: refreshed.adapter,
+    confidence: refreshed.confidence,
+    discovered_via: refreshed.discovered_via,
+    last_verified: runDate,
+    notes: refreshed.notes,
+  };
+}
+
 async function run(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
   const runDate = dateStamp();
@@ -186,6 +290,39 @@ async function run(): Promise<void> {
       }
       firstNationStartIndex = municipalityRecords.length;
       await logger.info(`Reusing municipality rows from existing data/orgs.csv: ${municipalityRecords.length}`);
+
+      const refreshTargets = municipalityRecords.filter(
+        (record) =>
+          shouldRefreshExistingRecord(record) &&
+          !SKIP_SLOW_MUNICIPALITY_REFRESH.has(record.org_name),
+      );
+      if (refreshTargets.length > 0) {
+        await logger.info(`Refreshing unresolved municipality rows from existing CSV: ${refreshTargets.length}`);
+        const refreshed = await mapWithConcurrency(refreshTargets, 8, async (record) => {
+          const updated = await refreshExistingRecord(
+            record,
+            runDate,
+            httpClient,
+            browser,
+            logger,
+            {
+              fastDiscovery: false,
+              classifyWithBrowser: true,
+            },
+          );
+          await logger.info(
+            `${updated.org_type}:${updated.org_name} => jobs_source_type=${updated.jobs_source_type}, confidence=${updated.confidence.toFixed(
+              1,
+            )}`,
+          );
+          return updated;
+        });
+
+        const refreshedById = new Map(refreshed.map((record) => [record.org_id, record]));
+        municipalityRecords = municipalityRecords.map(
+          (record) => refreshedById.get(record.org_id) ?? record,
+        );
+      }
     } else {
       const municipalities = await buildMunicipalitySeed(httpClient, logger);
       await writeJson('data/municipalities_seed.json', municipalities);

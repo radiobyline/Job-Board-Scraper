@@ -6,6 +6,7 @@ import { RunLogger } from '../utils/logger.js';
 import type { FirstNationSeed } from '../types.js';
 import { cleanUrl, toAbsoluteUrl } from '../utils/url.js';
 import { diceSimilarity, normalizeForMatch, normalizeWhitespace } from '../utils/text.js';
+import { resolveHomepageViaSearch } from './research.js';
 
 const SEARCH_URL = 'https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/SearchFN.aspx?lang=eng';
 
@@ -142,6 +143,13 @@ function pickBest(candidates: SearchCandidate[]): SearchCandidate | null {
   return best;
 }
 
+function mergeNotes(...values: Array<string | undefined>): string {
+  return values
+    .filter((value): value is string => Boolean(value && value.trim().length > 0))
+    .map((value) => value.trim())
+    .join(' | ');
+}
+
 function selectBestCandidate(inputName: string, directory: SearchCandidate[]): SearchCandidate | null {
   const inputNorm = normalizeForMatch(inputName);
   const exact = directory.find((candidate) => normalizeForMatch(candidate.name) === inputNorm);
@@ -185,13 +193,23 @@ export async function buildFirstNationsSeed(
 
         if (!chosenCandidate) {
           notes = 'Unable to resolve profile from exact/fuzzy search.';
+          const researchedHomepage = await resolveHomepageViaSearch(
+            inputName,
+            'first_nation',
+            httpClient,
+            logger,
+          );
+          const fallbackHomepage = researchedHomepage;
+          if (fallbackHomepage) {
+            notes = mergeNotes(notes, fallbackHomepage.notes);
+          }
           seeds.push({
             inputName,
             canonicalName: inputName,
             orgName: inputName,
             orgType: 'first_nation',
             profileUrl: '',
-            homepageUrl: '',
+            homepageUrl: fallbackHomepage?.url ?? '',
             notes,
           });
           await logger.warn(`First Nation unresolved: ${inputName}`);
@@ -207,6 +225,25 @@ export async function buildFirstNationsSeed(
             homepageUrl = cleanUrl(homepageUrl);
           } else {
             notes = 'Profile resolved but Web Site URL not provided in profile.';
+            const researchedHomepage = await resolveHomepageViaSearch(
+              canonicalName,
+              'first_nation',
+              httpClient,
+              logger,
+            );
+            let fallbackHomepage = researchedHomepage;
+            if (!fallbackHomepage && normalizeForMatch(canonicalName) !== normalizeForMatch(inputName)) {
+              fallbackHomepage = await resolveHomepageViaSearch(
+                inputName,
+                'first_nation',
+                httpClient,
+                logger,
+              );
+            }
+            if (fallbackHomepage) {
+              homepageUrl = fallbackHomepage.url;
+              notes = mergeNotes(notes, fallbackHomepage.notes);
+            }
           }
 
           seeds.push({

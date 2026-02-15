@@ -3,7 +3,7 @@ fn-0443-aamjiwnaang,Aamjiwnaang,first_nation,http://www.aamjiwnaang.ca/,https://
 fn-0444-albany,Albany,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0445-alderville-first-nation,Alderville First Nation,first_nation,https://alderville.ca/,https://alderville.ca/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
 fn-0446-algonquins-of-pikwakanagan-first-nation,Algonquins of Pikwakanagan First Nation,first_nation,http://www.algonquinsofpikwakanagan.com/,https://www.algonquinsofpikwakanagan.com/programs-services/human-resources/job-opportunities,html_list,html_list,0.8,link_text,2026-02-15,
-fn-0447-animakee-wa-zhing-37,Animakee Wa Zhing #37,first_nation,https://www.animakeewazhing37.com/,https://www.animakeewazhing37.com/windigo-island-2,unknown,generic_dom,0.5,link_text,2026-02-15,
+fn-0447-animakee-wa-zhing-37,Animakee Wa Zhing #37,first_nation,https://www.animakeewazhing37.com/,https://www.animakeewazhing37.com/windigo-island-2,html_list,html_list,0.8,link_text,2026-02-15,
 fn-0448-animbiigoo-zaagi-igan-anishinaabek,Animbiigoo Zaagi'igan Anishinaabek,first_nation,http://www.aza.ca/,http://www.aza.ca/employment--training,unknown,generic_dom,0.5,link_text,2026-02-15,
 fn-0449-anishinabe-of-wauzhushk-onigum,Anishinabe of Wauzhushk Onigum,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0450-anishnaabeg-of-naongashiing,Anishnaabeg of Naongashiing,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
@@ -63,7 +63,7 @@ fn-0503-lower-mohawk,Lower Mohawk,first_nation,,,manual_review,manual,0.0,manual
 fn-0504-m-chigeeng-first-nation,M'Chigeeng First Nation,first_nation,http://www.mchigeeng.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0505-magnetawan,Magnetawan,first_nation,https://www.magfn.com/,https://www.magfn.com/,html_list,html_list,0.8,link_text,2026-02-15,
 fn-0506-marten-falls-first-nation,Marten Falls First Nation,first_nation,https://martenfalls.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
-fn-0507-matachewan,Matachewan,first_nation,https://www.matachewanfirstnation.com/,https://www.matachewanfirstnation.com/education,unknown,generic_dom,0.5,link_text,2026-02-15,
+fn-0507-matachewan,Matachewan,first_nation,https://www.matachewanfirstnation.com/,https://www.matachewanfirstnation.com/education,html_list,html_list,0.8,link_text,2026-02-15,
 fn-0508-mattagami,Mattagami,first_nation,https://mattagami.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0509-mcdowell-lake,McDowell Lake,first_nation,https://kochiefs.ca/first-nations/mcdowell-lake,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0510-michipicoten,Michipicoten,first_nation,http://www.michipicoten.com/,https://michipicoten.com/aboriginal-job-opportunities,unknown,generic_dom,0.5,link_text,2026-02-15,
@@ -87,7 +87,6 @@ fn-0527-neskantaga-first-nation,Neskantaga First Nation,first_nation,https://nes
 fn-0528-netmizaaggamig-nishnaabeg,Netmizaaggamig Nishnaabeg,first_nation,http://www.picmobert.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0529-nibinamik-first-nation,Nibinamik First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0530-nigigoonsiminikaaning-first-nation,Nigigoonsiminikaaning First Nation,first_nation,https://nigigoonsiminikaaning.ca/,https://nigigoonsiminikaaning.ca/category/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
-fn-0580-nigigoonsiminikaaning-first-nation,Nigigoonsiminikaaning First Nation,first_nation,https://nigigoonsiminikaaning.ca/,https://nigigoonsiminikaaning.ca/category/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
 fn-0531-niharondasa-seneca,Niharondasa Seneca,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0532-niisaachewan-anishinaabe-nation,Niisaachewan Anishinaabe Nation,first_nation,https://www.niisaachewan.ca/,https://www.niisaachewan.ca/careers,unknown,generic_dom,0.5,link_text,2026-02-15,
 fn-0533-nipissing-first-nation,Nipissing First Nation,first_nation,http://www.nfn.ca/,https://nfn.ca/jobs,unknown,generic_dom,0.5,link_text,2026-02-15,
@@ -95,7 +94,7 @@ fn-0534-north-caribou-lake,North Caribou Lake,first_nation,https://www.windigo.o
 fn-0535-north-spirit-lake,North Spirit Lake,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0536-northwest-angle-no-33,Northwest Angle No.33,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0537-ojibway-nation-of-saugeen,Ojibway Nation of Saugeen,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0538-ojibways-of-onigaming-first-nation,Ojibways of Onigaming First Nation,first_nation,http://www.akrc.on.ca/index.php?q=node/15,https://www.akrc.on.ca/category/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+fn-0538-ojibways-of-onigaming-first-nation,Ojibways of Onigaming First Nation,first_nation,http://www.akrc.on.ca/index.php?q=node/15,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0539-oneida,Oneida,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0540-oneida-nation-of-the-thames,Oneida Nation of the Thames,first_nation,http://www.oneida.on.ca/,https://oneida.on.ca/employment/job-listings,unknown,generic_dom,0.5,link_text,2026-02-15,
 fn-0541-onondaga-clear-sky,Onondaga Clear Sky,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
@@ -131,14 +130,15 @@ fn-0570-walker-mohawk,Walker Mohawk,first_nation,,,manual_review,manual,0.0,manu
 fn-0571-walpole-island,Walpole Island,first_nation,https://www.walpoleislandfirstnation.ca/,https://www.walpoleislandfirstnation.ca/employment-and-training,html_list,html_list,0.8,link_text,2026-02-15,
 fn-0572-wapekeka,Wapekeka,first_nation,http://www.wapekeka.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0573-wasauksing-first-nation,Wasauksing First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0582-wasauksing-first-nation,Wasauksing First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0574-washagamis-bay,Washagamis Bay,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0575-wawakapewin,Wawakapewin,first_nation,https://www.shibogama.on.ca/communities/wawakapewin-first-nation,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
-fn-0581-wawakapewin,Wawakapewin,first_nation,https://www.shibogama.on.ca/communities/wawakapewin-first-nation,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0576-webequie,Webequie,first_nation,http://www.webequie.ca/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0577-weenusk,Weenusk,first_nation,,,manual_review,manual,0.0,manual,2026-02-15,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
 fn-0578-whitefish-river,Whitefish River,first_nation,http://www.whitefishriver.ca/,https://www.whitefishriver.ca/employment-opportunities,ats_bamboohr,bamboohr,1.0,link_text,2026-02-15,
 fn-0579-whitesand,Whitesand,first_nation,http://www.wsfn.ca/,https://www.whitesandfirstnation.com/careers,html_list,html_list,0.8,link_text,2026-02-15,
+fn-0580-wikwemikong,Wikwemikong,first_nation,http://www.wikwemikong.ca/,https://www.wiikwemkoong.ca/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
+fn-0581-wunnumin,Wunnumin,first_nation,https://wunnumin.com/,,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
+fn-0582-zhiibaahaasing-first-nation,Zhiibaahaasing First Nation,first_nation,http://www.uccmm.ca/zhiibaahaasing.html,http://www.uccmm.ca/employment-opportunities.html,html_list,html_list,0.8,link_text,2026-02-15,
 mun-0001-city-of-barrie,City of Barrie,municipality,https://www.barrie.ca/,https://www.barrie.ca/government-news/employment-opportunities,html_list,html_list,0.8,path_guess,2026-02-15,
 mun-0002-city-of-belleville,City of Belleville,municipality,https://www.belleville.ca/en/index.aspx,https://www.belleville.ca/en/city-hall/employmentopportunities.aspx,html_list,html_list,0.8,path_guess,2026-02-15,
 mun-0003-city-of-brampton,City of Brampton,municipality,https://www.brampton.ca/EN/pages/Welcome.aspx,https://www.brampton.ca/en/City-Hall/Employment,html_list,html_list,0.8,path_guess,2026-02-15,

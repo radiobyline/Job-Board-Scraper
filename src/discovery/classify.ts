@@ -103,7 +103,13 @@ function looksLikeHtmlList(html: string): boolean {
     }
   });
 
-  return relevantLinks >= 3;
+  const pageText = $('body').text().toLowerCase();
+  const keywordHits = ['job', 'career', 'position', 'vacancy', 'posting', 'apply', 'requisition'].filter(
+    (keyword) => pageText.includes(keyword),
+  ).length;
+  const postingMarkers = (pageText.match(/\b(closing date|apply now|job posting|vacancy|position title)\b/g) ?? []).length;
+
+  return relevantLinks >= 3 || (relevantLinks >= 2 && keywordHits >= 3) || postingMarkers >= 3;
 }
 
 function looksGenericCareersPage(html: string): boolean {

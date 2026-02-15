@@ -1234,29 +1234,29 @@
   },
   {
     "inputName": "Wikwemikong",
-    "canonicalName": "Nigigoonsiminikaaning First Nation",
-    "orgName": "Nigigoonsiminikaaning First Nation",
+    "canonicalName": "Wikwemikong",
+    "orgName": "Wikwemikong",
     "orgType": "first_nation",
-    "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=129&lang=eng",
-    "homepageUrl": "https://nigigoonsiminikaaning.ca/",
+    "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=175&lang=eng",
+    "homepageUrl": "http://www.wikwemikong.ca/",
     "notes": ""
   },
   {
     "inputName": "Wunnumin",
-    "canonicalName": "Wawakapewin",
-    "orgName": "Wawakapewin",
+    "canonicalName": "Wunnumin",
+    "orgName": "Wunnumin",
     "orgType": "first_nation",
-    "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=234&lang=eng",
-    "homepageUrl": "https://www.shibogama.on.ca/communities/wawakapewin-first-nation",
+    "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=217&lang=eng",
+    "homepageUrl": "https://wunnumin.com/",
     "notes": ""
   },
   {
     "inputName": "Zhiibaahaasing First Nation",
-    "canonicalName": "Wasauksing First Nation",
-    "orgName": "Wasauksing First Nation",
+    "canonicalName": "Zhiibaahaasing First Nation",
+    "orgName": "Zhiibaahaasing First Nation",
     "orgType": "first_nation",
-    "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=136&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=173&lang=eng",
+    "homepageUrl": "http://www.uccmm.ca/zhiibaahaasing.html",
+    "notes": ""
   }
 ]

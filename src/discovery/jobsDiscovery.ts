@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { URL } from 'node:url';
+import type { Browser } from 'playwright';
 import type { JobsDiscoveryResult } from '../types.js';
 import { HttpClient } from '../utils/http.js';
 import { cleanUrl, sameHost, toAbsoluteUrl } from '../utils/url.js';
@@ -18,8 +19,19 @@ const COMMON_PATHS = [
   '/about/jobs',
   '/join-our-team',
   '/join-us',
+  '/work-for-us',
+  '/employment-opportunities',
+  '/careers-and-employment',
+  '/career-opportunities',
+  '/jobs-opportunities',
   '/human-resources',
   '/hr',
+  '/city-hall/careers',
+  '/city-hall/jobs',
+  '/our-city/careers',
+  '/our-city/jobs',
+  '/government/careers',
+  '/government/jobs',
 ];
 
 const CAREER_KEYWORDS = ['career', 'careers', 'jobs', 'employment', 'opportunities', 'apply'];
@@ -32,6 +44,12 @@ const LINK_KEYWORDS = [
   'opportunities',
   'join our team',
   'work with us',
+  'work for us',
+  'vacancies',
+  'position',
+  'hiring',
+  'job openings',
+  'employment opportunities',
 ];
 
 interface Candidate {
@@ -43,6 +61,7 @@ interface Candidate {
 
 interface DiscoverOptions {
   fast?: boolean;
+  browser?: Browser;
 }
 
 function keywordCount(content: string): number {
@@ -134,7 +153,9 @@ async function pathProbe(
 
 function likelyContextPage(text: string): boolean {
   const lower = text.toLowerCase();
-  return /about|contact|government|city hall|town hall|administration/.test(lower);
+  return /about|contact|government|city hall|town hall|administration|human resources|our city|township office/.test(
+    lower,
+  );
 }
 
 async function linkTextCrawl(
@@ -216,6 +237,101 @@ async function linkTextCrawl(
 
   const best = pickHighest(candidates);
   return best;
+}
+
+async function browserLinkTextCrawl(homepageUrl: string, browser: Browser): Promise<Candidate | null> {
+  const page = await browser.newPage();
+  const requestUrls: string[] = [];
+  page.on('request', (request) => {
+    requestUrls.push(request.url());
+  });
+
+  const queue: string[] = [homepageUrl];
+  const visited = new Set<string>();
+  const candidates: Candidate[] = [];
+
+  try {
+    while (queue.length > 0 && visited.size < 3) {
+      const targetUrl = queue.shift() ?? '';
+      const cleanedTargetUrl = cleanUrl(targetUrl);
+      if (!cleanedTargetUrl || visited.has(cleanedTargetUrl)) {
+        continue;
+      }
+
+      visited.add(cleanedTargetUrl);
+      await page.goto(cleanedTargetUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      try {
+        await page.waitForLoadState('networkidle', { timeout: 4000 });
+      } catch {
+        // Some pages never become network idle; continue with current DOM.
+      }
+
+      const currentUrl = cleanUrl(page.url());
+      const links = await page.$$eval('a[href]', (anchors) =>
+        anchors.map((anchor) => ({
+          text: (anchor.textContent ?? '').replace(/\s+/g, ' ').trim(),
+          href: anchor.getAttribute('href') ?? '',
+        })),
+      );
+
+      for (const link of links) {
+        const text = normalizeWhitespace(link.text);
+        const href = link.href.trim();
+        if (!href) {
+          continue;
+        }
+
+        const absolute = cleanUrl(toAbsoluteUrl(href, currentUrl));
+        if (!absolute) {
+          continue;
+        }
+
+        const score = scoreLinkText(text);
+        const pathLower = absolute.toLowerCase();
+        const pathKeywordBoost = /career|job|employ|vacanc|recruit|opportunit|hiring/.test(pathLower)
+          ? 2
+          : 0;
+
+        if (score + pathKeywordBoost > 0) {
+          const atsBoost = isKnownAtsUrl(absolute) ? 40 : 0;
+          const isPdf = looksLikePdf(absolute);
+          candidates.push({
+            url: absolute,
+            score: score + pathKeywordBoost + atsBoost,
+            via: isPdf ? 'pdf' : 'link_text',
+            isPdf,
+          });
+        }
+
+        if (
+          queue.length < 2 &&
+          sameHost(absolute, homepageUrl) &&
+          likelyContextPage(text) &&
+          !visited.has(absolute)
+        ) {
+          queue.push(absolute);
+        }
+      }
+    }
+
+    for (const requestUrl of requestUrls) {
+      if (!isKnownAtsUrl(requestUrl)) {
+        continue;
+      }
+      candidates.push({
+        url: cleanUrl(requestUrl),
+        score: 90,
+        via: 'link_text',
+        isPdf: false,
+      });
+    }
+  } catch {
+    // Fall back to non-browser methods.
+  } finally {
+    await page.close();
+  }
+
+  return pickHighest(candidates);
 }
 
 async function sitemapScan(homepageUrl: string, httpClient: HttpClient): Promise<Candidate | null> {
@@ -336,6 +452,16 @@ export async function discoverJobsUrl(
     };
   }
 
+  const browserCandidate = options.browser
+    ? await browserLinkTextCrawl(homepageUrl, options.browser)
+    : null;
+  if (browserCandidate && !browserCandidate.isPdf) {
+    return {
+      jobsUrl: browserCandidate.url,
+      discoveredVia: browserCandidate.via,
+    };
+  }
+
   const sitemapCandidate = await sitemapScan(homepageUrl, httpClient);
   if (sitemapCandidate && !sitemapCandidate.isPdf) {
     return {
@@ -345,8 +471,8 @@ export async function discoverJobsUrl(
   }
 
   const pdfCandidate = pickHighest(
-    [pathCandidate, linkCandidate, sitemapCandidate].filter((candidate): candidate is Candidate =>
-      Boolean(candidate?.isPdf),
+    [pathCandidate, linkCandidate, browserCandidate, sitemapCandidate].filter(
+      (candidate): candidate is Candidate => Boolean(candidate?.isPdf),
     ),
   );
 
