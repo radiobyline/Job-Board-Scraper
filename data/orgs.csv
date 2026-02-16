@@ -23,7 +23,7 @@ fn-0473-chippewas-of-the-thames-first-nation,Chippewas of the Thames First Natio
 fn-0476-curve-lake,Curve Lake,first_nation,http://www.curvelakefirstnation.ca/,https://curvelakefirstnation.ca/employment/,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 mun-0280-township-of-drummond-north-elmsley,Township of Drummond-North Elmsley,municipality,http://www.dnetownship.ca/,https://www.dnetownship.ca/township-services/employment ,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0479-dokis,Dokis,first_nation,http://www.dokisfirstnation.com/,https://dokis.ca/employment-services,unknown,generic_dom,0.5,link_text,2026-02-15,
-mun-0296-township-of-gauthier,Township of Gauthier,municipality,http://www.facebook.com/Township-of-Gauthier-Dobie-245432398995402/timeline?ref=page_internal,https://www.metacareers.com/,ats_workday,workday,1.0,path_guess,2026-02-15,
+mun-0296-township-of-gauthier,Township of Gauthier,municipality,http://www.facebook.com/Township-of-Gauthier-Dobie-245432398995402/timeline?ref=page_internal,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically. | Homepage URL unavailable.
 fn-0484-fort-william,Fort William,first_nation,http://www.fwfn.com/,https://fwfn.com/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
 fn-0469-chippewas-of-georgina-island,Chippewas of Georgina Island,first_nation,http://www.georginaisland.com/,https://georginaisland.com/community-services/human-resources/,manual_review,manual,0.0,manual,2026-02-15,No reliable jobs URL discovered automatically.
 fn-0491-hiawatha-first-nation,Hiawatha First Nation,first_nation,http://www.hiawathafirstnation.com/,https://www.hiawathafirstnation.com/services-departments/employment,unknown,generic_dom,0.5,link_text,2026-02-15,
@@ -581,3 +581,4 @@ fn-0558-slate-falls-nation,Slate Falls Nation,first_nation,https://www.windigo.o
 mun-0429-township-of-woolwich,Township of Woolwich,municipality,https://www.woolwich.ca/,https://www.woolwich.ca/careers,html_list,html_list,0.8,path_guess,2026-02-15,
 mun-0144-regional-municipality-of-york,Regional Municipality of York,municipality,https://www.york.ca/default.htm,https://www.york.ca/york-region/careers,html_list,html_list,0.8,path_guess,2026-02-15,
 mun-0430-township-of-zorra,Township of Zorra,municipality,https://www.zorra.ca/,https://www.zorra.ca/our-township/employment,html_list,html_list,0.8,link_text,2026-02-15,
+
