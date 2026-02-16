@@ -6,12 +6,15 @@ function nowIso(): string {
 }
 
 export class RunLogger {
-  constructor(private readonly filePath: string) {}
+  constructor(
+    private readonly filePath: string,
+    private readonly runLabel = 'Discovery run',
+  ) {}
 
   async init(): Promise<void> {
     await mkdir(dirname(this.filePath), { recursive: true });
     await writeFile(this.filePath, '', 'utf8');
-    await this.write(`=== Discovery run started ${nowIso()} ===`);
+    await this.write(`=== ${this.runLabel} started ${nowIso()} ===`);
   }
 
   async info(message: string): Promise<void> {
@@ -27,7 +30,7 @@ export class RunLogger {
   }
 
   async close(): Promise<void> {
-    await this.write(`=== Discovery run finished ${nowIso()} ===`);
+    await this.write(`=== ${this.runLabel} finished ${nowIso()} ===`);
   }
 
   private async write(message: string): Promise<void> {

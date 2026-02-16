@@ -5,17 +5,23 @@
   "description": "Phase 1 jobs URL discovery + ATS classification pipeline for Ontario municipalities and First Nations",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "discovery": "tsx src/discovery.ts"
+    "discovery": "tsx src/discovery.ts",
+    "weekly": "tsx src/weekly.ts"
   },
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
     "cheerio": "^1.1.2",
-    "playwright": "^1.54.2"
+    "googleapis": "^171.4.0",
+    "nodemailer": "^8.0.1",
+    "playwright": "^1.54.2",
+    "sql.js": "^1.14.0"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "@types/nodemailer": "^7.0.10",
+    "@types/sql.js": "^1.4.9",
     "tsx": "^4.20.4",
     "typescript": "^5.9.2"
   }

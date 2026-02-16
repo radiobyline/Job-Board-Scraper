@@ -4,12 +4,13 @@ import { cleanUrl } from './url.js';
 import type { FetchResult } from '../types.js';
 
 interface RequestOptions {
-  method?: 'GET' | 'HEAD';
+  method?: 'GET' | 'HEAD' | 'POST';
   timeoutMs?: number;
   maxBytes?: number;
   readBody?: boolean;
   retries?: number;
   headers?: Record<string, string>;
+  body?: string;
 }
 
 function isRetryableStatus(status: number): boolean {
@@ -168,7 +169,7 @@ export class HttpClient {
   private async requestWithRedirects(rawUrl: string, options: RequestOptions): Promise<FetchResult> {
     const maxRedirects = 8;
     let currentUrl = rawUrl;
-    let method: 'GET' | 'HEAD' = options.method ?? 'GET';
+    let method: 'GET' | 'HEAD' | 'POST' = options.method ?? 'GET';
 
     for (let hop = 0; hop <= maxRedirects; hop += 1) {
       const parsed = new URL(currentUrl);
@@ -195,7 +196,7 @@ export class HttpClient {
 
   private async performFetch(
     url: string,
-    method: 'GET' | 'HEAD',
+    method: 'GET' | 'HEAD' | 'POST',
     options: RequestOptions,
   ): Promise<FetchResult> {
     const timeoutMs = options.timeoutMs ?? this.defaultTimeoutMs;
@@ -207,6 +208,7 @@ export class HttpClient {
         method,
         redirect: 'manual',
         signal: controller.signal,
+        body: method === 'POST' ? options.body : undefined,
         headers: mergeHeaders(
           {
             'user-agent':

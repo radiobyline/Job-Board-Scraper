@@ -18,6 +18,8 @@ export type Adapter =
   | 'taleo'
   | 'icims'
   | 'neogov'
+  | 'utipro'
+  | 'adp'
   | 'dayforce'
   | 'bamboohr'
   | 'paycom'

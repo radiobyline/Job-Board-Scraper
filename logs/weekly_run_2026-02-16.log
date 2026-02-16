@@ -1,0 +1,21 @@
+2026-02-16T01:09:32.360Z === Weekly run started 2026-02-16T01:09:32.360Z ===
+2026-02-16T01:09:32.403Z [INFO] run_id=1
+2026-02-16T01:09:32.403Z [INFO] eligible_orgs=426
+2026-02-16T01:09:32.403Z [INFO] unique_jobs_url_groups=2
+2026-02-16T01:10:29.313Z [WARN] URL unreachable after repair attempts: http://biggrassy.ca/employment-opportunities
+2026-02-16T01:11:56.426Z [WARN] URL unreachable after repair attempts: http://nalgonawil.com/opportunities-tenders
+2026-02-16T01:11:56.433Z [WARN] Email not sent: Missing SMTP environment variables.
+2026-02-16T01:11:56.437Z [WARN] Google Sheets sync skipped: Google Sheets secrets missing.
+2026-02-16T01:11:56.439Z [INFO] total_orgs_in_csv=582
+2026-02-16T01:11:56.439Z [INFO] eligible_orgs_count=426
+2026-02-16T01:11:56.439Z [INFO] unique_jobs_url_groups_count=2
+2026-02-16T01:11:56.440Z [INFO] jobs_url_group_max_size=1
+2026-02-16T01:11:56.440Z [INFO] groups_scraped_count=0
+2026-02-16T01:11:56.440Z [INFO] groups_skipped_unreachable_count=2
+2026-02-16T01:11:56.440Z [INFO] orgs_skipped_low_confidence_count=156
+2026-02-16T01:11:56.440Z [INFO] url_repair_attempted_count=2
+2026-02-16T01:11:56.440Z [INFO] url_repair_success_count=0
+2026-02-16T01:11:56.440Z [INFO] extra_attribution_associations_count=0
+2026-02-16T01:11:56.440Z [INFO] new_postings_count=0
+2026-02-16T01:11:56.440Z [INFO] email_sent=false
+2026-02-16T01:11:56.480Z === Weekly run finished 2026-02-16T01:11:56.480Z ===
