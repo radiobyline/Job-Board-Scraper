@@ -416,7 +416,7 @@
   {
     "orgName": "Frontenac",
     "orgType": "municipality",
-    "homepageUrl": "https://www.frontenaccounty.ca/en/index.aspx",
+    "homepageUrl": "https://www.frontenaccounty.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -458,7 +458,7 @@
   {
     "orgName": "Municipality of Brighton",
     "orgType": "municipality",
-    "homepageUrl": "http://www.brighton.ca/",
+    "homepageUrl": "https://www.brighton.ca/en/index.aspx",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -476,7 +476,7 @@
   {
     "orgName": "Municipality of Callander",
     "orgType": "municipality",
-    "homepageUrl": "https://www.mycallander.ca/",
+    "homepageUrl": "http://callander.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -506,7 +506,7 @@
   {
     "orgName": "Municipality of Centre Hastings",
     "orgType": "municipality",
-    "homepageUrl": "http://www.centrehastings.com/",
+    "homepageUrl": "https://www.centrehastings.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -536,7 +536,7 @@
   {
     "orgName": "Municipality of East Ferris",
     "orgType": "municipality",
-    "homepageUrl": "https://eastferris.ca/en",
+    "homepageUrl": "https://eastferris.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -908,7 +908,7 @@
   {
     "orgName": "Town of Bancroft",
     "orgType": "municipality",
-    "homepageUrl": "http://www.bancroft.ca/",
+    "homepageUrl": "https://www.bancroft.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1304,7 +1304,7 @@
   {
     "orgName": "Town of Rainy River",
     "orgType": "municipality",
-    "homepageUrl": "https://www.rainyriver.ca/en",
+    "homepageUrl": "https://www.rainyriver.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1316,7 +1316,7 @@
   {
     "orgName": "Town of Saugeen Shores",
     "orgType": "municipality",
-    "homepageUrl": "https://www.saugeenshores.ca/en/index.aspx",
+    "homepageUrl": "https://www.saugeenshores.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1502,7 +1502,7 @@
   {
     "orgName": "Township of Black River Matheson",
     "orgType": "municipality",
-    "homepageUrl": "https://blackriver-matheson.com/",
+    "homepageUrl": "http://blackriver-matheson.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1778,7 +1778,7 @@
   {
     "orgName": "Township of Georgian Bay",
     "orgType": "municipality",
-    "homepageUrl": "https://www.gbtownship.ca/en/index.aspx",
+    "homepageUrl": "https://www.gbtownship.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2000,7 +2000,7 @@
   {
     "orgName": "Township of Machin",
     "orgType": "municipality",
-    "homepageUrl": "http://www.visitmachin.com/",
+    "homepageUrl": "https://www.visitmachin.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2312,7 +2312,7 @@
   {
     "orgName": "Township of Sables Spanish Rivers",
     "orgType": "municipality",
-    "homepageUrl": "https://www.sables-spanish.ca/?doing_wp_cron=1771140234.2493290901184082031250",
+    "homepageUrl": "https://www.sables-spanish.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2420,7 +2420,7 @@
   {
     "orgName": "Township of Stirling-Rawdon",
     "orgType": "municipality",
-    "homepageUrl": "http://www.stirling-rawdon.com/",
+    "homepageUrl": "https://www.stirling-rawdon.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2528,7 +2528,7 @@
   {
     "orgName": "Township of Wellesley",
     "orgType": "municipality",
-    "homepageUrl": "http://www.wellesley.ca/",
+    "homepageUrl": "https://www.wellesley.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {

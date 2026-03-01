@@ -104,8 +104,8 @@
     "orgName": "Attawapiskat",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=143&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "http://www.attawapiskat.org/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Aundeck-Omni-Kaning",
@@ -185,8 +185,8 @@
     "orgName": "Bingwi Neyaashi Anishinaabek",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=196&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "http://www.bnafn.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Brunswick House",
@@ -311,8 +311,8 @@
     "orgName": "Deer Lake",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=237&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "http://deerlake.firstnation.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Delaware",
@@ -401,8 +401,8 @@
     "orgName": "Ginoogaming First Nation",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=185&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "https://www.ginoogamingfn.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Grassy Narrows First Nation",
@@ -509,8 +509,8 @@
     "orgName": "Lac Des Mille Lacs",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=189&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "https://www.lacdesmillelacsfirstnation.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Lac Seul",
@@ -662,8 +662,8 @@
     "orgName": "Mitaanjigamiing First Nation",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=133&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "https://mitaanjigamiing.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Mohawks of Akwesasne",
@@ -833,8 +833,8 @@
     "orgName": "North Spirit Lake",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=238&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "http://nsl.firstnation.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Northwest Angle No.33",
@@ -950,8 +950,8 @@
     "orgName": "Sagamok Anishnawbek",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=179&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "https://www.sagamokanishnawbek.com/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Sandy Lake",
@@ -1130,8 +1130,8 @@
     "orgName": "Wahnapitae",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=232&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "https://www.wahnapitaefirstnation.com/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Wahta Mohawk",
@@ -1175,8 +1175,8 @@
     "orgName": "Wasauksing First Nation",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=136&lang=eng",
-    "homepageUrl": "",
-    "notes": "Profile resolved but Web Site URL not provided in profile."
+    "homepageUrl": "https://wasauksing.ca/",
+    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
     "inputName": "Washagamis Bay",
