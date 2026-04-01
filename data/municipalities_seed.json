@@ -38,7 +38,7 @@
   {
     "orgName": "City of Cambridge",
     "orgType": "municipality",
-    "homepageUrl": "https://www.cambridge.ca/en/index.aspx",
+    "homepageUrl": "https://www.cambridge.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -194,7 +194,7 @@
   {
     "orgName": "City of Quinte West",
     "orgType": "municipality",
-    "homepageUrl": "http://www.quintewest.ca/",
+    "homepageUrl": "https://www.quintewest.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -740,7 +740,7 @@
   {
     "orgName": "Municipality of St. Charles",
     "orgType": "municipality",
-    "homepageUrl": "https://stcharlesontario.ca/",
+    "homepageUrl": "https://www.stcharlesontario.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -758,7 +758,7 @@
   {
     "orgName": "Municipality of The Nation",
     "orgType": "municipality",
-    "homepageUrl": "https://nationmun.ca/",
+    "homepageUrl": "https://www.nationmun.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -806,7 +806,7 @@
   {
     "orgName": "Municipality of West Perth",
     "orgType": "municipality",
-    "homepageUrl": "https://www.westperth.com/en/index.aspx",
+    "homepageUrl": "https://www.westperth.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1010,7 +1010,7 @@
   {
     "orgName": "Town of Essex",
     "orgType": "municipality",
-    "homepageUrl": "https://www.essex.ca/en/index.aspx",
+    "homepageUrl": "https://www.essex.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1040,7 +1040,7 @@
   {
     "orgName": "Town of Goderich",
     "orgType": "municipality",
-    "homepageUrl": "https://www.goderich.ca/en/index.aspx",
+    "homepageUrl": "https://www.goderich.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1112,7 +1112,7 @@
   {
     "orgName": "Town of Innisfil",
     "orgType": "municipality",
-    "homepageUrl": "https://innisfil.ca/en/index.aspx",
+    "homepageUrl": "https://www.innisfil.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1496,13 +1496,13 @@
   {
     "orgName": "Township of Beckwith",
     "orgType": "municipality",
-    "homepageUrl": "http://www.twp.beckwith.on.ca/",
+    "homepageUrl": "https://beckwith.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
     "orgName": "Township of Black River Matheson",
     "orgType": "municipality",
-    "homepageUrl": "http://blackriver-matheson.com/",
+    "homepageUrl": "https://www.twpbrm.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2030,7 +2030,7 @@
   {
     "orgName": "Township of Mapleton",
     "orgType": "municipality",
-    "homepageUrl": "https://mapleton.ca/",
+    "homepageUrl": "https://www.mapleton.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2180,7 +2180,7 @@
   {
     "orgName": "Township of North Huron",
     "orgType": "municipality",
-    "homepageUrl": "https://www.northhuron.ca/en/index.aspx",
+    "homepageUrl": "https://www.northhuron.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2402,7 +2402,7 @@
   {
     "orgName": "Township of Springwater",
     "orgType": "municipality",
-    "homepageUrl": "https://www.springwater.ca/en/index.aspx",
+    "homepageUrl": "https://www.springwater.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2504,13 +2504,13 @@
   {
     "orgName": "Township of Uxbridge",
     "orgType": "municipality",
-    "homepageUrl": "https://www.uxbridge.ca/en/index.aspx",
+    "homepageUrl": "https://www.uxbridge.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
     "orgName": "Township of Val Rita-Harty",
     "orgType": "municipality",
-    "homepageUrl": "https://valharty.ca/",
+    "homepageUrl": "http://www.valharty.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2643,6 +2643,12 @@
     "orgName": "Village of Sundridge",
     "orgType": "municipality",
     "homepageUrl": "https://www.sundridge.ca/",
+    "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
+  },
+  {
+    "orgName": "Village of Thornloe",
+    "orgType": "municipality",
+    "homepageUrl": "https://www.facebook.com/p/The-Village-Of-Thornloe-100089341984846",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
