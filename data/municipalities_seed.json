@@ -242,7 +242,7 @@
   {
     "orgName": "City of Thorold",
     "orgType": "municipality",
-    "homepageUrl": "https://www.thorold.ca/en/index.aspx",
+    "homepageUrl": "https://www.thorold.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -290,13 +290,13 @@
   {
     "orgName": "City of Woodstock",
     "orgType": "municipality",
-    "homepageUrl": "https://www.cityofwoodstock.ca/en/index.aspx",
+    "homepageUrl": "https://www.cityofwoodstock.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
     "orgName": "County of Brant",
     "orgType": "municipality",
-    "homepageUrl": "https://www.brant.ca/en/index.aspx",
+    "homepageUrl": "https://www.brant.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -494,7 +494,7 @@
   {
     "orgName": "Municipality of Central Huron",
     "orgType": "municipality",
-    "homepageUrl": "https://www.centralhuron.ca/en/index.aspx",
+    "homepageUrl": "https://www.centralhuron.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -992,7 +992,7 @@
   {
     "orgName": "Town of Englehart",
     "orgType": "municipality",
-    "homepageUrl": "https://www.englehart.ca/",
+    "homepageUrl": "https://englehart.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "orgName": "Town of Kearney",
     "orgType": "municipality",
-    "homepageUrl": "https://www.townofkearney.ca/",
+    "homepageUrl": "http://www.townofkearney.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1640,7 +1640,7 @@
   {
     "orgName": "Township of Conmee",
     "orgType": "municipality",
-    "homepageUrl": "https://www.conmee.com/",
+    "homepageUrl": "http://www.conmee.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1946,7 +1946,7 @@
   {
     "orgName": "Township of Lanark Highlands",
     "orgType": "municipality",
-    "homepageUrl": "http://www.lanarkhighlands.ca/",
+    "homepageUrl": "https://www.lanarkhighlands.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2018,7 +2018,7 @@
   {
     "orgName": "Township of Malahide",
     "orgType": "municipality",
-    "homepageUrl": "https://www.malahide.ca/en/index.aspx",
+    "homepageUrl": "https://www.malahide.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2330,7 +2330,7 @@
   {
     "orgName": "Township of Seguin",
     "orgType": "municipality",
-    "homepageUrl": "https://www.seguin.ca/en/index.aspx",
+    "homepageUrl": "https://www.seguin.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2456,7 +2456,7 @@
   {
     "orgName": "Township of Tay Valley",
     "orgType": "municipality",
-    "homepageUrl": "https://www.tayvalleytwp.ca/en/index.aspx",
+    "homepageUrl": "https://www.tayvalleytwp.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2510,7 +2510,7 @@
   {
     "orgName": "Township of Val Rita-Harty",
     "orgType": "municipality",
-    "homepageUrl": "http://www.valharty.ca/",
+    "homepageUrl": "https://valharty.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2522,7 +2522,7 @@
   {
     "orgName": "Township of Warwick",
     "orgType": "municipality",
-    "homepageUrl": "https://www.warwicktownship.ca/en/index.aspx",
+    "homepageUrl": "https://www.warwicktownship.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {

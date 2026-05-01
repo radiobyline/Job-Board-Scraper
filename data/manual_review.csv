@@ -1,177 +1,180 @@
 org_id,org_name,org_type,homepage_url,jobs_url,jobs_source_type,adapter,confidence,discovered_via,last_verified,notes
-fn-0445-albany,Albany,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0448-animakee-wa-zhing-37,Animakee Wa Zhing #37,first_nation,https://www.animakeewazhing37.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0450-anishinabe-of-wauzhushk-onigum,Anishinabe of Wauzhushk Onigum,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0451-anishnaabeg-of-naongashiing,Anishnaabeg of Naongashiing,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0453-aroland,Aroland,first_nation,https://www.arolandfirstnation.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0456-aundeck-omni-kaning,Aundeck-Omni-Kaning,first_nation,http://www.aundeckomnikaningfn.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0458-bay-of-quinte-mohawk,Bay of Quinte Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0459-bearfoot-onondaga,Bearfoot Onondaga,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0462-biigtigong-nishnaabeg,Biigtigong Nishnaabeg,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0465-brunswick-house,Brunswick House,first_nation,http://brunswickhousefirstnation.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0470-chippewas-of-georgina-island,Chippewas of Georgina Island,first_nation,http://www.georginaisland.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0473-chippewas-of-rama-first-nation,Chippewas of Rama First Nation,first_nation,http://www.mnjikaning.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0057-county-of-hastings,County of Hastings,municipality,https://www.hastingscounty.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0060-county-of-lanark,County of Lanark,municipality,http://www.county.lanark.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0477-curve-lake,Curve Lake,first_nation,http://www.curvelakefirstnation.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0478-deer-lake,Deer Lake,first_nation,http://deerlake.firstnation.ca/,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback. | No reliable jobs URL discovered automatically.
-fn-0479-delaware,Delaware,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0481-eabametoong-first-nation,Eabametoong First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0486-gakijiwanong-anishinaabe-nation,Gakijiwanong Anishinaabe Nation,first_nation,http://www.laclacroixfn.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0487-garden-river-first-nation,Garden River First Nation,first_nation,https://www.gardenriver.org/site,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0489-grassy-narrows-first-nation,Grassy Narrows First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0490-gull-bay,Gull Bay,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0493-iskatewizaagegan-39-independent-first-nation,Iskatewizaagegan #39 Independent First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0494-kasabonika-lake,Kasabonika Lake,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0495-kashechewan,Kashechewan,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0499-konadaha-seneca,Konadaha Seneca,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0503-lower-cayuga,Lower Cayuga,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0504-lower-mohawk,Lower Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0508-matachewan,Matachewan,first_nation,https://www.matachewanfirstnation.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0509-mattagami,Mattagami,first_nation,https://mattagami.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0519-mohawks-of-the-bay-of-quinte,Mohawks of the Bay of Quinte,first_nation,http://www.mbq-tmt.org/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0520-moose-cree-first-nation,Moose Cree First Nation,first_nation,http://www.moosecree.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0522-moravian-of-the-thames,Moravian of the Thames,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-mun-0080-municipality-of-callander,Municipality of Callander,municipality,http://callander.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0090-municipality-of-east-ferris,Municipality of East Ferris,municipality,https://eastferris.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0092-municipality-of-gordon-barrie-island,Municipality of Gordon/Barrie Island,municipality,https://www.gordonbarrieisland.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0100-municipality-of-kincardine,Municipality of Kincardine,municipality,http://www.kincardine.net/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0110-municipality-of-north-grenville,Municipality of North Grenville,municipality,http://www.northgrenville.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0114-municipality-of-oliver-paipoonge,Municipality of Oliver Paipoonge,municipality,http://www.oliverpaipoonge.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0120-municipality-of-south-bruce,Municipality of South Bruce,municipality,http://www.town.southbruce.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0124-municipality-of-st-charles,Municipality of St. Charles,municipality,https://www.stcharlesontario.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0527-naotkamegwanning,Naotkamegwanning,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0530-nibinamik-first-nation,Nibinamik First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0532-niharondasa-seneca,Niharondasa Seneca,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0533-niisaachewan-anishinaabe-nation,Niisaachewan Anishinaabe Nation,first_nation,https://www.niisaachewan.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0536-north-spirit-lake,North Spirit Lake,first_nation,http://nsl.firstnation.ca/,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback. | No reliable jobs URL discovered automatically.
-fn-0537-northwest-angle-no-33,Northwest Angle No.33,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0538-ojibway-nation-of-saugeen,Ojibway Nation of Saugeen,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0540-oneida,Oneida,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0542-onondaga-clear-sky,Onondaga Clear Sky,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0550-sandy-lake,Sandy Lake,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0552-seine-river-first-nation,Seine River First Nation,first_nation,http://seineriverfirstnation.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0562-thessalon,Thessalon,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-mun-0150-town-of-aurora,Town of Aurora,municipality,http://www.town.aurora.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0184-town-of-huntsville,Town of Huntsville,municipality,http://www.town.huntsville.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0206-town-of-niagara-on-the-lake,Town of Niagara-on-the-Lake,municipality,http://www.notl.org/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0218-town-of-rainy-river,Town of Rainy River,municipality,https://www.rainyriver.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0232-township-of-addington-highlands,Township of Addington Highlands,municipality,https://addingtonhighlands.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0239-township-of-alnwick-haldimand,Township of Alnwick/Haldimand,municipality,http://www.alnwickhaldimand.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0249-township-of-baldwin,Township of Baldwin,municipality,https://baldwin.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0250-township-of-beckwith,Township of Beckwith,municipality,https://beckwith.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0257-township-of-burpee-mills,Township of Burpee & Mills,municipality,https://www.burpeemills.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0265-township-of-chamberlain,Township of Chamberlain,municipality,https://www.chamberlaintownship.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0272-township-of-cockburn-island,Township of Cockburn Island,municipality,https://cockburnisland.ca/index.php,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0277-township-of-dawson,Township of Dawson,municipality,https://www.dawsontownship.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0289-township-of-enniskillen,Township of Enniskillen,municipality,https://www.enniskillen.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0291-township-of-evanturel,Township of Evanturel,municipality,https://evanturel.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0294-township-of-front-of-yonge,Township of Front of Yonge,municipality,http://www.frontofyonge.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0303-township-of-harley,Township of Harley,municipality,https://www.collegeresourcenetwork.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0304-township-of-harris,Township of Harris,municipality,https://harristownship.weebly.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0310-township-of-howick,Township of Howick,municipality,http://www.town.howick.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0318-township-of-kerns,Township of Kerns,municipality,https://kerns.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0321-township-of-la-vallee,Township of La Vallee,municipality,https://lavallee.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0340-township-of-matachewan,Township of Matachewan,municipality,https://www.matachewan.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0341-township-of-mattawan,Township of Mattawan,municipality,https://mattawan.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0342-township-of-mattice-val-cote,Township of Mattice-Val Cote,municipality,https://www.matticevalcote.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0352-township-of-moonbeam,Township of Moonbeam,municipality,http://www.moonbeam.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0353-township-of-morley,Township of Morley,municipality,https://townshipofmorley.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0365-township-of-north-kawartha,Township of North Kawartha,municipality,http://www.northkawartha.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0369-township-of-opasatika,Township of Opasatika,municipality,https://www.opasatika.net/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0372-township-of-papineau-cameron,Township of Papineau-Cameron,municipality,https://papineaucameron.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0373-township-of-pelee,Township of Pelee,municipality,https://www.pelee.org/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0377-township-of-pickle-lake,Township of Pickle Lake,municipality,http://www.picklelake.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0387-township-of-schreiber,Township of Schreiber,municipality,https://www.schreiber.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0394-township-of-south-frontenac,Township of South Frontenac,municipality,http://www.township.southfrontenac.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0402-township-of-st-clair,Township of St. Clair,municipality,https://www.stclairtownship.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0408-township-of-tarbutt,Township of Tarbutt,municipality,https://tarbutt.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0411-township-of-tehkummah,Township of Tehkummah,municipality,https://tehkummah.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0419-township-of-val-rita-harty,Township of Val Rita-Harty,municipality,http://www.valharty.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0563-tuscarora,Tuscarora,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-mun-0431-united-counties-of-prescott-and-russell,United Counties of Prescott and Russell,municipality,https://www.prescott-russell.on.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0564-upper-cayuga,Upper Cayuga,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0565-upper-mohawk,Upper Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-mun-0435-village-of-hilton-beach,Village of Hilton Beach,municipality,http://www.hiltonbeach.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-mun-0443-village-of-westport,Village of Westport,municipality,https://villageofwestport.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0567-wabauskang-first-nation,Wabauskang First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0570-wahta-mohawk,Wahta Mohawk,first_nation,http://www.wahta.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0571-walker-mohawk,Walker Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0573-wapekeka,Wapekeka,first_nation,http://www.wapekeka.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0575-washagamis-bay,Washagamis Bay,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0578-weenusk,Weenusk,first_nation,,,manual_review,manual,0.0,manual,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
-fn-0580-whitesand,Whitesand,first_nation,http://www.wsfn.ca/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0582-wunnumin,Wunnumin,first_nation,https://wunnumin.com/,,manual_review,manual,0.0,manual,2026-04-01,No reliable jobs URL discovered automatically.
-fn-0449-animbiigoo-zaagi-igan-anishinaabek,Animbiigoo Zaagi'igan Anishinaabek,first_nation,http://www.aza.ca/,http://www.aza.ca/employment--training,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0455-attawapiskat,Attawapiskat,first_nation,http://www.attawapiskat.org/,http://www.attawapiskat.org/,unknown,generic_dom,0.5,link_text,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
-fn-0460-bearskin-lake,Bearskin Lake,first_nation,https://www.windigo.on.ca/bearskin-lake-first-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0467-cat-lake,Cat Lake,first_nation,https://www.catlakefirstnation.com/,https://www.catlakefirstnation.com/about/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0013-city-of-greater-sudbury,City of Greater Sudbury,municipality,https://www.greatersudbury.ca/,https://www.greatersudbury.ca/city-hall/jobs-at-the-city,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0039-city-of-stratford,City of Stratford,municipality,https://www.stratford.ca/en/index.aspx,https://stratford.hiringplatform.ca/list/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0045-city-of-vaughan,City of Vaughan,municipality,http://www.vaughan.ca/,https://www.vaughan.ca/about-city-vaughan/employment-opportunities,unknown,generic_dom,0.5,manual,2026-04-01,No reliable jobs URL discovered automatically. | Jobs URL discovered via web research fallback.
-fn-0475-constance-lake,Constance Lake,first_nation,https://constancelake.ca/,https://constancelake.ca/work-for-us,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0484-fort-severn,Fort Severn,first_nation,https://kochiefs.ca/first-nations/fort-severn,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0496-keewaywin-first-nation,Keewaywin First Nation,first_nation,https://kochiefs.ca/first-nations/keewaywin,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0506-magnetawan,Magnetawan,first_nation,https://www.magfn.com/,https://www.magfn.com/,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0510-mcdowell-lake,McDowell Lake,first_nation,https://kochiefs.ca/first-nations/mcdowell-lake,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0512-mishkeegogamang,Mishkeegogamang,first_nation,http://www.mishkeegogamang.ca/,https://mishkeegogamang.ca/services/education,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0514-mississauga,Mississauga,first_nation,http://www.mississaugi.com/,https://www.mississaugi.com/employment,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0515-mississaugas-of-scugog-island-first-nation,Mississaugas of Scugog Island First Nation,first_nation,http://www.scugogfirstnation.com/,https://www.scugogfirstnation.com/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0516-mississaugas-of-the-credit,Mississaugas of the Credit,first_nation,http://www.mncfn.ca/,https://mncfn.ca/departments/employment-training-2,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0521-moose-deer-point,Moose Deer Point,first_nation,https://www.moosedeerpoint.ca/,https://www.moosedeerpoint.ca/employment-opportunities,unknown,generic_dom,0.5,path_guess,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
-mun-0079-municipality-of-brooke-alvinston,Municipality of Brooke-Alvinston,municipality,https://www.brookealvinston.com/,https://brookealvinston.com/residents/employment-opportunities-2,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0088-municipality-of-dutton-dunwich,Municipality of Dutton/Dunwich,municipality,https://www.duttondunwich.on.ca/,https://www.duttondunwich.on.ca/municipal-services/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0108-municipality-of-morris-turnberry,Municipality of Morris-Turnberry,municipality,https://morristurnberry.ca/,https://morristurnberry.ca/government/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0123-municipality-of-southwest-middlesex,Municipality of Southwest Middlesex,municipality,https://www.southwestmiddlesex.ca/,https://www.southwestmiddlesex.ca/administration/structure/menus/main-navigation/join-our-team,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0528-neskantaga-first-nation,Neskantaga First Nation,first_nation,https://neskantaga.com/,https://neskantaga.com/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0531-nigigoonsiminikaaning-first-nation,Nigigoonsiminikaaning First Nation,first_nation,https://nigigoonsiminikaaning.ca/,https://nigigoonsiminikaaning.ca/category/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0535-north-caribou-lake,North Caribou Lake,first_nation,https://www.windigo.on.ca/north-caribou-lake-first-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0545-poplar-hill,Poplar Hill,first_nation,https://kochiefs.ca/first-nations/poplar-hill,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0141-regional-municipality-of-niagara,Regional Municipality of Niagara,municipality,https://www.niagararegion.ca/,https://www.niagararegion.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0548-sachigo-lake,Sachigo Lake,first_nation,https://www.windigo.on.ca/sachigo-lake-first-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0549-sagamok-anishnawbek,Sagamok Anishnawbek,first_nation,https://www.sagamokanishnawbek.com/,https://www.sagamokanishnawbek.com/hr,unknown,generic_dom,0.5,path_guess,2026-04-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
-fn-0556-sheshegwaning,Sheshegwaning,first_nation,http://www.sheshegwaning.org/,http://www.sheshegwaning.org/energy-projects/employment-training-opportunities,unknown,generic_dom,0.5,link_text,2026-04-01,
-fn-0559-slate-falls-nation,Slate Falls Nation,first_nation,https://www.windigo.on.ca/slate-falls-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0151-town-of-aylmer,Town of Aylmer,municipality,https://aylmer.ca/,https://aylmer.ca/town-hall/request-for-proposal,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0157-town-of-caledon,Town of Caledon,municipality,https://www.caledon.ca/en/index.aspx,https://recruiting.ultipro.ca/COR5003CALED/JobBoard/55e2803a-385b-47b1-b911-51dd7ed81d1e?q=&o=postedDateDesc,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0163-town-of-deep-river,Town of Deep River,municipality,https://www.deepriver.ca/,https://www.deepriver.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0167-town-of-erin,Town of Erin,municipality,https://www.erin.ca/,https://www.erin.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0169-town-of-essex,Town of Essex,municipality,https://www.essex.ca/,https://www.essex.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0194-town-of-latchford,Town of Latchford,municipality,https://www.latchford.ca/,https://www.latchford.ca/employment-opportunity,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0195-town-of-laurentian-hills,Town of Laurentian Hills,municipality,https://www.laurentianhills.ca/,https://www.laurentianhills.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0198-town-of-mattawa,Town of Mattawa,municipality,https://www.mattawa.ca/en,https://www.mattawa.ca/en/your-government/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0233-township-of-adelaide-metcalfe,Township of Adelaide Metcalfe,municipality,https://www.adelaidemetcalfe.on.ca/,https://www.adelaidemetcalfe.on.ca/contact-us/employment,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0241-township-of-armour,Township of Armour,municipality,https://www.armourtownship.ca/,https://www.armourtownship.ca/employment-opportunities,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0246-township-of-athens,Township of Athens,municipality,https://athenstownship.ca/,https://athenstownship.ca/announcement/opportunity-to-comment-on-the-proposal-to-expand-charleston-lake-provincial-park,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0254-township-of-bonnechere-valley,Township of Bonnechere Valley,municipality,https://www.bonnecherevalleytwp.com/,https://www.bonnecherevalleytwp.com/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0258-township-of-calvin,Township of Calvin,municipality,https://www.calvintownship.ca/en,https://www.calvintownship.ca/en/municipal-services/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0260-township-of-carlow-mayo,Township of Carlow/Mayo,municipality,https://carlowmayo.ca/,https://carlowmayo.ca/council/tenders-rfqs-rfps-employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0261-township-of-casey,Township of Casey,municipality,https://casey.ca/,https://casey.ca/2025/12/03/job-opportunity-road-superintendent,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0274-township-of-conmee,Township of Conmee,municipality,https://www.conmee.com/,https://www.conmee.com/p/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0278-township-of-dorion,Township of Dorion,municipality,https://doriontownship.ca/,https://doriontownship.ca/township/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0280-township-of-drummond-north-elmsley,Township of Drummond-North Elmsley,municipality,http://www.dnetownship.ca/,https://www.dnetownship.ca/township-services/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0282-township-of-ear-falls,Township of Ear Falls,municipality,https://ear-falls.com/,https://ear-falls.com/business/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0292-township-of-faraday,Township of Faraday,municipality,https://faraday.ca/,https://faraday.ca/council/tenders-employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0306-township-of-hilliard,Township of Hilliard,municipality,https://townshipofhilliard.ca/,https://townshipofhilliard.ca/municipal-government/rfqs-and-rfps,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0307-township-of-hilton,Township of Hilton,municipality,https://www.hiltontownship.ca/,https://www.hiltontownship.ca/job-postings,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0308-township-of-hornepayne,Township of Hornepayne,municipality,https://www.townshipofhornepayne.ca/,https://www.townshipofhornepayne.ca/our-government/job-opportunities,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0309-township-of-horton,Township of Horton,municipality,https://www.hortontownship.ca/,https://www.hortontownship.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0311-township-of-hudson,Township of Hudson,municipality,https://hudson.ca/,https://hudson.ca/2025/12/03/job-opportunity-equipment-operator-full-time-position,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0314-township-of-james,Township of James,municipality,https://elklake.ca/,https://elklake.ca/employment,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0317-township-of-joly,Township of Joly,municipality,https://www.townshipofjoly.com/,https://www.townshipofjoly.com/en/contacts/job-opportunities,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0324-township-of-lake-of-the-woods,Township of Lake of the Woods,municipality,https://www.lakeofthewoods.ca/,https://www.lakeofthewoods.ca/2026/01/08/4053,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0325-township-of-lanark-highlands,Township of Lanark Highlands,municipality,http://www.lanarkhighlands.ca/,javascript:void(0);,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0333-township-of-machar,Township of Machar,municipality,http://www.machartownship.net/,http://www.machartownship.net/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0336-township-of-madoc,Township of Madoc,municipality,https://madoc.ca/,https://madoc.ca/council/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0337-township-of-malahide,Township of Malahide,municipality,https://www.malahide.ca/en/index.aspx,https://www.malahide.ca/en/index.aspx,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0339-township-of-mapleton,Township of Mapleton,municipality,https://www.mapleton.ca/,https://www.mapleton.ca/administration-and-town-hall/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0347-township-of-mcnab-braeside,Township of McNab-Braeside,municipality,https://mcnabbraeside.com/,https://mcnabbraeside.com/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0354-township-of-mulmur,Township of Mulmur,municipality,https://mulmur.ca/,https://mulmur.ca/work/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0358-township-of-nipissing,Township of Nipissing,municipality,https://nipissingtownship.com/,https://nipissingtownship.com/municipal-departments/meet-the-employees,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0364-township-of-north-huron,Township of North Huron,municipality,https://www.northhuron.ca/,https://www.northhuron.ca/build-invest-and-grow/doctor-recruitment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0367-township-of-norwich,Township of Norwich,municipality,https://www.norwich.ca/,https://www.norwich.ca/our-township/employment,unknown,generic_dom,0.5,link_text,2026-04-01,
-mun-0379-township-of-prince,Township of Prince,municipality,https://www.princetownship.ca/,https://www.princetownship.ca/join-our-team.html,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0426-township-of-whitewater-region,Township of Whitewater Region,municipality,https://www.whitewaterregion.ca/,https://www.whitewaterregion.ca/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0437-village-of-newbury,Village of Newbury,municipality,https://www.newbury.ca/,https://www.newbury.ca/government/careers,unknown,generic_dom,0.5,path_guess,2026-04-01,
-mun-0441-village-of-sundridge,Village of Sundridge,municipality,https://www.sundridge.ca/,https://www.sundridge.ca/jobs,unknown,generic_dom,0.5,path_guess,2026-04-01,
-fn-0577-webequie,Webequie,first_nation,http://www.webequie.ca/,http://www.webequie.ca/teaching-application,unknown,generic_dom,0.5,link_text,2026-04-01,
+fn-0445-albany,Albany,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0448-animakee-wa-zhing-37,Animakee Wa Zhing #37,first_nation,https://www.animakeewazhing37.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0450-anishinabe-of-wauzhushk-onigum,Anishinabe of Wauzhushk Onigum,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0451-anishnaabeg-of-naongashiing,Anishnaabeg of Naongashiing,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0453-aroland,Aroland,first_nation,https://www.arolandfirstnation.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0456-aundeck-omni-kaning,Aundeck-Omni-Kaning,first_nation,http://www.aundeckomnikaningfn.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0458-bay-of-quinte-mohawk,Bay of Quinte Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0459-bearfoot-onondaga,Bearfoot Onondaga,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0462-biigtigong-nishnaabeg,Biigtigong Nishnaabeg,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0465-brunswick-house,Brunswick House,first_nation,http://brunswickhousefirstnation.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0473-chippewas-of-rama-first-nation,Chippewas of Rama First Nation,first_nation,http://www.mnjikaning.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0057-county-of-hastings,County of Hastings,municipality,https://www.hastingscounty.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0060-county-of-lanark,County of Lanark,municipality,http://www.county.lanark.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0477-curve-lake,Curve Lake,first_nation,http://www.curvelakefirstnation.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0478-deer-lake,Deer Lake,first_nation,http://deerlake.firstnation.ca/,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback. | No reliable jobs URL discovered automatically.
+fn-0479-delaware,Delaware,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0481-eabametoong-first-nation,Eabametoong First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0486-gakijiwanong-anishinaabe-nation,Gakijiwanong Anishinaabe Nation,first_nation,http://www.laclacroixfn.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0487-garden-river-first-nation,Garden River First Nation,first_nation,https://www.gardenriver.org/site,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0489-grassy-narrows-first-nation,Grassy Narrows First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0490-gull-bay,Gull Bay,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0493-iskatewizaagegan-39-independent-first-nation,Iskatewizaagegan #39 Independent First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0494-kasabonika-lake,Kasabonika Lake,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0495-kashechewan,Kashechewan,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0499-konadaha-seneca,Konadaha Seneca,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0503-lower-cayuga,Lower Cayuga,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0504-lower-mohawk,Lower Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0507-marten-falls-first-nation,Marten Falls First Nation,first_nation,https://martenfalls.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0509-mattagami,Mattagami,first_nation,https://mattagami.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0519-mohawks-of-the-bay-of-quinte,Mohawks of the Bay of Quinte,first_nation,http://www.mbq-tmt.org/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0520-moose-cree-first-nation,Moose Cree First Nation,first_nation,http://www.moosecree.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0522-moravian-of-the-thames,Moravian of the Thames,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+mun-0080-municipality-of-callander,Municipality of Callander,municipality,http://callander.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0086-municipality-of-charlton-and-dack,Municipality of Charlton and Dack,municipality,https://www.charltonanddack.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0090-municipality-of-east-ferris,Municipality of East Ferris,municipality,https://eastferris.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0100-municipality-of-kincardine,Municipality of Kincardine,municipality,http://www.kincardine.net/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0110-municipality-of-north-grenville,Municipality of North Grenville,municipality,http://www.northgrenville.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0114-municipality-of-oliver-paipoonge,Municipality of Oliver Paipoonge,municipality,http://www.oliverpaipoonge.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0120-municipality-of-south-bruce,Municipality of South Bruce,municipality,http://www.town.southbruce.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0124-municipality-of-st-charles,Municipality of St. Charles,municipality,https://www.stcharlesontario.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0526-naicatchewenin,Naicatchewenin,first_nation,http://naicatcheweninfirstnation.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0527-naotkamegwanning,Naotkamegwanning,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0532-niharondasa-seneca,Niharondasa Seneca,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0533-niisaachewan-anishinaabe-nation,Niisaachewan Anishinaabe Nation,first_nation,https://www.niisaachewan.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0536-north-spirit-lake,North Spirit Lake,first_nation,http://nsl.firstnation.ca/,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback. | No reliable jobs URL discovered automatically.
+fn-0537-northwest-angle-no-33,Northwest Angle No.33,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0538-ojibway-nation-of-saugeen,Ojibway Nation of Saugeen,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0540-oneida,Oneida,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0542-onondaga-clear-sky,Onondaga Clear Sky,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0550-sandy-lake,Sandy Lake,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0552-seine-river-first-nation,Seine River First Nation,first_nation,http://seineriverfirstnation.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0562-thessalon,Thessalon,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+mun-0150-town-of-aurora,Town of Aurora,municipality,http://www.town.aurora.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0184-town-of-huntsville,Town of Huntsville,municipality,http://www.town.huntsville.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0189-town-of-kearney,Town of Kearney,municipality,http://www.townofkearney.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0206-town-of-niagara-on-the-lake,Town of Niagara-on-the-Lake,municipality,http://www.notl.org/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0218-town-of-rainy-river,Town of Rainy River,municipality,https://www.rainyriver.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0232-township-of-addington-highlands,Township of Addington Highlands,municipality,https://addingtonhighlands.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0239-township-of-alnwick-haldimand,Township of Alnwick/Haldimand,municipality,http://www.alnwickhaldimand.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0249-township-of-baldwin,Township of Baldwin,municipality,https://baldwin.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0250-township-of-beckwith,Township of Beckwith,municipality,https://beckwith.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0265-township-of-chamberlain,Township of Chamberlain,municipality,https://www.chamberlaintownship.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0272-township-of-cockburn-island,Township of Cockburn Island,municipality,https://cockburnisland.ca/index.php,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0274-township-of-conmee,Township of Conmee,municipality,http://www.conmee.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0276-township-of-dawn-euphemia,Township of Dawn-Euphemia,municipality,https://dawneuphemia.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0277-township-of-dawson,Township of Dawson,municipality,https://www.dawsontownship.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0289-township-of-enniskillen,Township of Enniskillen,municipality,https://www.enniskillen.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0291-township-of-evanturel,Township of Evanturel,municipality,https://evanturel.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0294-township-of-front-of-yonge,Township of Front of Yonge,municipality,http://www.frontofyonge.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0303-township-of-harley,Township of Harley,municipality,https://www.collegeresourcenetwork.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0304-township-of-harris,Township of Harris,municipality,https://harristownship.weebly.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0310-township-of-howick,Township of Howick,municipality,http://www.town.howick.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0318-township-of-kerns,Township of Kerns,municipality,https://kerns.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0321-township-of-la-vallee,Township of La Vallee,municipality,https://lavallee.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0340-township-of-matachewan,Township of Matachewan,municipality,https://www.matachewan.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0341-township-of-mattawan,Township of Mattawan,municipality,https://mattawan.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0342-township-of-mattice-val-cote,Township of Mattice-Val Cote,municipality,https://www.matticevalcote.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0352-township-of-moonbeam,Township of Moonbeam,municipality,http://www.moonbeam.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0353-township-of-morley,Township of Morley,municipality,https://townshipofmorley.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0365-township-of-north-kawartha,Township of North Kawartha,municipality,http://www.northkawartha.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0369-township-of-opasatika,Township of Opasatika,municipality,https://www.opasatika.net/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0372-township-of-papineau-cameron,Township of Papineau-Cameron,municipality,https://papineaucameron.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0377-township-of-pickle-lake,Township of Pickle Lake,municipality,http://www.picklelake.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0387-township-of-schreiber,Township of Schreiber,municipality,https://www.schreiber.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0394-township-of-south-frontenac,Township of South Frontenac,municipality,http://www.township.southfrontenac.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0402-township-of-st-clair,Township of St. Clair,municipality,https://www.stclairtownship.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0411-township-of-tehkummah,Township of Tehkummah,municipality,https://tehkummah.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0563-tuscarora,Tuscarora,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+mun-0431-united-counties-of-prescott-and-russell,United Counties of Prescott and Russell,municipality,https://www.prescott-russell.on.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0564-upper-cayuga,Upper Cayuga,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0565-upper-mohawk,Upper Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+mun-0435-village-of-hilton-beach,Village of Hilton Beach,municipality,http://www.hiltonbeach.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+mun-0443-village-of-westport,Village of Westport,municipality,https://villageofwestport.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0567-wabauskang-first-nation,Wabauskang First Nation,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0570-wahta-mohawk,Wahta Mohawk,first_nation,http://www.wahta.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0571-walker-mohawk,Walker Mohawk,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0573-wapekeka,Wapekeka,first_nation,http://www.wapekeka.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0575-washagamis-bay,Washagamis Bay,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0578-weenusk,Weenusk,first_nation,,,manual_review,manual,0.0,manual,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage URL unavailable.
+fn-0580-whitesand,Whitesand,first_nation,http://www.wsfn.ca/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0582-wunnumin,Wunnumin,first_nation,https://wunnumin.com/,,manual_review,manual,0.0,manual,2026-05-01,No reliable jobs URL discovered automatically.
+fn-0449-animbiigoo-zaagi-igan-anishinaabek,Animbiigoo Zaagi'igan Anishinaabek,first_nation,http://www.aza.ca/,http://www.aza.ca/employment--training,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0455-attawapiskat,Attawapiskat,first_nation,http://www.attawapiskat.org/,http://www.attawapiskat.org/,unknown,generic_dom,0.5,link_text,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
+fn-0460-bearskin-lake,Bearskin Lake,first_nation,https://www.windigo.on.ca/bearskin-lake-first-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0467-cat-lake,Cat Lake,first_nation,https://www.catlakefirstnation.com/,https://www.catlakefirstnation.com/about/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0472-chippewas-of-nawash-first-nation,Chippewas of Nawash First Nation,first_nation,http://www.nawash.ca/,https://www.nawash.ca/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0013-city-of-greater-sudbury,City of Greater Sudbury,municipality,https://www.greatersudbury.ca/,https://www.greatersudbury.ca/city-hall/jobs-at-the-city,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0039-city-of-stratford,City of Stratford,municipality,https://www.stratford.ca/en/index.aspx,https://stratford.hiringplatform.ca/list/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0045-city-of-vaughan,City of Vaughan,municipality,http://www.vaughan.ca/,https://www.vaughan.ca/about-city-vaughan/employment-opportunities,unknown,generic_dom,0.5,manual,2026-05-01,No reliable jobs URL discovered automatically. | Jobs URL discovered via web research fallback.
+fn-0475-constance-lake,Constance Lake,first_nation,https://constancelake.ca/,https://constancelake.ca/work-for-us,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0484-fort-severn,Fort Severn,first_nation,https://kochiefs.ca/first-nations/fort-severn,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0496-keewaywin-first-nation,Keewaywin First Nation,first_nation,https://kochiefs.ca/first-nations/keewaywin,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0510-mcdowell-lake,McDowell Lake,first_nation,https://kochiefs.ca/first-nations/mcdowell-lake,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0512-mishkeegogamang,Mishkeegogamang,first_nation,http://www.mishkeegogamang.ca/,https://mishkeegogamang.ca/services/education,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0514-mississauga,Mississauga,first_nation,http://www.mississaugi.com/,https://www.mississaugi.com/employment,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0515-mississaugas-of-scugog-island-first-nation,Mississaugas of Scugog Island First Nation,first_nation,http://www.scugogfirstnation.com/,https://www.scugogfirstnation.com/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0516-mississaugas-of-the-credit,Mississaugas of the Credit,first_nation,http://www.mncfn.ca/,https://mncfn.ca/departments/employment-training-2,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0521-moose-deer-point,Moose Deer Point,first_nation,https://www.moosedeerpoint.ca/,https://www.moosedeerpoint.ca/employment-opportunities,unknown,generic_dom,0.5,path_guess,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
+mun-0079-municipality-of-brooke-alvinston,Municipality of Brooke-Alvinston,municipality,https://www.brookealvinston.com/,https://brookealvinston.com/residents/employment-opportunities-2,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0088-municipality-of-dutton-dunwich,Municipality of Dutton/Dunwich,municipality,https://www.duttondunwich.on.ca/,https://www.duttondunwich.on.ca/municipal-services/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0092-municipality-of-gordon-barrie-island,Municipality of Gordon/Barrie Island,municipality,https://www.gordonbarrieisland.ca/,https://www.gordonbarrieisland.ca/jobs,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0103-municipality-of-magnetawan,Municipality of Magnetawan,municipality,https://magnetawan.com/,https://magnetawan.com/government/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0108-municipality-of-morris-turnberry,Municipality of Morris-Turnberry,municipality,https://morristurnberry.ca/,https://morristurnberry.ca/government/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0123-municipality-of-southwest-middlesex,Municipality of Southwest Middlesex,municipality,https://www.southwestmiddlesex.ca/,https://www.southwestmiddlesex.ca/administration/structure/menus/main-navigation/join-our-team,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0134-municipality-of-west-nipissing,Municipality of West Nipissing,municipality,https://www.westnipissing.ca/,https://www.westnipissing.ca/,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0528-neskantaga-first-nation,Neskantaga First Nation,first_nation,https://neskantaga.com/,https://neskantaga.com/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0530-nibinamik-first-nation,Nibinamik First Nation,first_nation,https://whc.ca/domain-names/auctions/nibinamik.ca,https://whc.ca/404-web-hosting-canada,unknown,generic_dom,0.5,path_guess,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
+fn-0531-nigigoonsiminikaaning-first-nation,Nigigoonsiminikaaning First Nation,first_nation,https://nigigoonsiminikaaning.ca/,https://nigigoonsiminikaaning.ca/category/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0535-north-caribou-lake,North Caribou Lake,first_nation,https://www.windigo.on.ca/north-caribou-lake-first-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0543-pays-plat,Pays Plat,first_nation,https://ppfn.ca/,https://ppfn.ca/careers,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0545-poplar-hill,Poplar Hill,first_nation,https://kochiefs.ca/first-nations/poplar-hill,https://recruiting.ultipro.ca/KEE5000NCC/JobBoard/0f7cbf31-f68f-4b9a-a175-34c1162ee91c,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0141-regional-municipality-of-niagara,Regional Municipality of Niagara,municipality,https://www.niagararegion.ca/,https://www.niagararegion.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0548-sachigo-lake,Sachigo Lake,first_nation,https://www.windigo.on.ca/sachigo-lake-first-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0549-sagamok-anishnawbek,Sagamok Anishnawbek,first_nation,https://www.sagamokanishnawbek.com/,https://www.sagamokanishnawbek.com/hr,unknown,generic_dom,0.5,path_guess,2026-05-01,Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback.
+fn-0556-sheshegwaning,Sheshegwaning,first_nation,http://www.sheshegwaning.org/,http://www.sheshegwaning.org/energy-projects/employment-training-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0559-slate-falls-nation,Slate Falls Nation,first_nation,https://www.windigo.on.ca/slate-falls-nation,https://www.windigo.on.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0151-town-of-aylmer,Town of Aylmer,municipality,https://aylmer.ca/,https://aylmer.ca/town-hall/request-for-proposal,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0157-town-of-caledon,Town of Caledon,municipality,https://www.caledon.ca/en/index.aspx,https://recruiting.ultipro.ca/COR5003CALED/JobBoard/55e2803a-385b-47b1-b911-51dd7ed81d1e?q=&o=postedDateDesc,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0163-town-of-deep-river,Town of Deep River,municipality,https://www.deepriver.ca/,https://www.deepriver.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0167-town-of-erin,Town of Erin,municipality,https://www.erin.ca/,https://www.erin.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0169-town-of-essex,Town of Essex,municipality,https://www.essex.ca/,https://www.essex.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0194-town-of-latchford,Town of Latchford,municipality,https://www.latchford.ca/,https://www.latchford.ca/employment-opportunity,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0195-town-of-laurentian-hills,Town of Laurentian Hills,municipality,https://www.laurentianhills.ca/,https://www.laurentianhills.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0198-town-of-mattawa,Town of Mattawa,municipality,https://www.mattawa.ca/en,https://www.mattawa.ca/en/your-government/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0212-town-of-penetanguishene,Town of Penetanguishene,municipality,https://www.penetanguishene.ca/,https://www.penetanguishene.ca/townhall/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0233-township-of-adelaide-metcalfe,Township of Adelaide Metcalfe,municipality,https://www.adelaidemetcalfe.on.ca/,https://www.adelaidemetcalfe.on.ca/contact-us/employment,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0241-township-of-armour,Township of Armour,municipality,https://www.armourtownship.ca/,https://www.armourtownship.ca/employment-opportunities,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0254-township-of-bonnechere-valley,Township of Bonnechere Valley,municipality,https://www.bonnecherevalleytwp.com/,https://www.bonnecherevalleytwp.com/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0257-township-of-burpee-mills,Township of Burpee & Mills,municipality,https://www.burpeemills.com/,https://www.burpeemills.com/municipality/employment-opportunity,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0258-township-of-calvin,Township of Calvin,municipality,https://www.calvintownship.ca/en,https://www.calvintownship.ca/en/municipal-services/employment-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0260-township-of-carlow-mayo,Township of Carlow/Mayo,municipality,https://carlowmayo.ca/,https://carlowmayo.ca/council/tenders-rfqs-rfps-employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0261-township-of-casey,Township of Casey,municipality,https://casey.ca/,https://casey.ca/2025/12/03/job-opportunity-road-superintendent,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0278-township-of-dorion,Township of Dorion,municipality,https://doriontownship.ca/,https://doriontownship.ca/township/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0280-township-of-drummond-north-elmsley,Township of Drummond-North Elmsley,municipality,http://www.dnetownship.ca/,https://www.dnetownship.ca/township-services/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0282-township-of-ear-falls,Township of Ear Falls,municipality,https://ear-falls.com/,https://ear-falls.com/business/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0292-township-of-faraday,Township of Faraday,municipality,https://faraday.ca/,https://faraday.ca/council/tenders-employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0306-township-of-hilliard,Township of Hilliard,municipality,https://townshipofhilliard.ca/,https://townshipofhilliard.ca/municipal-government/rfqs-and-rfps,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0307-township-of-hilton,Township of Hilton,municipality,https://www.hiltontownship.ca/,https://www.hiltontownship.ca/job-postings,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0308-township-of-hornepayne,Township of Hornepayne,municipality,https://www.townshipofhornepayne.ca/,https://www.townshipofhornepayne.ca/our-government/job-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0309-township-of-horton,Township of Horton,municipality,https://www.hortontownship.ca/,https://www.hortontownship.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0311-township-of-hudson,Township of Hudson,municipality,https://hudson.ca/,https://hudson.ca/2025/12/03/job-opportunity-equipment-operator-full-time-position,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0314-township-of-james,Township of James,municipality,https://elklake.ca/,https://elklake.ca/employment,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0317-township-of-joly,Township of Joly,municipality,https://www.townshipofjoly.com/,https://www.townshipofjoly.com/en/contacts/job-opportunities,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0324-township-of-lake-of-the-woods,Township of Lake of the Woods,municipality,https://www.lakeofthewoods.ca/,https://www.lakeofthewoods.ca/2026/01/08/4053,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0333-township-of-machar,Township of Machar,municipality,http://www.machartownship.net/,http://www.machartownship.net/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0339-township-of-mapleton,Township of Mapleton,municipality,https://www.mapleton.ca/,https://www.mapleton.ca/administration-and-town-hall/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0347-township-of-mcnab-braeside,Township of McNab-Braeside,municipality,https://mcnabbraeside.com/,https://mcnabbraeside.com/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0354-township-of-mulmur,Township of Mulmur,municipality,https://mulmur.ca/,https://mulmur.ca/work/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0358-township-of-nipissing,Township of Nipissing,municipality,https://nipissingtownship.com/,https://nipissingtownship.com/municipal-departments/meet-the-employees,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0364-township-of-north-huron,Township of North Huron,municipality,https://www.northhuron.ca/,https://www.northhuron.ca/build-invest-and-grow/doctor-recruitment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0367-township-of-norwich,Township of Norwich,municipality,https://www.norwich.ca/,https://www.norwich.ca/our-township/employment,unknown,generic_dom,0.5,link_text,2026-05-01,
+mun-0379-township-of-prince,Township of Prince,municipality,https://www.princetownship.ca/,https://www.princetownship.ca/join-our-team.html,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0392-township-of-sioux-narrows-nestor-falls,Township of Sioux Narrows - Nestor Falls,municipality,https://www.snnf.ca/,https://www.snnf.ca/career-opportunities,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0409-township-of-tay,Township of Tay,municipality,https://www.tay.ca/,https://www.tay.ca/municipal-government/employment,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0426-township-of-whitewater-region,Township of Whitewater Region,municipality,https://www.whitewaterregion.ca/,https://www.whitewaterregion.ca/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0437-village-of-newbury,Village of Newbury,municipality,https://www.newbury.ca/,https://www.newbury.ca/government/careers,unknown,generic_dom,0.5,path_guess,2026-05-01,
+mun-0441-village-of-sundridge,Village of Sundridge,municipality,https://www.sundridge.ca/,https://www.sundridge.ca/jobs,unknown,generic_dom,0.5,path_guess,2026-05-01,
+fn-0577-webequie,Webequie,first_nation,http://www.webequie.ca/,http://www.webequie.ca/teaching-application,unknown,generic_dom,0.5,link_text,2026-05-01,
+fn-0583-zhiibaahaasing-first-nation,Zhiibaahaasing First Nation,first_nation,http://www.uccmm.ca/zhiibaahaasing.html,http://www.uccmm.ca/employment-opportunities.html,unknown,generic_dom,0.5,path_guess,2026-05-01,
