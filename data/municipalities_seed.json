@@ -8,7 +8,7 @@
   {
     "orgName": "City of Belleville",
     "orgType": "municipality",
-    "homepageUrl": "https://www.belleville.ca/en/index.aspx",
+    "homepageUrl": "https://www.belleville.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -20,7 +20,7 @@
   {
     "orgName": "City of Brantford",
     "orgType": "municipality",
-    "homepageUrl": "https://www.brantford.ca/en/index.aspx",
+    "homepageUrl": "https://www.brantford.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -56,7 +56,7 @@
   {
     "orgName": "City of Cornwall",
     "orgType": "municipality",
-    "homepageUrl": "https://www.cornwall.ca/en/index.aspx",
+    "homepageUrl": "https://www.cornwall.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -68,7 +68,7 @@
   {
     "orgName": "City of Elliot Lake",
     "orgType": "municipality",
-    "homepageUrl": "https://www.elliotlake.ca/en/index.aspx",
+    "homepageUrl": "https://www.elliotlake.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -146,7 +146,7 @@
   {
     "orgName": "City of Orillia",
     "orgType": "municipality",
-    "homepageUrl": "https://www.orillia.ca/en/index.aspx",
+    "homepageUrl": "https://www.orillia.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -224,13 +224,13 @@
   {
     "orgName": "City of St. Catharines",
     "orgType": "municipality",
-    "homepageUrl": "https://www.stcatharines.ca/en/index.aspx",
+    "homepageUrl": "https://www.stcatharines.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
     "orgName": "City of Stratford",
     "orgType": "municipality",
-    "homepageUrl": "https://www.stratford.ca/en/index.aspx",
+    "homepageUrl": "https://www.stratford.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -332,7 +332,7 @@
   {
     "orgName": "County of Haliburton",
     "orgType": "municipality",
-    "homepageUrl": "https://www.haliburtoncounty.ca/en/index.aspx",
+    "homepageUrl": "https://www.haliburtoncounty.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -362,7 +362,7 @@
   {
     "orgName": "County of Lennox and Addington",
     "orgType": "municipality",
-    "homepageUrl": "https://lennox-addington.on.ca/",
+    "homepageUrl": "https://www.lennox-addington.on.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -386,7 +386,7 @@
   {
     "orgName": "County of Perth",
     "orgType": "municipality",
-    "homepageUrl": "https://www.perthcounty.ca/en/index.aspx",
+    "homepageUrl": "https://www.perthcounty.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -398,7 +398,7 @@
   {
     "orgName": "County of Renfrew",
     "orgType": "municipality",
-    "homepageUrl": "https://www.countyofrenfrew.on.ca/en/index.aspx",
+    "homepageUrl": "https://www.countyofrenfrew.on.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -428,7 +428,7 @@
   {
     "orgName": "Leeds & Grenville",
     "orgType": "municipality",
-    "homepageUrl": "https://www.leedsgrenville.com/en/index.aspx",
+    "homepageUrl": "https://www.leedsgrenville.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -458,7 +458,7 @@
   {
     "orgName": "Municipality of Brighton",
     "orgType": "municipality",
-    "homepageUrl": "https://www.brighton.ca/en/index.aspx",
+    "homepageUrl": "https://www.brighton.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -488,7 +488,7 @@
   {
     "orgName": "Municipality of Central Elgin",
     "orgType": "municipality",
-    "homepageUrl": "https://www.centralelgin.org/en/index.aspx",
+    "homepageUrl": "https://www.centralelgin.org/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -572,7 +572,7 @@
   {
     "orgName": "Municipality of Highlands East",
     "orgType": "municipality",
-    "homepageUrl": "https://www.highlandseast.ca/en/index.aspx",
+    "homepageUrl": "https://www.highlandseast.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -608,7 +608,7 @@
   {
     "orgName": "Municipality of Leamington",
     "orgType": "municipality",
-    "homepageUrl": "https://www.leamington.ca/en/index.aspx",
+    "homepageUrl": "https://www.leamington.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -656,7 +656,7 @@
   {
     "orgName": "Municipality of North Grenville",
     "orgType": "municipality",
-    "homepageUrl": "http://www.northgrenville.ca/",
+    "homepageUrl": "https://www.northgrenville.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -788,7 +788,7 @@
   {
     "orgName": "Municipality of West Elgin",
     "orgType": "municipality",
-    "homepageUrl": "https://www.westelgin.net/en/index.aspx",
+    "homepageUrl": "https://www.westelgin.net/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -830,7 +830,7 @@
   {
     "orgName": "Regional Municipality of Durham",
     "orgType": "municipality",
-    "homepageUrl": "https://www.durham.ca/en/index.aspx",
+    "homepageUrl": "https://www.durham.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -854,7 +854,7 @@
   {
     "orgName": "Regional Municipality of Waterloo",
     "orgType": "municipality",
-    "homepageUrl": "http://www.regionofwaterloo.ca/en",
+    "homepageUrl": "https://www.regionofwaterloo.ca/en",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -878,7 +878,7 @@
   {
     "orgName": "Town of Ajax",
     "orgType": "municipality",
-    "homepageUrl": "https://www.ajax.ca/en/index.aspx",
+    "homepageUrl": "https://ajax.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -890,7 +890,7 @@
   {
     "orgName": "Town of Arnprior",
     "orgType": "municipality",
-    "homepageUrl": "https://www.arnprior.ca/en/index.aspx",
+    "homepageUrl": "https://www.arnprior.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -926,7 +926,7 @@
   {
     "orgName": "Town of Bradford West Gwillimbury",
     "orgType": "municipality",
-    "homepageUrl": "https://www.townofbwg.com/en/index.aspx",
+    "homepageUrl": "https://www.townofbwg.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "orgName": "Town of Kearney",
     "orgType": "municipality",
-    "homepageUrl": "http://www.townofkearney.com/",
+    "homepageUrl": "https://barboeket.nl/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1172,7 +1172,7 @@
   {
     "orgName": "Town of Lincoln",
     "orgType": "municipality",
-    "homepageUrl": "https://www.lincoln.ca/",
+    "homepageUrl": "http://www.lincoln.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1220,7 +1220,7 @@
   {
     "orgName": "Town of New Tecumseth",
     "orgType": "municipality",
-    "homepageUrl": "https://www.newtecumseth.ca/en/index.aspx",
+    "homepageUrl": "https://www.newtecumseth.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1334,7 +1334,7 @@
   {
     "orgName": "Town of South Bruce Peninsula",
     "orgType": "municipality",
-    "homepageUrl": "https://www.southbrucepeninsula.com/en/index.aspx",
+    "homepageUrl": "https://southbrucepeninsula.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1556,7 +1556,7 @@
   {
     "orgName": "Township of Carlow/Mayo",
     "orgType": "municipality",
-    "homepageUrl": "https://carlowmayo.ca/",
+    "homepageUrl": "https://www.carlowmayo.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1574,7 +1574,7 @@
   {
     "orgName": "Township of Central Frontenac",
     "orgType": "municipality",
-    "homepageUrl": "https://www.centralfrontenac.com/en/index.aspx",
+    "homepageUrl": "https://www.centralfrontenac.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1592,7 +1592,7 @@
   {
     "orgName": "Township of Champlain",
     "orgType": "municipality",
-    "homepageUrl": "https://www.champlain.ca/en/index.aspx",
+    "homepageUrl": "https://www.champlain.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1640,7 +1640,7 @@
   {
     "orgName": "Township of Conmee",
     "orgType": "municipality",
-    "homepageUrl": "http://www.conmee.com/",
+    "homepageUrl": "https://www.conmee.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1748,7 +1748,7 @@
   {
     "orgName": "Township of Faraday",
     "orgType": "municipality",
-    "homepageUrl": "https://faraday.ca/",
+    "homepageUrl": "https://www.faraday.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1766,7 +1766,7 @@
   {
     "orgName": "Township of Frontenac Islands",
     "orgType": "municipality",
-    "homepageUrl": "https://www.frontenacislands.ca/en/index.aspx",
+    "homepageUrl": "https://www.frontenacislands.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1790,7 +1790,7 @@
   {
     "orgName": "Township of Gillies",
     "orgType": "municipality",
-    "homepageUrl": "https://www.gilliestownship.com/en/index.aspx",
+    "homepageUrl": "https://www.gilliestownship.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1958,7 +1958,7 @@
   {
     "orgName": "Township of Laurentian Valley",
     "orgType": "municipality",
-    "homepageUrl": "https://www.lvtownship.ca/en/index.aspx",
+    "homepageUrl": "https://www.lvtownship.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -1988,7 +1988,7 @@
   {
     "orgName": "Township of Macdonald, Meredith & Aberdeen Add'l",
     "orgType": "municipality",
-    "homepageUrl": "https://echobay.ca/",
+    "homepageUrl": "https://www.echobay.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2012,7 +2012,7 @@
   {
     "orgName": "Township of Madoc",
     "orgType": "municipality",
-    "homepageUrl": "https://madoc.ca/",
+    "homepageUrl": "https://www.madoc.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2168,7 +2168,7 @@
   {
     "orgName": "Township of North Frontenac",
     "orgType": "municipality",
-    "homepageUrl": "https://www.northfrontenac.com/en/index.aspx",
+    "homepageUrl": "https://www.northfrontenac.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2252,7 +2252,7 @@
   {
     "orgName": "Township of Perth South",
     "orgType": "municipality",
-    "homepageUrl": "https://www.perthsouth.ca/en/index.aspx",
+    "homepageUrl": "https://www.perthsouth.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2312,13 +2312,13 @@
   {
     "orgName": "Township of Sables Spanish Rivers",
     "orgType": "municipality",
-    "homepageUrl": "https://www.sables-spanish.ca/",
+    "homepageUrl": "https://www.sables-spanish.ca/?doing_wp_cron=1782894334.4862179756164550781250",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
     "orgName": "Township of Schreiber",
     "orgType": "municipality",
-    "homepageUrl": "https://www.schreiber.ca/",
+    "homepageUrl": "https://schreiber.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2396,7 +2396,7 @@
   {
     "orgName": "Township of Spanish",
     "orgType": "municipality",
-    "homepageUrl": "https://www.townofspanish.com/",
+    "homepageUrl": "http://www.townofspanish.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2492,13 +2492,13 @@
   {
     "orgName": "Township of Tudor & Cashel",
     "orgType": "municipality",
-    "homepageUrl": "https://tudorandcashel.com/",
+    "homepageUrl": "https://www.tudorandcashel.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
     "orgName": "Township of Tyendinaga",
     "orgType": "municipality",
-    "homepageUrl": "https://tyendinagatownship.com/",
+    "homepageUrl": "https://www.tyendinagatownship.com/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2540,7 +2540,7 @@
   {
     "orgName": "Township of West Lincoln",
     "orgType": "municipality",
-    "homepageUrl": "https://www.westlincoln.ca/en/index.aspx",
+    "homepageUrl": "https://www.westlincoln.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2564,7 +2564,7 @@
   {
     "orgName": "Township of Wollaston",
     "orgType": "municipality",
-    "homepageUrl": "https://wollaston.ca/",
+    "homepageUrl": "https://www.wollaston.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {
@@ -2612,7 +2612,7 @@
   {
     "orgName": "Village of Merrickville-Wolford",
     "orgType": "municipality",
-    "homepageUrl": "http://www.merrickville-wolford.ca/",
+    "homepageUrl": "https://www.merrickville-wolford.ca/",
     "sourcePage": "https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities"
   },
   {

@@ -104,7 +104,7 @@
     "orgName": "Attawapiskat",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=143&lang=eng",
-    "homepageUrl": "http://www.attawapiskat.org/",
+    "homepageUrl": "https://attawapiskat.org/",
     "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
@@ -401,8 +401,8 @@
     "orgName": "Ginoogaming First Nation",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=185&lang=eng",
-    "homepageUrl": "https://www.ginoogamingfn.ca/",
-    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
+    "homepageUrl": "",
+    "notes": "Profile resolved but Web Site URL not provided in profile."
   },
   {
     "inputName": "Grassy Narrows First Nation",
@@ -779,7 +779,7 @@
     "orgName": "Nibinamik First Nation",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=241&lang=eng",
-    "homepageUrl": "https://whc.ca/domain-names/auctions/nibinamik.ca",
+    "homepageUrl": "https://nibinamik.ca/",
     "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
   },
   {
