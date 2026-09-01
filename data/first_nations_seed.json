@@ -662,8 +662,8 @@
     "orgName": "Mitaanjigamiing First Nation",
     "orgType": "first_nation",
     "profileUrl": "https://fnp-ppn.aadnc-aandc.gc.ca/fnp/main/Search/FNMain.aspx?BAND_NUMBER=133&lang=eng",
-    "homepageUrl": "https://mitaanjigamiing.ca/",
-    "notes": "Profile resolved but Web Site URL not provided in profile. | Homepage discovered via Wikidata fallback."
+    "homepageUrl": "",
+    "notes": "Profile resolved but Web Site URL not provided in profile."
   },
   {
     "inputName": "Mohawks of Akwesasne",
