@@ -1,0 +1,131 @@
+2026-09-14T13:46:10.073Z === Weekly run started 2026-09-14T13:46:10.073Z ===
+2026-09-14T13:46:10.142Z [INFO] run_id=27
+2026-09-14T13:46:10.142Z [INFO] eligible_orgs=442
+2026-09-14T13:46:10.142Z [INFO] unique_jobs_url_groups=431
+2026-09-14T13:46:16.643Z [WARN] URL unreachable after repair attempts: http://biggrassy.ca/about/jobs
+2026-09-14T13:47:45.525Z [WARN] URL unreachable after repair attempts: http://nalgonawil.com/opportunities-tenders
+2026-09-14T13:47:47.835Z [WARN] URL repaired: http://www.algonquinhighlands.ca/municipal-services/employment-and-volunteer-opportunities -> https://www.algonquinhighlands.ca/municipal-services/employment-and-volunteer-opportunities
+2026-09-14T13:47:49.961Z [WARN] URL repaired: http://www.bayham.on.ca/municipal-office/career-opportunities -> https://www.bayham.on.ca/municipal-office/career-opportunities
+2026-09-14T13:49:51.895Z [WARN] URL unreachable after repair attempts: http://www.bnafn.ca/employment-opportunities
+2026-09-14T13:49:53.109Z [WARN] URL repaired: http://www.hbmtwp.ca/township-services/careers-and-volunteering -> https://www.hbmtwp.ca/township-services/careers-and-volunteering
+2026-09-14T13:52:49.932Z [WARN] URL unreachable after repair attempts: http://www.hearst.ca/en/residents/foyer-des-pionniers/employment-opportunities
+2026-09-14T13:52:51.141Z [WARN] URL repaired: http://www.kapuskasing.ca/council-administration/employment-opportunities -> https://www.kapuskasing.ca/council-administration/employment-opportunities
+2026-09-14T13:52:56.185Z [WARN] URL repaired: http://www.stirling-rawdon.com/business-development/careers -> https://www.stirling-rawdon.com/business-development/careers
+2026-09-14T13:52:58.283Z [WARN] URL repaired: http://www.twpbrm.ca/your-township-government/employment-opportunities -> https://www.twpbrm.ca/your-township-government/employment-opportunities
+2026-09-14T13:53:00.295Z [WARN] URL repaired: http://www.uccmm.ca/employment-opportunities.html -> https://www.uccmm.ca/employment-opportunities.html
+2026-09-14T13:54:51.762Z [WARN] URL unreachable after repair attempts: https://adjtos.ca/municipal-government/employment-opportunities
+2026-09-14T13:56:44.191Z [WARN] URL unreachable after repair attempts: https://admastonbromley.com/employment-opportunities-tenders
+2026-09-14T13:59:42.890Z [WARN] URL unreachable after repair attempts: https://alberton.ca/employment
+2026-09-14T14:01:27.563Z [WARN] URL unreachable after repair attempts: https://alderville.ca/employment-opportunities
+2026-09-14T14:03:09.983Z [WARN] URL unreachable after repair attempts: https://apitipi.ca/employment
+2026-09-14T14:04:51.788Z [WARN] URL unreachable after repair attempts: https://atikamekshenganishnawbek.ca/employment-tenders
+2026-09-14T14:06:47.543Z [WARN] URL unreachable after repair attempts: https://attawapiskat.org/careers
+2026-09-14T14:08:29.906Z [WARN] URL unreachable after repair attempts: https://augusta.ca/employment
+2026-09-14T14:10:11.845Z [WARN] URL unreachable after repair attempts: https://aylmer.ca/town-hall/employment-opportunities
+2026-09-14T14:11:57.182Z [WARN] URL unreachable after repair attempts: https://blrtownship.ca/article/employment
+2026-09-14T14:13:38.846Z [WARN] URL unreachable after repair attempts: https://brockville.com/careers
+2026-09-14T14:15:20.807Z [WARN] URL unreachable after repair attempts: https://brucemines.ca/government/employment-opportunities
+2026-09-14T14:17:10.168Z [WARN] URL unreachable after repair attempts: https://casey.ca/2025/12/03/job-opportunity-road-superintendent
+2026-09-14T14:18:51.005Z [WARN] URL unreachable after repair attempts: https://chapleau.ca/business/resources/employment-volunteer-opportunities
+2026-09-14T14:20:40.635Z [WARN] URL unreachable after repair attempts: https://chapleaucree.ca/employment-opportunities
+2026-09-14T14:22:21.781Z [WARN] URL unreachable after repair attempts: https://chapple.on.ca/employment
+2026-09-14T14:23:40.462Z [WARN] URL unreachable after repair attempts: https://chatsworth.ca/government/employment-opportunities
+2026-09-14T14:25:22.260Z [WARN] URL unreachable after repair attempts: https://cobalt.ca/residents/municipal-services/employment-opportunities
+2026-09-14T14:27:04.020Z [WARN] URL unreachable after repair attempts: https://cochraneontario.com/living/employment-opportunities
+2026-09-14T14:30:04.477Z [WARN] URL unreachable after repair attempts: https://cottfn.com/departments/employment-and-training
+2026-09-14T14:31:50.861Z [WARN] URL unreachable after repair attempts: https://dokis.ca/employment-services
+2026-09-14T14:33:35.768Z [WARN] URL unreachable after repair attempts: https://dubreuilville.ca/township/employment-opportunities
+2026-09-14T14:36:21.208Z [WARN] URL unreachable after repair attempts: https://eaglelakefn.ca/employment
+2026-09-14T14:36:26.304Z [WARN] URL unreachable after repair attempts: https://ear-falls.com/business/employment
+2026-09-14T14:38:08.645Z [WARN] URL unreachable after repair attempts: https://emo.ca/tenders-careers
+2026-09-14T14:39:58.736Z [WARN] URL unreachable after repair attempts: https://fwfn.com/employment
+2026-09-14T14:41:36.349Z [WARN] URL unreachable after repair attempts: https://guelph.ca/employment-careers/careers-jobs
+2026-09-14T14:44:38.264Z [WARN] URL unreachable after repair attempts: https://huronshores.ca/business/employment
+2026-09-14T14:46:26.362Z [WARN] URL unreachable after repair attempts: https://jocelyn.ca/township-office/employment-opportunities
+2026-09-14T14:48:08.665Z [WARN] URL unreachable after repair attempts: https://kettlepoint.org/four-winds-community-employment-services
+2026-09-14T14:49:54.706Z [WARN] URL unreachable after repair attempts: https://lairdtownship.ca/employment-opportunities
+2026-09-14T14:51:47.801Z [WARN] URL unreachable after repair attempts: https://markstay-warren.ca/municipal-services/career-opportunities
+2026-09-14T14:53:41.279Z [WARN] URL unreachable after repair attempts: https://mchigeeng.ca/employment
+2026-09-14T14:55:26.630Z [WARN] URL unreachable after repair attempts: https://melancthontownship.ca/municipal-services/employment-opportunity
+2026-09-14T14:59:39.241Z [WARN] URL unreachable after repair attempts: https://michipicoten.com/aboriginal-job-opportunities
+2026-09-14T15:01:31.450Z [WARN] URL unreachable after repair attempts: https://mishkeegogamang.ca/services/education
+2026-09-14T15:03:14.801Z [WARN] URL unreachable after repair attempts: https://mncfn.ca/departments/employment-training-2
+2026-09-14T15:05:17.222Z [WARN] URL unreachable after repair attempts: https://nairncentre.ca/municipal-services/job-opportunities
+2026-09-14T15:07:11.701Z [WARN] URL unreachable after repair attempts: https://nawash.ca/employment
+2026-09-14T15:08:52.302Z [WARN] URL unreachable after repair attempts: https://neskantaga.com/employment
+2026-09-14T15:09:55.534Z [WARN] URL unreachable after repair attempts: https://nigigoonsiminikaaning.ca/category/employment
+2026-09-14T15:11:40.074Z [WARN] URL unreachable after repair attempts: https://petawawa.ca/town-hall/employment-opportunities
+2026-09-14T15:13:29.945Z [WARN] URL unreachable after repair attempts: https://plummertownship.ca/township-office/employment-opportunities
+2026-09-14T15:15:13.678Z [WARN] URL unreachable after repair attempts: https://ppfn.ca/careers
+2026-09-14T15:16:50.813Z [WARN] URL unreachable after repair attempts: https://puslinch.ca/doing-business/careers
+2026-09-14T15:18:33.568Z [WARN] URL unreachable after repair attempts: https://rainyriverfirstnations.com/careers
+2026-09-14T15:20:24.317Z [WARN] URL unreachable after repair attempts: https://redrocktownship.com/community/employment-opportunities
+2026-09-14T15:24:56.334Z [WARN] URL unreachable after repair attempts: https://saugeenfirstnation.com/employment-opportunities
+2026-09-14T15:26:38.347Z [WARN] URL unreachable after repair attempts: https://saultstemarie.ca/live/fire-services/firefighter-recruitment
+2026-09-14T15:29:16.041Z [WARN] URL unreachable after repair attempts: https://serpentriverfn.com/employment-opportunites/job_postings
+2026-09-14T15:32:05.386Z [WARN] URL unreachable after repair attempts: https://sheguiandahfn.ca/employment
+2026-09-14T15:33:48.671Z [WARN] URL unreachable after repair attempts: https://smoothrockfalls.ca/living/employment
+2026-09-14T15:35:31.452Z [WARN] URL unreachable after repair attempts: https://stjosephtownship.com/jobs
+2026-09-14T15:37:14.617Z [WARN] URL unreachable after repair attempts: https://tarbutt.ca/2026/08/25/current-job-posting-cao-clerk-deputy-treasurer
+2026-09-14T15:38:57.857Z [WARN] URL unreachable after repair attempts: https://taykwatagamou.com/about/careers
+2026-09-14T15:41:06.145Z [WARN] URL unreachable after repair attempts: https://temagamifirstnation.ca/employment
+2026-09-14T15:43:14.550Z [WARN] URL unreachable after repair attempts: https://thessalon.ca/council-and-government/employment-opportunities
+2026-09-14T15:44:57.553Z [WARN] URL unreachable after repair attempts: https://town.petrolia.on.ca/town-hall/employment
+2026-09-14T15:47:00.370Z [WARN] URL unreachable after repair attempts: https://townshipofhilliard.ca/municipal-government/rfqs-and-rfps
+2026-09-14T15:49:02.524Z [WARN] URL unreachable after repair attempts: https://townshipofperry.ca/employment-opportunities
+2026-09-14T15:50:44.705Z [WARN] URL unreachable after repair attempts: https://townshipofthenorthshore.ca/governing/employment
+2026-09-14T15:55:49.851Z [WARN] URL unreachable after repair attempts: https://valharty.ca/municipality/careers
+2026-09-14T15:57:34.549Z [WARN] URL unreachable after repair attempts: https://wabaseemoong.ca/ontario-works-employment-experience-program-opportunities
+2026-09-14T15:59:16.956Z [WARN] URL unreachable after repair attempts: https://wasauksing.ca/employment-opportunities
+2026-09-14T16:01:11.043Z [WARN] URL unreachable after repair attempts: https://www.aamjiwnaang.ca/employment-opportunities-3
+2026-09-14T16:03:33.205Z [WARN] URL unreachable after repair attempts: https://www.akrc.on.ca/category/employment
+2026-09-14T16:06:00.149Z [WARN] URL unreachable after repair attempts: https://www.centralfrontenac.com/township-office/employment-and-volunteering
+2026-09-14T16:06:34.498Z [WARN] URL unreachable after repair attempts: https://www.dnetownship.ca/township-services/employment
+2026-09-14T16:08:27.474Z [WARN] URL unreachable after repair attempts: https://www.elgincounty.ca/living-here/careers
+2026-09-14T16:08:53.849Z [WARN] URL unreachable after repair attempts: https://www.fauquierstrickland.com/avis/employment-opportunity-caoclerk
+2026-09-14T16:10:39.561Z [WARN] URL unreachable after repair attempts: https://www.frontenaccounty.ca/government/careers
+2026-09-14T16:12:24.113Z [WARN] URL unreachable after repair attempts: https://www.gardenriver.org/site/category/employment
+2026-09-14T16:14:42.528Z [WARN] URL unreachable after repair attempts: https://www.hiawathafirstnation.com/services-departments/employment
+2026-09-14T16:16:32.751Z [WARN] URL unreachable after repair attempts: https://www.hiltontownship.ca/job-postings
+2026-09-14T16:18:24.659Z [WARN] URL unreachable after repair attempts: https://www.huroncounty.ca/jobs
+2026-09-14T16:18:30.497Z [WARN] URL unreachable after repair attempts: https://www.ignace.ca/residents/community/volunteer-opportunities
+2026-09-14T16:19:02.083Z [WARN] URL unreachable after repair attempts: https://www.lambtononline.ca/en/resident-services/employment-services.aspx
+2026-09-14T16:20:56.687Z [WARN] URL unreachable after repair attempts: https://www.larderlake.ca/municipal-services/careers
+2026-09-14T16:21:21.601Z [WARN] URL unreachable after repair attempts: https://www.lincoln.ca/careers-volunteering-0
+2026-09-14T16:23:20.131Z [WARN] URL unreachable after repair attempts: https://www.magfn.com/careers
+2026-09-14T16:25:15.241Z [WARN] URL unreachable after repair attempts: https://www.meaford.ca/economic-profile
+2026-09-14T16:25:17.454Z [WARN] URL unreachable after repair attempts: https://www.merrickville-wolford.ca/governance/career-opportunities
+2026-09-14T16:27:04.570Z [WARN] URL unreachable after repair attempts: https://www.mississauga.ca/our-organization/jobs-and-volunteer
+2026-09-14T16:27:09.112Z [WARN] URL unreachable after repair attempts: https://www.montaguetownship.ca/government/media-centre/employment-opportunities
+2026-09-14T16:29:00.047Z [WARN] URL unreachable after repair attempts: https://www.moosonee.ca/careers
+2026-09-14T16:29:03.631Z [WARN] URL unreachable after repair attempts: https://www.municipalityofkillarney.ca/municipal-services/job-opportunities
+2026-09-14T16:29:14.131Z [WARN] URL unreachable after repair attempts: https://www.nipigon.net/invest-grow/business-development/employment-opportunities
+2026-09-14T16:31:12.529Z [WARN] URL unreachable after repair attempts: https://www.oakville.ca/town-hall/careers
+2026-09-14T16:33:24.266Z [WARN] URL unreachable after repair attempts: https://www.oconnortownship.ca/careers
+2026-09-14T16:33:36.561Z [WARN] URL unreachable after repair attempts: https://www.pelee.org/municipality/employment
+2026-09-14T16:34:01.388Z [WARN] URL unreachable after repair attempts: https://www.rideaulakes.ca/town-hall/services/employment-opportunities
+2026-09-14T16:35:55.408Z [WARN] URL unreachable after repair attempts: https://www.shibogama.on.ca/jobs
+2026-09-14T16:37:40.583Z [WARN] URL unreachable after repair attempts: https://www.shuniah.org/documents/employment
+2026-09-14T16:39:09.152Z [WARN] URL unreachable after repair attempts: https://www.sixnations.ca/careers
+2026-09-14T16:40:54.032Z [WARN] URL unreachable after repair attempts: https://www.southalgonquin.ca/article/employment
+2026-09-14T16:43:05.233Z [WARN] URL unreachable after repair attempts: https://www.terracebay.ca/living-here/community/employment-opportunities
+2026-09-14T16:44:52.132Z [WARN] URL unreachable after repair attempts: https://www.thecounty.ca/residents/employment
+2026-09-14T16:46:38.727Z [WARN] URL unreachable after repair attempts: https://www.toronto.ca/community-people/employment-social-support
+2026-09-14T16:48:25.983Z [WARN] URL unreachable after repair attempts: https://www.townofspanish.com/town-hall/employment-and-volunteer-opportunites
+2026-09-14T16:51:23.673Z [WARN] URL unreachable after repair attempts: https://www.wabuntribalcouncil.ca/careers
+2026-09-14T16:53:39.395Z [WARN] URL unreachable after repair attempts: https://www.wiikwemkoong.ca/employment-opportunities-for-college-university-students
+2026-09-14T16:53:45.354Z [WARN] Email send failed: Error: Invalid login: 535 5.7.8 Authentication failed
+2026-09-14T16:53:50.909Z [INFO] Google Sheets sync complete: updated=1897 inserted=71
+2026-09-14T16:53:50.914Z [INFO] total_orgs_in_csv=583
+2026-09-14T16:53:50.915Z [INFO] eligible_orgs_count=442
+2026-09-14T16:53:50.915Z [INFO] unique_jobs_url_groups_count=431
+2026-09-14T16:53:50.915Z [INFO] jobs_url_group_max_size=4
+2026-09-14T16:53:50.915Z [INFO] groups_scraped_count=326
+2026-09-14T16:53:50.915Z [INFO] groups_skipped_unreachable_count=105
+2026-09-14T16:53:50.915Z [INFO] orgs_skipped_low_confidence_count=141
+2026-09-14T16:53:50.915Z [INFO] url_repair_attempted_count=431
+2026-09-14T16:53:50.915Z [INFO] url_repair_success_count=7
+2026-09-14T16:53:50.916Z [INFO] extra_attribution_associations_count=9
+2026-09-14T16:53:50.916Z [INFO] new_postings_count=72
+2026-09-14T16:53:50.916Z [INFO] email_sent=false
+2026-09-14T16:53:50.939Z === Weekly run finished 2026-09-14T16:53:50.939Z ===
