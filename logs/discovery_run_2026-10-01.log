@@ -1,0 +1,759 @@
+2026-10-01T14:14:51.141Z === Discovery run started 2026-10-01T14:14:51.141Z ===
+2026-10-01T14:14:51.141Z [INFO] Discovery run date: 2026-10-01
+2026-10-01T14:14:51.141Z [INFO] Using First Nations input file: data/first_nations_input.txt
+2026-10-01T14:14:51.141Z [INFO] skip_municipalities=false
+2026-10-01T14:14:51.343Z [INFO] Fetching municipalities seed page: https://www.amo.on.ca/about-us/municipal-101/ontario-municipalities
+2026-10-01T14:14:51.661Z [INFO] Municipality candidates extracted: 444
+2026-10-01T14:16:31.760Z [INFO] Municipality seed finalized: 444
+2026-10-01T14:16:31.761Z [INFO] Processing municipality seeds: 444
+2026-10-01T14:16:33.865Z [INFO] municipality:City of Barrie => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:33.893Z [INFO] municipality:City of Brantford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:33.937Z [INFO] municipality:City of Belleville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:33.938Z [INFO] municipality:City of Burlington => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:16:34.879Z [INFO] municipality:City of Cambridge => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:34.951Z [INFO] municipality:City of Cornwall => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:35.430Z [INFO] municipality:City of Chatham-Kent => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:35.884Z [INFO] municipality:City of Dryden => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:16:37.946Z [INFO] municipality:City of Brampton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:38.110Z [INFO] municipality:City of Elliot Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:39.292Z [INFO] municipality:City of Kawartha Lakes => jobs_source_type=ats_taleo, confidence=1.0
+2026-10-01T14:16:40.078Z [INFO] municipality:City of Hamilton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:42.200Z [INFO] municipality:City of Kingston => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:42.507Z [INFO] municipality:City of Kenora => jobs_source_type=ats_bamboohr, confidence=1.0
+2026-10-01T14:16:43.580Z [INFO] municipality:City of Kitchener => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:44.553Z [INFO] municipality:City of London => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:48.457Z [INFO] municipality:City of Markham => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:51.011Z [INFO] municipality:City of Niagara Falls => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:16:52.059Z [INFO] municipality:City of North Bay => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:53.071Z [INFO] municipality:City of Orillia => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:16:54.264Z [INFO] municipality:City of Oshawa => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:56.818Z [INFO] municipality:City of Clarence-Rockland => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:58.832Z [INFO] municipality:City of Owen Sound => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:16:59.841Z [INFO] municipality:City of Pembroke => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:17:00.860Z [INFO] municipality:City of Peterborough => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:17:01.873Z [INFO] municipality:City of Pickering => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:17:03.959Z [INFO] municipality:City of Port Colborne => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:17:28.509Z [INFO] municipality:City of Ottawa => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:17:33.649Z [INFO] municipality:City of Richmond Hill => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:17:38.076Z [INFO] Search fallback query "City of Quinte West ontario careers" yielded 19 candidates.
+2026-10-01T14:18:12.512Z [INFO] municipality:City of Quinte West => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:18:17.002Z [INFO] municipality:City of Mississauga => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:18:44.081Z [INFO] municipality:City of St Thomas => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:18:45.115Z [INFO] municipality:City of St. Catharines => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:18:50.128Z [INFO] municipality:City of Stratford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:18:52.143Z [INFO] municipality:City of Temiskaming Shores => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:18:55.284Z [INFO] municipality:City of Thorold => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:19:23.336Z [INFO] municipality:City of Thunder Bay => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:19:25.842Z [INFO] municipality:City of Timmins => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:19:45.719Z [INFO] municipality:City of Brockville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:19:49.648Z [INFO] municipality:City of Sarnia => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:19:50.660Z [INFO] municipality:City of Waterloo => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:20:09.673Z [INFO] municipality:City of Welland => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:20:11.439Z [INFO] Search fallback query "site:www.vaughan.ca careers" yielded 24 candidates.
+2026-10-01T14:20:11.559Z [INFO] municipality:City of Windsor => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:20:39.715Z [INFO] municipality:City of Woodstock => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:20:41.035Z [INFO] municipality:County of Brant => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:20:42.357Z [INFO] Search fallback query "site:www.vaughan.ca employment opportunities" yielded 19 candidates.
+2026-10-01T14:20:45.450Z [INFO] municipality:County of Bruce => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:20:55.919Z [INFO] municipality:City of Guelph => jobs_source_type=ats_icims, confidence=1.0
+2026-10-01T14:21:10.045Z [INFO] Search fallback query "City of Vaughan ontario municipality jobs" yielded 20 candidates.
+2026-10-01T14:21:49.945Z [INFO] municipality:County of Dufferin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:21:50.957Z [INFO] municipality:County of Essex => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:21:53.018Z [INFO] municipality:County of Grey => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:22:05.110Z [INFO] Search fallback query "City of Vaughan ontario careers" yielded 20 candidates.
+2026-10-01T14:22:10.411Z [INFO] municipality:City of Sault Ste Marie => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:22:20.183Z [INFO] municipality:County of Haliburton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:22:41.150Z [INFO] Search fallback query "site:www.hastingscounty.com jobs" yielded 19 candidates.
+2026-10-01T14:22:58.064Z [INFO] municipality:City of Vaughan => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:23:14.932Z [INFO] Search fallback query "County of Hastings ontario careers" yielded 18 candidates.
+2026-10-01T14:23:32.663Z [INFO] municipality:County of Hastings => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:23:50.097Z [INFO] municipality:County of Huron => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:24:00.307Z [INFO] municipality:County of Lambton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:24:01.326Z [INFO] municipality:County of Middlesex => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:24:27.459Z [INFO] municipality:County of Lennox and Addington => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:24:28.520Z [INFO] municipality:County of Oxford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:24:33.529Z [INFO] municipality:County of Perth => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:24:34.542Z [INFO] municipality:County of Peterborough => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:24:43.589Z [INFO] municipality:County of Elgin => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:25:02.901Z [INFO] municipality:County of Renfrew => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:25:03.695Z [INFO] municipality:County of Simcoe => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:25:14.919Z [INFO] municipality:City of Toronto => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:25:16.080Z [INFO] municipality:Haldimand County => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:25:36.558Z [INFO] municipality:County of Wellington => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:25:38.568Z [INFO] municipality:Municipality of Arran Elderslie => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:25:44.262Z [INFO] municipality:Leeds & Grenville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:26:07.704Z [INFO] municipality:Municipality of Bayham => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:26:11.391Z [INFO] municipality:Municipality of Billings => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:26:34.749Z [INFO] municipality:Municipality of Bluewater => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:26:35.763Z [INFO] municipality:Municipality of Brockton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:26:39.543Z [INFO] municipality:Municipality of Brighton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:26:52.868Z [INFO] municipality:County of Lanark => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:27:19.064Z [INFO] municipality:Municipality of Brooke-Alvinston => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:27:21.297Z [INFO] municipality:Municipality of Casselman => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:22.761Z [INFO] municipality:Municipality of Central Huron => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:27:23.063Z [INFO] municipality:City of Greater Sudbury => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:27:23.770Z [INFO] municipality:Municipality of Central Manitoulin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:25.187Z [INFO] municipality:Municipality of Centre Hastings => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:26.387Z [INFO] municipality:Municipality of Clarington => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:47.265Z [INFO] municipality:Municipality of Central Elgin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:47.490Z [INFO] municipality:County of Northumberland => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:49.278Z [INFO] municipality:Municipality of Dysart et al => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:27:54.735Z [INFO] municipality:Municipality of Dutton/Dunwich => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:03.350Z [INFO] municipality:Municipality of Charlton and Dack => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:28:05.360Z [INFO] municipality:Municipality of Greenstone => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:06.368Z [INFO] municipality:Municipality of Grey Highlands => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:15.283Z [INFO] municipality:Frontenac => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:25.016Z [INFO] municipality:Municipality of East Ferris => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:28:27.646Z [INFO] municipality:Municipality of Gordon/Barrie Island => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:28:30.033Z [INFO] municipality:Municipality of Huron East => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:34.489Z [INFO] municipality:Municipality of Hastings Highlands => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:35.498Z [INFO] municipality:Municipality of Kincardine => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:37.506Z [INFO] municipality:Municipality of Lambton Shores => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:38.513Z [INFO] municipality:Municipality of Leamington => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:28:43.434Z [INFO] municipality:Municipality of Highlands East => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:04.597Z [INFO] municipality:Municipality of Killarney => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:29:07.694Z [INFO] municipality:Municipality of Magnetawan => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:29:12.188Z [INFO] municipality:Municipality of French River => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:15.202Z [INFO] municipality:Municipality of Mississippi Mills => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:32.181Z [INFO] municipality:Municipality of Marmora and Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:33.195Z [INFO] municipality:Municipality of Neebing => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:44.133Z [INFO] municipality:Municipality of Morris-Turnberry => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:29:45.145Z [INFO] municipality:Municipality of North Middlesex => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:46.164Z [INFO] municipality:Municipality of North Perth => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:29:49.175Z [INFO] municipality:Municipality of Northern Bruce Peninsula => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:30:18.120Z [INFO] municipality:Municipality of Oliver Paipoonge => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:30:20.520Z [INFO] municipality:Municipality of Port Hope => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:30:32.578Z [INFO] municipality:Municipality of Markstay-Warren => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:30:48.569Z [INFO] municipality:Municipality of Powassan => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:31:00.647Z [INFO] municipality:Municipality of Red Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:31:10.775Z [INFO] municipality:Municipality of Sioux Lookout => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:31:11.783Z [INFO] municipality:Municipality of South Bruce => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:31:39.845Z [INFO] municipality:Municipality of South Dundas => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:31:41.863Z [INFO] municipality:Municipality of South Huron => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:31:43.872Z [INFO] municipality:Municipality of Southwest Middlesex => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:31:54.652Z [INFO] municipality:Municipality of Huron Shores => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:20.267Z [INFO] municipality:Municipality of Shuniah => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:21.152Z [INFO] municipality:Municipality of St. Charles => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:32:23.062Z [INFO] municipality:Municipality of Temagami => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:23.273Z [INFO] municipality:Municipality of The Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:23.284Z [INFO] municipality:Municipality of Thames Centre => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:23.404Z [INFO] municipality:Municipality of Meaford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:26.070Z [INFO] municipality:Municipality of Trent Hills => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:37.422Z [INFO] municipality:Municipality of Wawa => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:38.548Z [INFO] municipality:Municipality of West Grey => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:44.620Z [INFO] municipality:Municipality of West Nipissing => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:32:49.633Z [INFO] municipality:Municipality of West Perth => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:51.674Z [INFO] municipality:Municipality of Trent Lakes => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:53.835Z [INFO] municipality:Norfolk County => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:54.298Z [INFO] municipality:Municipality of West Elgin => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:32:56.326Z [INFO] municipality:Regional Municipality of Durham => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:58.461Z [INFO] municipality:Regional Municipality of Halton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:32:59.483Z [INFO] municipality:Regional Municipality of Niagara => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:33:00.574Z [INFO] municipality:Municipality of Tweed => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:33:01.342Z [INFO] municipality:Regional Municipality of Peel => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:33:02.767Z [INFO] municipality:Regional Municipality of Waterloo => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:03.455Z [INFO] municipality:Regional Municipality of York => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:03.774Z [INFO] municipality:Separated Town of Smiths Falls => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:05.544Z [INFO] municipality:The District of Muskoka => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:06.691Z [INFO] municipality:Town of Amherstburg => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:10.698Z [INFO] municipality:Town of Arnprior => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:13.882Z [INFO] municipality:Town of Aurora => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:18.167Z [INFO] municipality:Municipality of Whitestone => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:55.479Z [INFO] municipality:Town of Bancroft => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:33:57.489Z [INFO] municipality:Town of Blind River => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:33:58.500Z [INFO] municipality:Town of Bracebridge => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:34:00.508Z [INFO] municipality:Town of Bradford West Gwillimbury => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:35:01.023Z [INFO] municipality:Town of Aylmer => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:35:04.836Z [INFO] municipality:Town of Caledon => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:35:06.904Z [INFO] municipality:Town of Carleton Place => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:35:30.978Z [INFO] municipality:Town of Ajax => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:35:34.151Z [INFO] municipality:Town of Cobourg => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:35:59.603Z [INFO] municipality:Prince Edward County => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:36:03.771Z [INFO] municipality:Town of Collingwood => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:36:36.838Z [INFO] municipality:Municipality of Callander => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:36:52.642Z [INFO] municipality:Town of Cobalt => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:36:54.753Z [INFO] municipality:Town of East Gwillimbury => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:04.875Z [INFO] municipality:Town of Deseronto => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:05.996Z [INFO] municipality:Town of Erin => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:37:08.383Z [INFO] municipality:Town of Englehart => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:09.391Z [INFO] municipality:Town of Essex => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:37:12.555Z [INFO] municipality:Town of Fort Erie => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:15.674Z [INFO] municipality:Town of Fort Frances => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:22.593Z [INFO] municipality:Town of Espanola => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:24.660Z [INFO] municipality:Town of Georgina => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:31.510Z [INFO] municipality:Town of Deep River => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:37:35.518Z [INFO] municipality:Town of Gore Bay => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:41.530Z [INFO] municipality:Town of Grand Valley => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:44.541Z [INFO] municipality:Town of Gravenhurst => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:45.582Z [INFO] municipality:Town of Greater Napanee => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:46.449Z [INFO] municipality:Town of Gananoque => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:46.736Z [INFO] municipality:Town of Grimsby => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:48.513Z [INFO] municipality:Town of Halton Hills => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:48.900Z [INFO] municipality:Town of Hanover => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:51.630Z [INFO] municipality:Town of Hawkesbury => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:52.878Z [INFO] municipality:Town of Goderich => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:54.995Z [INFO] municipality:Town of Ingersoll => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:57.127Z [INFO] municipality:Town of Innisfil => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:37:59.151Z [INFO] municipality:Town of Iroquois Falls => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:03.716Z [INFO] municipality:Town of Cochrane => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:16.817Z [INFO] municipality:Town of Kearney => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:20.926Z [INFO] municipality:Town of Kingsville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:23.503Z [INFO] municipality:Town of Kirkland Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:24.521Z [INFO] municipality:Town of Lakeshore => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:38:25.537Z [INFO] municipality:Town of LaSalle => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:26.736Z [INFO] municipality:Town of Huntsville => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:38:27.995Z [INFO] municipality:Town of Laurentian Hills => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:38:30.275Z [INFO] municipality:Town of Kapuskasing => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:32.278Z [INFO] municipality:Town of Marathon => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:38:53.698Z [INFO] municipality:Town of Latchford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:54.709Z [INFO] municipality:Town of Midland => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:38:56.822Z [INFO] municipality:Town of Milton => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:39:00.662Z [INFO] municipality:Town of Mattawa => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:39:03.694Z [INFO] municipality:Town of Mono => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:39:20.111Z [INFO] municipality:Town of Minto => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:39:29.993Z [INFO] municipality:Municipality of North Grenville => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:39:34.105Z [INFO] municipality:Town of Newmarket => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:40:06.895Z [INFO] municipality:Town of Niagara-on-the-Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:40:15.239Z [INFO] municipality:Town of Lincoln => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:40:35.216Z [INFO] municipality:Town of Northeastern Manitoulin and The Islands => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:40:39.378Z [INFO] municipality:Town of Orangeville => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:40:45.391Z [INFO] municipality:Town of Parry Sound => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:40:46.400Z [INFO] municipality:Town of Pelham => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:41:14.077Z [INFO] municipality:Town of New Tecumseth => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:41:14.469Z [INFO] municipality:Town of Penetanguishene => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:41:19.086Z [INFO] municipality:Town of Perth => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:41:51.333Z [INFO] municipality:Town of Hearst => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:41:52.345Z [INFO] municipality:Town of Plympton-Wyoming => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:17.835Z [INFO] municipality:Town of Bruce Mines => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:20.416Z [INFO] municipality:Town of Prescott => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:25.253Z [INFO] municipality:Town of Moosonee => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:26.264Z [INFO] municipality:Town of Saugeen Shores => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:27.279Z [INFO] municipality:Town of Shelburne => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:48.318Z [INFO] municipality:Town of Renfrew => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:42:55.192Z [INFO] municipality:Town of Rainy River => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:42:56.205Z [INFO] municipality:Town of St. Marys => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:43:01.370Z [INFO] municipality:Town of Tecumseh => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:43:03.464Z [INFO] municipality:Town of The Blue Mountains => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T14:43:06.619Z [INFO] municipality:Town of Petrolia => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:43:10.763Z [INFO] municipality:Town of Tillsonburg => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:43:12.787Z [INFO] municipality:Town of Wasaga Beach => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:43:13.967Z [INFO] municipality:Town of Whitby => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T14:43:16.038Z [INFO] municipality:Town of Whitchurch-Stouffville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:43:34.723Z [INFO] municipality:Town of Petawawa => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:43:36.733Z [INFO] municipality:Township of Adelaide Metcalfe => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:43:52.142Z [INFO] municipality:Township of Addington Highlands => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:45:45.461Z [INFO] municipality:Town of Thessalon => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:45:46.971Z [INFO] municipality:Township of Admaston-Bromley => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:45:51.766Z [INFO] municipality:Township of Alfred & Plantagenet => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:46:07.198Z [INFO] municipality:Town of South Bruce Peninsula => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:46:08.241Z [INFO] municipality:Township of Alnwick/Haldimand => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:46:20.976Z [INFO] municipality:Township of Algonquin Highlands => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:46:34.026Z [INFO] municipality:Township of Armour => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:46:36.400Z [INFO] municipality:Township of Amaranth => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:46:59.486Z [INFO] municipality:Township of Ashfield-Colborne-Wawanosh => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:47:00.496Z [INFO] municipality:Township of Asphodel-Norwood => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:47:02.204Z [INFO] municipality:Township of Armstrong => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:47:14.556Z [INFO] municipality:Township of Assiginack => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:47:18.147Z [INFO] municipality:Township of Alberton => jobs_source_type=ats_taleo, confidence=1.0
+2026-10-01T14:47:19.598Z [INFO] municipality:Township of Atikokan => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:48:33.389Z [INFO] municipality:Town of Oakville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:48:37.579Z [INFO] municipality:Township of Athens => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:48:41.567Z [INFO] municipality:Township of Baldwin => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:49:08.660Z [INFO] municipality:Township of Black River Matheson => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:49:09.614Z [INFO] municipality:Township of Blandford Blenheim => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:49:11.333Z [INFO] municipality:Township of Bonnechere Valley => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:49:13.803Z [INFO] municipality:Township of Bonfield => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:49:14.813Z [INFO] municipality:Township of Brock => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:49:25.404Z [INFO] municipality:Township of Augusta => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:49:30.985Z [INFO] municipality:Township of Beckwith => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:49:47.661Z [INFO] municipality:Township of Brethour => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:49:55.081Z [INFO] municipality:Township of Burpee & Mills => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:49:59.133Z [INFO] municipality:Township of Calvin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:50:22.788Z [INFO] municipality:Township of Carling => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:50:33.560Z [INFO] municipality:Township of Carlow/Mayo => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:50:48.492Z [INFO] municipality:Township of Adjala-Tosorontio => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:50:50.932Z [INFO] municipality:Township of Cavan Monaghan => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:50:53.506Z [INFO] municipality:Township of Centre Wellington => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:50:57.688Z [INFO] municipality:Township of Champlain => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:51:26.037Z [INFO] municipality:Township of Chamberlain => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:51:28.242Z [INFO] municipality:Township of Brudenell, Lyndoch and Raglan => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:51:48.855Z [INFO] municipality:Township of Casey => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:52:16.949Z [INFO] municipality:Township of Chisholm => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:52:19.786Z [INFO] municipality:Township of Clearview => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:52:54.165Z [INFO] municipality:Township of Chapple => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:52:55.706Z [INFO] municipality:Township of Cockburn Island => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:53:22.793Z [INFO] municipality:Township of Coleman => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:53:26.757Z [INFO] municipality:Township of Conmee => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:53:32.008Z [INFO] municipality:Township of Chatsworth => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:53:51.057Z [INFO] municipality:Township of Cramahe => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:53:53.280Z [INFO] municipality:Township of Central Frontenac => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:54:19.778Z [INFO] municipality:Township of Dorion => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:54:23.165Z [INFO] municipality:Township of Douro-Dummer => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:54:33.313Z [INFO] municipality:Township of Dawson => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:54:52.498Z [INFO] municipality:Township of Drummond-North Elmsley => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:55:01.356Z [INFO] municipality:Township of Ear Falls => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:55:11.368Z [INFO] municipality:Township of Dawn-Euphemia => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:55:13.404Z [INFO] municipality:Township of East Zorra-Tavistock => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:55:14.540Z [INFO] municipality:Township of Edwardsburgh/Cardinal => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:55:20.874Z [INFO] municipality:Township of East Garafraxa => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:55:29.987Z [INFO] municipality:Township of East Hawkesbury => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:55:42.697Z [INFO] municipality:Township of Elizabethtown - Kitley => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:56:10.743Z [INFO] municipality:Township of Essa => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:56:27.938Z [INFO] municipality:Township of Enniskillen => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:56:49.891Z [INFO] municipality:Township of Emo => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:56:50.839Z [INFO] municipality:Township of Evanturel => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:57:01.091Z [INFO] municipality:Township of Dubreuilville => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:57:06.249Z [INFO] municipality:Township of Faraday => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:57:33.934Z [INFO] municipality:Township of Gauthier => jobs_source_type=unknown, confidence=0.5
+2026-10-01T14:57:38.945Z [INFO] municipality:Township of Georgian Bay => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:57:39.957Z [INFO] municipality:Township of Georgian Bluffs => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:58:08.121Z [INFO] municipality:Township of Gillies => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:58:35.288Z [INFO] municipality:Township of Greater Madawaska => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:58:35.621Z [INFO] municipality:Township of Fauquier-Strickland => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:58:36.633Z [INFO] municipality:Township of Hamilton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:58:59.283Z [INFO] municipality:Township of Chapleau => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:59:06.444Z [INFO] municipality:Township of Guelph-Eramosa => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:59:13.227Z [INFO] municipality:Township of Front of Yonge => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:59:37.610Z [INFO] municipality:Township of Havelock-Belmont-Methuen => jobs_source_type=html_list, confidence=0.8
+2026-10-01T14:59:39.120Z [INFO] municipality:Township of Harris => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:59:55.129Z [INFO] municipality:Township of Harley => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T14:59:56.258Z [INFO] municipality:Township of Horton => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:00:02.553Z [INFO] municipality:Township of Frontenac Islands => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:00:07.169Z [INFO] municipality:Township of Hornepayne => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:00:08.194Z [INFO] municipality:Township of Huron-Kinloss => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:00:21.474Z [INFO] municipality:Township of Howick => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:00:26.728Z [INFO] municipality:Township of James => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:00:32.117Z [INFO] municipality:Township of Hilliard => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:00:38.891Z [INFO] municipality:Township of Ignace => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:01:08.144Z [INFO] municipality:Township of Joly => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:01:15.742Z [INFO] municipality:Township of Hudson => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:01:31.766Z [INFO] municipality:Township of Hilton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:01:36.669Z [INFO] municipality:Town of Smooth Rock Falls => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:01:38.717Z [INFO] municipality:Township of King => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:01:45.514Z [INFO] municipality:Township of Killaloe, Hagarty & Richards => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:01:51.633Z [INFO] municipality:Township of Lake of Bays => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:02:32.220Z [INFO] municipality:Township of Johnson => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:02:34.275Z [INFO] municipality:Township of Kerns => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:02:41.225Z [INFO] municipality:Township of La Vallee => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:02:54.238Z [INFO] municipality:Township of Lake of the Woods => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:03:03.150Z [INFO] municipality:Township of Lanark Highlands => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:08.943Z [INFO] municipality:Township of Jocelyn => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:09.366Z [INFO] municipality:Township of Laurentian Valley => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:09.953Z [INFO] municipality:Township of Loyalist => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:10.398Z [INFO] municipality:Township of Lucan Biddulph => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:22.442Z [INFO] municipality:Township of Leeds & the Thousand Islands => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:39.365Z [INFO] municipality:Township of Machar => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:40.268Z [INFO] municipality:Township of Limerick => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:03:48.273Z [INFO] municipality:Township of Macdonald, Meredith & Aberdeen Add'l => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:03:48.757Z [INFO] municipality:Township of Machin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:03:59.136Z [INFO] municipality:Township of Laird => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:04:02.146Z [INFO] municipality:Township of Mapleton => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:04:07.507Z [INFO] municipality:Township of Madawaska Valley => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:04:12.541Z [INFO] municipality:Township of Malahide => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:04:16.306Z [INFO] municipality:Township of Madoc => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:04:17.042Z [INFO] municipality:Township of Manitouwadge => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:04:46.309Z [INFO] municipality:Township of McDougall => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:04:56.909Z [INFO] municipality:Township of Mattice-Val Cote => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:05:03.923Z [INFO] municipality:Township of McMurrich/Monteith => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:05:06.743Z [INFO] municipality:Township of McNab-Braeside => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:05:08.213Z [INFO] municipality:Township of McGarry => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:05:10.227Z [INFO] municipality:Township of Middlesex Centre => jobs_source_type=ats_dayforce, confidence=1.0
+2026-10-01T15:05:13.376Z [INFO] municipality:Township of McKellar => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:05:21.517Z [INFO] municipality:Township of Mattawan => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:05:38.389Z [INFO] municipality:Township of Minden Hills => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:05:41.152Z [INFO] municipality:Township of Montague => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:06:09.302Z [INFO] municipality:Township of Mulmur => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:06:11.313Z [INFO] municipality:Township of Muskoka Lakes => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:06:32.089Z [INFO] municipality:Township of Larder Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:06:33.561Z [INFO] municipality:Township of Morley => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:06:53.262Z [INFO] municipality:Township of Melancthon => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:07:05.371Z [INFO] municipality:Township of Nipigon => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:07:10.381Z [INFO] municipality:Township of North Dumfries => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:07:15.980Z [INFO] municipality:Township of Moonbeam => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:07:38.451Z [INFO] municipality:Township of North Dundas => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:07:39.457Z [INFO] municipality:Township of North Glengarry => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:08:07.747Z [INFO] municipality:Township of North Huron => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:08:12.895Z [INFO] municipality:Township of North Kawartha => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:08:18.959Z [INFO] municipality:Township of North Stormont => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:08:33.701Z [INFO] municipality:Township of Nipissing => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:08:36.583Z [INFO] municipality:Township of Nairn & Hyman => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:08:47.018Z [INFO] municipality:Township of Norwich => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:08:48.021Z [INFO] municipality:Township of Oro-Medonte => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:08:51.030Z [INFO] municipality:Township of Otonabee-South Monaghan => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:09:20.705Z [INFO] municipality:Township of Opasatika => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:10:13.718Z [INFO] municipality:Township of North Frontenac => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:10:22.708Z [INFO] municipality:Township of Papineau-Cameron => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:10:31.778Z [INFO] municipality:Township of Pelee => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:10:59.929Z [INFO] municipality:Township of Perth South => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:12:00.051Z [INFO] municipality:Township of Pickle Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:12:03.520Z [INFO] municipality:Township of North Algona-Wilberforce => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:12:14.559Z [INFO] municipality:Township of Prince => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:12:39.020Z [INFO] municipality:Township of Perth East => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:12:40.037Z [INFO] municipality:Township of Ramara => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:13:16.025Z [INFO] municipality:Township of Perry => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:13:46.436Z [INFO] municipality:Township of Rideau Lakes => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:13:58.920Z [INFO] municipality:Township of Matachewan => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:14:10.837Z [INFO] municipality:Township of Plummer Additional => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:18.666Z [INFO] municipality:Township of Puslinch => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:14:27.013Z [INFO] municipality:Township of Ryerson => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:28.151Z [INFO] municipality:Township of Scugog => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:33.231Z [INFO] municipality:Township of Seguin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:37.244Z [INFO] municipality:Township of Selwyn => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:40.378Z [INFO] municipality:Township of Severn => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:14:42.500Z [INFO] municipality:Township of Russell => jobs_source_type=ats_taleo, confidence=1.0
+2026-10-01T15:14:45.261Z [INFO] municipality:Township of Red Rock => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:46.273Z [INFO] municipality:Township of South Frontenac => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:48.290Z [INFO] municipality:Township of South Glengarry => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:49.611Z [INFO] municipality:Township of South Stormont => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:51.660Z [INFO] municipality:Township of South-West Oxford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:52.803Z [INFO] municipality:Township of Southgate => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:14:55.642Z [INFO] municipality:Township of Sioux Narrows - Nestor Falls => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:15:22.073Z [INFO] municipality:Township of Southwold => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:15:23.208Z [INFO] municipality:Township of Springwater => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:16:00.622Z [INFO] municipality:Township of St. Clair => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:16:16.032Z [INFO] municipality:Township of Sables Spanish Rivers => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:16:25.109Z [INFO] municipality:Township of Spanish => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:16:47.184Z [INFO] municipality:Township of Stirling-Rawdon => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:16:48.319Z [INFO] municipality:Township of Strathroy - Caradoc => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:16:53.174Z [INFO] municipality:Township of Stone Mills => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:17:16.455Z [INFO] municipality:Township of Strong => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:17:20.504Z [INFO] municipality:Township of Tay => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:17:48.688Z [INFO] municipality:Township of Tay Valley => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:17:54.030Z [INFO] municipality:Township of South Algonquin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:18:07.526Z [INFO] municipality:Township of Tarbutt => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:18:21.494Z [INFO] municipality:Township of The Archipelago => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:18:30.239Z [INFO] municipality:Township of O'Connor => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:18:34.341Z [INFO] municipality:Township of Tiny => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:19:20.790Z [INFO] municipality:Township of Tudor & Cashel => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:19:22.805Z [INFO] municipality:Township of Tehkummah => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:19:24.875Z [INFO] municipality:Township of Uxbridge => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:19:59.134Z [INFO] municipality:Township of Tyendinaga => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:20:00.239Z [INFO] municipality:Township of Wainfleet => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:20:02.309Z [INFO] municipality:Township of Warwick => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:20:30.841Z [INFO] municipality:Township of Terrace Bay => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:20:31.617Z [INFO] municipality:Township of Wellesley => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:20:32.984Z [INFO] municipality:Township of Wellington North => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:20:34.629Z [INFO] municipality:Township of West Lincoln => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:20:36.669Z [INFO] municipality:Township of Whitewater Region => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:20:39.679Z [INFO] municipality:Township of Wilmot => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:21:18.113Z [INFO] municipality:Township of Wollaston => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:21:19.133Z [INFO] municipality:Township of Woolwich => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:21:19.170Z [INFO] municipality:Township of White River => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:21:47.220Z [INFO] municipality:Township of Zorra => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:21:53.263Z [INFO] municipality:United Counties of Stormont, Dundas and Glengarry => jobs_source_type=ats_bamboohr, confidence=1.0
+2026-10-01T15:21:54.667Z [INFO] municipality:United Townships of Head, Clara & Maria => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:22:01.151Z [INFO] municipality:United Counties of Prescott and Russell => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:22:23.873Z [INFO] municipality:Village of Burk's Falls => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:22:55.160Z [INFO] municipality:Village of Merrickville-Wolford => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:23:19.315Z [INFO] municipality:Village of Newbury => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:23:47.354Z [INFO] municipality:Village of Oil Springs => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:23:55.205Z [INFO] municipality:Village of Hilton Beach => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:24:00.094Z [INFO] municipality:Township of St. Joseph => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:24:03.113Z [INFO] municipality:Village of Sundridge => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:24:05.404Z [INFO] municipality:Village of Thornloe => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:24:15.401Z [INFO] municipality:Township of Schreiber => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:24:17.492Z [INFO] municipality:Village of Point Edward => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:24:23.342Z [INFO] municipality:Village of South River => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:26:35.771Z [INFO] municipality:Village of Westport => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:26:40.550Z [INFO] municipality:Township of The North Shore => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:27:59.524Z [INFO] municipality:Township of Val Rita-Harty => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:27:59.532Z [INFO] Loaded First Nations input names: 140
+2026-10-01T15:28:00.180Z [INFO] Ontario First Nations directory entries loaded: 140
+2026-10-01T15:28:00.181Z [INFO] Resolving First Nation: Aamjiwnaang
+2026-10-01T15:28:00.322Z [INFO] Resolving First Nation: Albany
+2026-10-01T15:28:06.724Z [INFO] Resolving First Nation: Alderville First Nation
+2026-10-01T15:28:06.860Z [INFO] Resolving First Nation: Algonquins of Pikwakanagan First Nation
+2026-10-01T15:28:06.999Z [INFO] Resolving First Nation: Animakee Wa Zhing #37
+2026-10-01T15:28:07.137Z [INFO] Resolving First Nation: Animbiigoo Zaagi'igan Anishinaabek
+2026-10-01T15:28:07.293Z [INFO] Resolving First Nation: Anishinabe of Wauzhushk Onigum
+2026-10-01T15:28:14.566Z [INFO] Resolving First Nation: Anishnaabeg of Naongashiing
+2026-10-01T15:28:21.879Z [INFO] Resolving First Nation: Apitipi Anicinapek Nation
+2026-10-01T15:28:22.006Z [INFO] Resolving First Nation: Aroland
+2026-10-01T15:28:22.130Z [INFO] Resolving First Nation: Atikameksheng Anishnawbek
+2026-10-01T15:28:22.278Z [INFO] Resolving First Nation: Attawapiskat
+2026-10-01T15:28:30.173Z [INFO] Wikidata fallback matched "Attawapiskat" => https://attawapiskat.org/
+2026-10-01T15:28:30.174Z [INFO] Resolving First Nation: Aundeck-Omni-Kaning
+2026-10-01T15:28:30.314Z [INFO] Resolving First Nation: Batchewana First Nation
+2026-10-01T15:28:30.437Z [INFO] Resolving First Nation: Bay of Quinte Mohawk
+2026-10-01T15:28:36.764Z [INFO] Resolving First Nation: Bearfoot Onondaga
+2026-10-01T15:28:45.017Z [INFO] Resolving First Nation: Bearskin Lake
+2026-10-01T15:28:45.137Z [INFO] Resolving First Nation: Beausoleil
+2026-10-01T15:28:45.261Z [INFO] Resolving First Nation: Biigtigong Nishnaabeg
+2026-10-01T15:28:51.568Z [INFO] Resolving First Nation: Biinjitiwaabik Zaaging Anishinaabek
+2026-10-01T15:28:51.707Z [INFO] Resolving First Nation: Bingwi Neyaashi Anishinaabek
+2026-10-01T15:29:01.107Z [INFO] Wikidata fallback matched "Bingwi Neyaashi Anishinaabek" => http://www.bnafn.ca/
+2026-10-01T15:29:01.108Z [INFO] Resolving First Nation: Brunswick House
+2026-10-01T15:29:01.239Z [INFO] Resolving First Nation: Caldwell
+2026-10-01T15:29:01.356Z [INFO] Resolving First Nation: Cat Lake
+2026-10-01T15:29:01.482Z [INFO] Resolving First Nation: Chapleau Cree First Nation
+2026-10-01T15:29:01.603Z [INFO] Resolving First Nation: Chapleau Ojibway
+2026-10-01T15:29:01.739Z [INFO] Resolving First Nation: Chippewas of Georgina Island
+2026-10-01T15:29:01.861Z [INFO] Resolving First Nation: Chippewas of Kettle and Stony Point
+2026-10-01T15:29:01.982Z [INFO] Resolving First Nation: Chippewas of Nawash First Nation
+2026-10-01T15:29:02.103Z [INFO] Resolving First Nation: Chippewas of Rama First Nation
+2026-10-01T15:29:02.232Z [INFO] Resolving First Nation: Chippewas of the Thames First Nation
+2026-10-01T15:29:02.349Z [INFO] Resolving First Nation: Constance Lake
+2026-10-01T15:29:02.505Z [INFO] Resolving First Nation: Couchiching First Nation
+2026-10-01T15:29:02.631Z [INFO] Resolving First Nation: Curve Lake
+2026-10-01T15:29:02.750Z [INFO] Resolving First Nation: Deer Lake
+2026-10-01T15:29:04.967Z [INFO] Wikidata fallback matched "Deer Lake" => http://deerlake.firstnation.ca/
+2026-10-01T15:29:04.967Z [INFO] Resolving First Nation: Delaware
+2026-10-01T15:29:14.098Z [INFO] Resolving First Nation: Dokis
+2026-10-01T15:29:14.218Z [INFO] Resolving First Nation: Eabametoong First Nation
+2026-10-01T15:29:43.108Z [INFO] Resolving First Nation: Eagle Lake
+2026-10-01T15:29:43.253Z [INFO] Resolving First Nation: Flying Post
+2026-10-01T15:29:43.394Z [INFO] Resolving First Nation: Fort Severn
+2026-10-01T15:29:43.526Z [INFO] Resolving First Nation: Fort William
+2026-10-01T15:29:43.664Z [INFO] Resolving First Nation: Gakijiwanong Anishinaabe Nation
+2026-10-01T15:29:43.801Z [INFO] Resolving First Nation: Garden River First Nation
+2026-10-01T15:29:43.957Z [INFO] Resolving First Nation: Ginoogaming First Nation
+2026-10-01T15:29:56.425Z [INFO] Resolving First Nation: Grassy Narrows First Nation
+2026-10-01T15:30:03.699Z [INFO] Resolving First Nation: Gull Bay
+2026-10-01T15:30:11.046Z [INFO] Resolving First Nation: Henvey Inlet First Nation
+2026-10-01T15:30:11.174Z [INFO] Resolving First Nation: Hiawatha First Nation
+2026-10-01T15:30:11.297Z [INFO] Resolving First Nation: Iskatewizaagegan #39 Independent First Nation
+2026-10-01T15:30:17.619Z [INFO] Resolving First Nation: Kasabonika Lake
+2026-10-01T15:30:26.885Z [INFO] Resolving First Nation: Kashechewan
+2026-10-01T15:30:36.185Z [INFO] Resolving First Nation: Keewaywin First Nation
+2026-10-01T15:30:36.322Z [INFO] Resolving First Nation: Kingfisher
+2026-10-01T15:30:36.448Z [INFO] Resolving First Nation: Kitchenuhmaykoosib Inninuwug
+2026-10-01T15:30:36.589Z [INFO] Resolving First Nation: Konadaha Seneca
+2026-10-01T15:30:44.871Z [INFO] Resolving First Nation: Lac Des Mille Lacs
+2026-10-01T15:30:52.723Z [INFO] Wikidata fallback matched "Lac Des Mille Lacs" => https://www.lacdesmillelacsfirstnation.ca/
+2026-10-01T15:30:52.723Z [INFO] Resolving First Nation: Lac Seul
+2026-10-01T15:30:52.851Z [INFO] Resolving First Nation: Long Lake No.58 First Nation
+2026-10-01T15:30:52.986Z [INFO] Resolving First Nation: Lower Cayuga
+2026-10-01T15:31:01.781Z [INFO] Resolving First Nation: Lower Mohawk
+2026-10-01T15:31:10.056Z [INFO] Resolving First Nation: M'Chigeeng First Nation
+2026-10-01T15:31:10.184Z [INFO] Resolving First Nation: Magnetawan
+2026-10-01T15:31:10.313Z [INFO] Resolving First Nation: Marten Falls First Nation
+2026-10-01T15:31:10.441Z [INFO] Resolving First Nation: Matachewan
+2026-10-01T15:31:10.568Z [INFO] Resolving First Nation: Mattagami
+2026-10-01T15:31:10.682Z [INFO] Resolving First Nation: McDowell Lake
+2026-10-01T15:31:10.821Z [INFO] Resolving First Nation: Michipicoten
+2026-10-01T15:31:10.939Z [INFO] Resolving First Nation: Mishkeegogamang
+2026-10-01T15:31:11.067Z [INFO] Resolving First Nation: Missanabie Cree
+2026-10-01T15:31:11.187Z [INFO] Resolving First Nation: Mississauga
+2026-10-01T15:31:11.300Z [INFO] Resolving First Nation: Mississaugas of Scugog Island First Nation
+2026-10-01T15:31:11.428Z [INFO] Resolving First Nation: Mississaugas of the Credit
+2026-10-01T15:31:11.547Z [INFO] Resolving First Nation: Mitaanjigamiing First Nation
+2026-10-01T15:31:19.827Z [INFO] Resolving First Nation: Mohawks of Akwesasne
+2026-10-01T15:31:19.955Z [INFO] Resolving First Nation: Mohawks of the Bay of Quinte
+2026-10-01T15:31:20.075Z [INFO] Resolving First Nation: Moose Cree First Nation
+2026-10-01T15:31:20.193Z [INFO] Resolving First Nation: Moose Deer Point
+2026-10-01T15:31:23.417Z [INFO] Wikidata fallback matched "Moose Deer Point" => https://www.moosedeerpoint.ca/
+2026-10-01T15:31:23.418Z [INFO] Resolving First Nation: Moravian of the Thames
+2026-10-01T15:31:30.806Z [INFO] Resolving First Nation: Munsee-Delaware Nation
+2026-10-01T15:31:30.931Z [INFO] Resolving First Nation: Musk-kosiminiziibing
+2026-10-01T15:31:31.053Z [INFO] Resolving First Nation: Muskrat Dam Lake
+2026-10-01T15:31:31.214Z [INFO] Resolving First Nation: Naicatchewenin
+2026-10-01T15:31:31.336Z [INFO] Resolving First Nation: Naotkamegwanning
+2026-10-01T15:31:39.642Z [INFO] Resolving First Nation: Neskantaga First Nation
+2026-10-01T15:31:39.884Z [INFO] Resolving First Nation: Netmizaaggamig Nishnaabeg
+2026-10-01T15:31:40.017Z [INFO] Resolving First Nation: Nibinamik First Nation
+2026-10-01T15:31:43.313Z [INFO] Wikidata fallback matched "Nibinamik First Nation" => https://nibinamik.ca/
+2026-10-01T15:31:43.313Z [INFO] Resolving First Nation: Nigigoonsiminikaaning First Nation
+2026-10-01T15:31:43.442Z [INFO] Resolving First Nation: Niharondasa Seneca
+2026-10-01T15:31:51.705Z [INFO] Resolving First Nation: Niisaachewan Anishinaabe Nation
+2026-10-01T15:31:51.835Z [INFO] Resolving First Nation: Nipissing First Nation
+2026-10-01T15:31:51.949Z [INFO] Resolving First Nation: North Caribou Lake
+2026-10-01T15:31:52.069Z [INFO] Resolving First Nation: North Spirit Lake
+2026-10-01T15:31:56.265Z [INFO] Wikidata fallback matched "North Spirit Lake" => http://nsl.firstnation.ca/
+2026-10-01T15:31:56.265Z [INFO] Resolving First Nation: Northwest Angle No.33
+2026-10-01T15:32:04.351Z [INFO] Resolving First Nation: Ojibway Nation of Saugeen
+2026-10-01T15:32:13.664Z [INFO] Resolving First Nation: Ojibways of Onigaming First Nation
+2026-10-01T15:32:13.786Z [INFO] Resolving First Nation: Oneida
+2026-10-01T15:32:21.108Z [INFO] Resolving First Nation: Oneida Nation of the Thames
+2026-10-01T15:32:21.225Z [INFO] Resolving First Nation: Onondaga Clear Sky
+2026-10-01T15:32:29.474Z [INFO] Resolving First Nation: Pays Plat
+2026-10-01T15:32:29.595Z [INFO] Resolving First Nation: Pikangikum
+2026-10-01T15:32:29.720Z [INFO] Resolving First Nation: Poplar Hill
+2026-10-01T15:32:29.843Z [INFO] Resolving First Nation: Rainy River First Nations
+2026-10-01T15:32:29.962Z [INFO] Resolving First Nation: Red Rock
+2026-10-01T15:32:30.084Z [INFO] Resolving First Nation: Sachigo Lake
+2026-10-01T15:32:30.203Z [INFO] Resolving First Nation: Sagamok Anishnawbek
+2026-10-01T15:32:35.480Z [INFO] Wikidata fallback matched "Sagamok Anishnawbek" => https://www.sagamokanishnawbek.com/
+2026-10-01T15:32:35.481Z [INFO] Resolving First Nation: Sandy Lake
+2026-10-01T15:32:43.967Z [INFO] Resolving First Nation: Saugeen
+2026-10-01T15:32:44.109Z [INFO] Resolving First Nation: Seine River First Nation
+2026-10-01T15:32:44.243Z [INFO] Resolving First Nation: Serpent River
+2026-10-01T15:32:44.373Z [INFO] Resolving First Nation: Shawanaga First Nation
+2026-10-01T15:32:44.511Z [INFO] Resolving First Nation: Sheguiandah
+2026-10-01T15:32:44.639Z [INFO] Resolving First Nation: Sheshegwaning
+2026-10-01T15:32:44.771Z [INFO] Resolving First Nation: Shoal Lake No.40
+2026-10-01T15:32:44.897Z [INFO] Resolving First Nation: Six Nations of the Grand River
+2026-10-01T15:32:45.022Z [INFO] Resolving First Nation: Slate Falls Nation
+2026-10-01T15:32:45.157Z [INFO] Resolving First Nation: Taykwa Tagamou Nation
+2026-10-01T15:32:45.296Z [INFO] Resolving First Nation: Teme Augama Anishinabek
+2026-10-01T15:32:45.428Z [INFO] Resolving First Nation: Thessalon
+2026-10-01T15:32:53.753Z [INFO] Resolving First Nation: Tuscarora
+2026-10-01T15:33:01.092Z [INFO] Resolving First Nation: Upper Cayuga
+2026-10-01T15:33:09.356Z [INFO] Resolving First Nation: Upper Mohawk
+2026-10-01T15:33:17.761Z [INFO] Resolving First Nation: Wabaseemoong Independent Nations
+2026-10-01T15:33:17.897Z [INFO] Resolving First Nation: Wabauskang First Nation
+2026-10-01T15:33:25.174Z [INFO] Resolving First Nation: Wabigoon Lake Ojibway Nation
+2026-10-01T15:33:25.307Z [INFO] Resolving First Nation: Wahnapitae
+2026-10-01T15:33:31.032Z [INFO] Wikidata fallback matched "Wahnapitae" => https://www.wahnapitaefirstnation.com/
+2026-10-01T15:33:31.033Z [INFO] Resolving First Nation: Wahta Mohawk
+2026-10-01T15:33:31.162Z [INFO] Resolving First Nation: Walker Mohawk
+2026-10-01T15:33:39.475Z [INFO] Resolving First Nation: Walpole Island
+2026-10-01T15:33:39.607Z [INFO] Resolving First Nation: Wapekeka
+2026-10-01T15:33:39.735Z [INFO] Resolving First Nation: Wasauksing First Nation
+2026-10-01T15:33:43.299Z [INFO] Wikidata fallback matched "Wasauksing First Nation" => https://wasauksing.ca/
+2026-10-01T15:33:43.299Z [INFO] Resolving First Nation: Washagamis Bay
+2026-10-01T15:33:51.356Z [INFO] Resolving First Nation: Wawakapewin
+2026-10-01T15:33:51.485Z [INFO] Resolving First Nation: Webequie
+2026-10-01T15:33:51.618Z [INFO] Resolving First Nation: Weenusk
+2026-10-01T15:33:59.888Z [INFO] Resolving First Nation: Whitefish River
+2026-10-01T15:34:00.020Z [INFO] Resolving First Nation: Whitesand
+2026-10-01T15:34:00.148Z [INFO] Resolving First Nation: Wikwemikong
+2026-10-01T15:34:00.274Z [INFO] Resolving First Nation: Wunnumin
+2026-10-01T15:34:00.442Z [INFO] Resolving First Nation: Zhiibaahaasing First Nation
+2026-10-01T15:34:00.583Z [INFO] First Nations seed finalized: 140
+2026-10-01T15:34:00.584Z [INFO] Processing first nation seeds: 140
+2026-10-01T15:34:01.713Z [INFO] first_nation:Albany => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:34:04.652Z [INFO] first_nation:Anishinabe of Wauzhushk Onigum => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:34:07.641Z [INFO] first_nation:Anishnaabeg of Naongashiing => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:34:38.265Z [INFO] first_nation:Animakee Wa Zhing #37 => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:34:53.964Z [INFO] first_nation:Algonquins of Pikwakanagan First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:34:55.104Z [INFO] first_nation:Animbiigoo Zaagi'igan Anishinaabek => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:35:15.644Z [INFO] first_nation:Aroland => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:36:32.733Z [INFO] first_nation:Apitipi Anicinapek Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:36:49.354Z [INFO] first_nation:Atikameksheng Anishnawbek => jobs_source_type=ats_bamboohr, confidence=1.0
+2026-10-01T15:36:50.428Z [INFO] first_nation:Bay of Quinte Mohawk => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:36:54.398Z [INFO] first_nation:Bearfoot Onondaga => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:36:55.678Z [INFO] first_nation:Bearskin Lake => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:37:07.982Z [INFO] first_nation:Batchewana First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:37:09.094Z [INFO] first_nation:Biigtigong Nishnaabeg => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:37:24.226Z [INFO] first_nation:Aamjiwnaang => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:37:34.246Z [INFO] first_nation:Alderville First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:37:38.902Z [INFO] first_nation:Beausoleil => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:37:42.208Z [INFO] first_nation:Biinjitiwaabik Zaaging Anishinaabek => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:37:50.358Z [INFO] first_nation:Cat Lake => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:37:52.933Z [INFO] first_nation:Caldwell => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:38:46.519Z [INFO] first_nation:Attawapiskat => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:38:50.897Z [INFO] first_nation:Chapleau Cree First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:39:16.355Z [INFO] first_nation:Brunswick House => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:39:46.216Z [INFO] first_nation:Chippewas of Georgina Island => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:40:23.664Z [INFO] first_nation:Chippewas of Rama First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:40:36.816Z [INFO] first_nation:Chippewas of Kettle and Stony Point => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:41:22.484Z [INFO] first_nation:Bingwi Neyaashi Anishinaabek => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:41:27.507Z [INFO] first_nation:Couchiching First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:41:36.929Z [INFO] first_nation:Constance Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:41:54.071Z [INFO] first_nation:Chapleau Ojibway => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:41:57.188Z [INFO] first_nation:Delaware => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:42:02.210Z [INFO] first_nation:Chippewas of Nawash First Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:42:25.764Z [INFO] first_nation:Eabametoong First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:42:30.919Z [INFO] first_nation:Curve Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:43:56.108Z [INFO] first_nation:Dokis => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:44:55.342Z [INFO] first_nation:Chippewas of the Thames First Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:45:12.671Z [INFO] first_nation:Aundeck-Omni-Kaning => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:45:14.207Z [INFO] first_nation:Eagle Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:46:28.006Z [INFO] first_nation:Flying Post => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:46:29.334Z [INFO] first_nation:Fort Severn => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:46:33.077Z [INFO] first_nation:Grassy Narrows First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:46:34.075Z [INFO] first_nation:Ginoogaming First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:46:37.074Z [INFO] first_nation:Gull Bay => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:46:43.639Z [INFO] first_nation:Garden River First Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:46:44.716Z [INFO] first_nation:Iskatewizaagegan #39 Independent First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:46:49.170Z [INFO] first_nation:Fort William => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:46:49.690Z [INFO] first_nation:Kasabonika Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:46:54.708Z [INFO] first_nation:Kashechewan => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:47:30.983Z [INFO] first_nation:Henvey Inlet First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:47:32.173Z [INFO] first_nation:Kitchenuhmaykoosib Inninuwug => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:47:35.217Z [INFO] first_nation:Konadaha Seneca => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:48:03.363Z [INFO] first_nation:Lac Des Mille Lacs => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:48:05.507Z [INFO] first_nation:Lac Seul => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:48:14.292Z [INFO] first_nation:Long Lake No.58 First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:48:17.347Z [INFO] first_nation:Lower Cayuga => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:48:21.384Z [INFO] first_nation:Lower Mohawk => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:48:25.886Z [INFO] first_nation:Kingfisher => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:48:31.621Z [INFO] first_nation:Hiawatha First Nation => jobs_source_type=ats_workday, confidence=1.0
+2026-10-01T15:49:21.409Z [INFO] first_nation:Keewaywin First Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:49:26.623Z [INFO] first_nation:Matachewan => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:49:33.672Z [INFO] first_nation:Marten Falls First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:49:34.852Z [INFO] first_nation:Deer Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:50:31.426Z [INFO] first_nation:Mattagami => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:51:29.016Z [INFO] first_nation:M'Chigeeng First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:52:07.151Z [INFO] first_nation:Missanabie Cree => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:52:08.102Z [INFO] first_nation:Mishkeegogamang => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:52:09.957Z [INFO] first_nation:McDowell Lake => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:52:17.221Z [INFO] first_nation:Mississauga => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:52:20.340Z [INFO] first_nation:Mitaanjigamiing First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:52:22.354Z [INFO] first_nation:Mohawks of Akwesasne => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:52:52.150Z [INFO] first_nation:Magnetawan => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:52:59.561Z [INFO] first_nation:Mohawks of the Bay of Quinte => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:53:13.006Z [INFO] first_nation:Moose Deer Point => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:53:14.124Z [INFO] first_nation:Moravian of the Thames => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:53:17.154Z [INFO] first_nation:Munsee-Delaware Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:53:22.833Z [INFO] first_nation:Mississaugas of Scugog Island First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:53:24.007Z [INFO] first_nation:Muskrat Dam Lake => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:53:43.184Z [INFO] first_nation:Musk-kosiminiziibing => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:53:46.277Z [INFO] first_nation:Naotkamegwanning => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:53:56.491Z [INFO] first_nation:Moose Cree First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:54:05.489Z [INFO] first_nation:Gakijiwanong Anishinaabe Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:54:25.376Z [INFO] first_nation:Neskantaga First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:54:30.378Z [INFO] first_nation:Naicatchewenin => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:54:33.421Z [INFO] first_nation:Niharondasa Seneca => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:54:40.647Z [INFO] first_nation:Nibinamik First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:54:40.808Z [INFO] first_nation:Michipicoten => jobs_source_type=ats_bamboohr, confidence=1.0
+2026-10-01T15:54:42.075Z [INFO] first_nation:North Caribou Lake => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:54:59.720Z [INFO] first_nation:Netmizaaggamig Nishnaabeg => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:55:01.819Z [INFO] first_nation:Northwest Angle No.33 => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:06.806Z [INFO] first_nation:Ojibway Nation of Saugeen => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:10.592Z [INFO] first_nation:Mississaugas of the Credit => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:55:11.708Z [INFO] first_nation:Niisaachewan Anishinaabe Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:12.708Z [INFO] first_nation:Oneida => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:16.640Z [INFO] first_nation:Onondaga Clear Sky => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:28.711Z [INFO] first_nation:Nipissing First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:29.974Z [INFO] first_nation:Pikangikum => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:55:30.709Z [INFO] first_nation:North Spirit Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:48.704Z [INFO] first_nation:Oneida Nation of the Thames => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:55:54.465Z [INFO] first_nation:Nigigoonsiminikaaning First Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:55:55.729Z [INFO] first_nation:Sachigo Lake => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:56:17.041Z [INFO] first_nation:Red Rock => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:56:19.559Z [INFO] first_nation:Sandy Lake => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:56:28.075Z [INFO] first_nation:Sagamok Anishnawbek => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:57:22.676Z [INFO] first_nation:Ojibways of Onigaming First Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:57:50.335Z [INFO] first_nation:Seine River First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:58:01.332Z [INFO] first_nation:Poplar Hill => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:58:43.102Z [INFO] first_nation:Rainy River First Nations => jobs_source_type=html_list, confidence=0.8
+2026-10-01T15:59:07.470Z [INFO] first_nation:Shawanaga First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T15:59:10.413Z [INFO] first_nation:Sheshegwaning => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:59:38.164Z [INFO] first_nation:Pays Plat => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:59:39.443Z [INFO] first_nation:Slate Falls Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T15:59:42.600Z [INFO] first_nation:Shoal Lake No.40 => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:00:37.585Z [INFO] first_nation:Serpent River => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:00:40.686Z [INFO] first_nation:Thessalon => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:00:43.673Z [INFO] first_nation:Tuscarora => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:00:47.678Z [INFO] first_nation:Upper Cayuga => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:00:51.749Z [INFO] first_nation:Upper Mohawk => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:01:05.429Z [INFO] first_nation:Sheguiandah => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:01:07.483Z [INFO] first_nation:Wabauskang First Nation => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:01:10.577Z [INFO] first_nation:Wabigoon Lake Ojibway Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:01:39.109Z [INFO] first_nation:Wahnapitae => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:02:28.717Z [INFO] first_nation:Teme Augama Anishinabek => jobs_source_type=unknown, confidence=0.5
+2026-10-01T16:02:32.165Z [INFO] first_nation:Walker Mohawk => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:02:41.762Z [INFO] first_nation:Six Nations of the Grand River => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:02:57.599Z [INFO] first_nation:Wabaseemoong Independent Nations => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:02:59.520Z [INFO] first_nation:Walpole Island => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:03:01.584Z [INFO] first_nation:Washagamis Bay => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:03:13.371Z [INFO] first_nation:Taykwa Tagamou Nation => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:03:15.840Z [INFO] first_nation:Wahta Mohawk => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:03:18.895Z [INFO] first_nation:Weenusk => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:03:32.382Z [INFO] first_nation:Saugeen => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:03:38.148Z [INFO] first_nation:Whitefish River => jobs_source_type=ats_bamboohr, confidence=1.0
+2026-10-01T16:04:19.583Z [INFO] first_nation:Webequie => jobs_source_type=unknown, confidence=0.5
+2026-10-01T16:04:23.862Z [INFO] first_nation:Wapekeka => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:04:32.531Z [INFO] first_nation:Wawakapewin => jobs_source_type=html_list, confidence=0.8
+2026-10-01T16:04:45.515Z [INFO] first_nation:Wikwemikong => jobs_source_type=unknown, confidence=0.5
+2026-10-01T16:04:50.898Z [INFO] first_nation:Zhiibaahaasing First Nation => jobs_source_type=unknown, confidence=0.5
+2026-10-01T16:04:54.700Z [INFO] first_nation:Wunnumin => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:05:34.748Z [INFO] first_nation:Wasauksing First Nation => jobs_source_type=ats_bamboohr, confidence=1.0
+2026-10-01T16:13:32.041Z [INFO] first_nation:Whitesand => jobs_source_type=manual_review, confidence=0.0
+2026-10-01T16:13:32.046Z [INFO] total_orgs=584
+2026-10-01T16:13:32.046Z [INFO] with_jobs_url=462
+2026-10-01T16:13:32.046Z [INFO] manual_review_total=122
+2026-10-01T16:13:32.046Z [INFO] unknown_total=70
+2026-10-01T16:13:32.046Z [INFO] manual_review_flag_total=192
+2026-10-01T16:13:32.069Z === Discovery run finished 2026-10-01T16:13:32.069Z ===
